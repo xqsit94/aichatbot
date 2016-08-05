@@ -1,0 +1,1693 @@
+28-03-2016 16:21:10.55862[0][4] - Elapsed time: 33.757 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version VERSION
+PHP  version 5.4.39
+OS:  version  
+-----------------------
+28-03-2016 16:21:10.56669[4][4] - Elapsed time: 8.070 milliseconds
+[load_aimlfunctions.php][Called outside of function][15]
+AIML function include files loaded 
+-----------------------
+28-03-2016 16:21:10.57051[4][4] - Elapsed time: 3.811 milliseconds
+[load_convofunctions.php][Called outside of function][15]
+Convofunction include files loaded 
+-----------------------
+28-03-2016 16:21:10.57161[4][4] - Elapsed time: 1.105 milliseconds
+[load_userfunctions.php][Called outside of function][13]
+userfunctions include files loaded 
+-----------------------
+28-03-2016 16:21:10.576[4][4] - Elapsed time: 4.393 milliseconds
+[load_addons.php][Called outside of function][19]
+Loading addons 
+-----------------------
+28-03-2016 16:21:10.57607[4][4] - Elapsed time: 0.064 milliseconds
+[conversation_start.php][Called outside of function][34]
+Loaded all Includes 
+-----------------------
+28-03-2016 16:21:10.57722[4][4] - Elapsed time: 1.149 milliseconds
+[intialise_conversation.php][intialise_convoArray][28]
+Intialising conversation 
+-----------------------
+28-03-2016 16:21:10.57728[4][4] - Elapsed time: 0.064 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank topic array 
+-----------------------
+28-03-2016 16:21:10.57734[4][4] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that array 
+-----------------------
+28-03-2016 16:21:10.57739[4][4] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank star array 
+-----------------------
+28-03-2016 16:21:10.57745[4][4] - Elapsed time: 0.055 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank input array 
+-----------------------
+28-03-2016 16:21:10.5775[4][4] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][load_blank_stack][81]
+Loading blank stack 
+-----------------------
+28-03-2016 16:21:10.57755[4][4] - Elapsed time: 0.050 milliseconds
+[intialise_conversation.php][load_default_bot_values][105]
+Loading db bot personality properties 
+-----------------------
+28-03-2016 16:21:10.57759[3][4] - Elapsed time: 0.044 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `pom`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+28-03-2016 16:21:10.57834[2][4] - Elapsed time: 0.751 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+28-03-2016 16:21:10.57844[1][4] - Elapsed time: 0.102 milliseconds
+[conversation_start.php][Called outside of function][75]
+PHP ERROR [Notice] -Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\chatbot\conversation_start.php on Line 75 
+-----------------------
+28-03-2016 16:21:10.58687[0][4] - Elapsed time: 8.423 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 4
+session ID = 9cfbfv8hcbkom0hoik8t09p7m3 
+-----------------------
+28-03-2016 16:21:10.58696[2][4] - Elapsed time: 0.095 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+28-03-2016 16:21:10.58702[2][4] - Elapsed time: 0.054 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on hell. 
+-----------------------
+28-03-2016 16:21:10.58726[4][4] - Elapsed time: 0.248 milliseconds
+[spell_checker.php][spell_check][74]
+Spelling check passed. 
+-----------------------
+28-03-2016 16:21:10.58734[4][4] - Elapsed time: 0.075 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'hell' 
+-----------------------
+28-03-2016 16:21:10.58745[4][4] - Elapsed time: 0.112 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.5875[2][4] - Elapsed time: 0.046 milliseconds
+[conversation_start.php][Called outside of function][146]
+Details:
+User say: HELL
+Convo id: 9cfbfv8hcbkom0hoik8t09p7m3
+Bot id: 1
+Format: html 
+-----------------------
+28-03-2016 16:21:10.58754[4][4] - Elapsed time: 0.044 milliseconds
+[intialise_conversation.php][read_from_session][144]
+Reading from session 
+-----------------------
+28-03-2016 16:21:10.5876[4][4] - Elapsed time: 0.055 milliseconds
+[intialise_conversation.php][load_default_bot_values][105]
+Loading db bot personality properties 
+-----------------------
+28-03-2016 16:21:10.58764[3][4] - Elapsed time: 0.044 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `pom`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+28-03-2016 16:21:10.58838[4][4] - Elapsed time: 0.735 milliseconds
+[intialise_conversation.php][check_set_convo_id][529]
+Obtaining the convo id from form vars. Value: 9cfbfv8hcbkom0hoik8t09p7m3 
+-----------------------
+28-03-2016 16:21:10.58843[2][4] - Elapsed time: 0.058 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+28-03-2016 16:21:10.58849[3][4] - Elapsed time: 0.052 milliseconds
+[intialise_conversation.php][check_set_bot][491]
+Making sure the bot exists. SQL = SELECT * FROM `pom`.`bots` WHERE bot_id = '1' and `bot_active`='1' 
+-----------------------
+28-03-2016 16:21:10.58879[2][4] - Elapsed time: 0.309 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+28-03-2016 16:21:10.58885[2][4] - Elapsed time: 0.060 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+28-03-2016 16:21:10.58914[4][4] - Elapsed time: 0.284 milliseconds
+[intialise_conversation.php][check_set_format][616]
+Using format: html 
+-----------------------
+28-03-2016 16:21:10.58919[2][4] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+28-03-2016 16:21:10.58924[3][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][load_that][639]
+Getting conversation log entries for the current user. SQL:
+select `input`, `response` from `pom`.`conversation_log` where `user_id` = 20 and `bot_id` = 1 order by `id` desc limit 10; 
+-----------------------
+28-03-2016 16:21:10.58966[1][4] - Elapsed time: 0.417 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => HELL
+    [1] => HELL
+    [2] => HELL
+    [3] => HELL
+    [4] => HELL
+    [5] => HELL
+    [6] => HELL
+    [7] => HELL
+    [8] => HELL
+    [9] => JH
+)
+ 
+-----------------------
+28-03-2016 16:21:10.5897[4][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][load_that][654]
+Loading previous responses into the ~THAT~ array. 
+-----------------------
+28-03-2016 16:21:10.58976[1][4] - Elapsed time: 0.052 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => Heaven.
+    [1] => Heaven.
+    [2] => Heaven.
+    [3] => Heaven.
+    [4] => Heaven.
+    [5] => Heaven.
+    [6] => Heaven.
+    [7] => Heaven.
+    [8] => Heaven.
+    [9] => Could you explain that in different words?
+)
+ 
+-----------------------
+28-03-2016 16:21:10.58991[2][4] - Elapsed time: 0.150 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.58996[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.59002[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Could you explain that in different words ' 
+-----------------------
+28-03-2016 16:21:10.59007[4][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Could you explain that in different words ' 
+-----------------------
+28-03-2016 16:21:10.59012[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Could you explain that in different words ' 
+-----------------------
+28-03-2016 16:21:10.59025[4][4] - Elapsed time: 0.133 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'COULD YOU EXPLAIN THAT IN DIFFERENT WORDS' 
+-----------------------
+28-03-2016 16:21:10.5903[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'COULD YOU EXPLAIN THAT IN DIFFERENT WORDS' 
+-----------------------
+28-03-2016 16:21:10.59035[2][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'COULD YOU EXPLAIN THAT IN DIFFERENT WORDS' to the front of the [that] array 
+-----------------------
+28-03-2016 16:21:10.59045[4][4] - Elapsed time: 0.099 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'COULD YOU EXPLAIN THAT IN DIFFERENT WORDS' 
+-----------------------
+28-03-2016 16:21:10.5905[4][4] - Elapsed time: 0.052 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'COULD YOU EXPLAIN THAT IN DIFFERENT WORDS' 
+-----------------------
+28-03-2016 16:21:10.59061[4][4] - Elapsed time: 0.117 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'COULD YOU EXPLAIN THAT IN DIFFERENT WORDS' 
+-----------------------
+28-03-2016 16:21:10.59066[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'COULD YOU EXPLAIN THAT IN DIFFERENT WORDS' 
+-----------------------
+28-03-2016 16:21:10.59074[2][4] - Elapsed time: 0.083 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.59079[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.59086[4][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59092[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59097[4][4] - Elapsed time: 0.051 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59107[4][4] - Elapsed time: 0.105 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59112[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59116[2][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HEAVEN' to the front of the [that] array 
+-----------------------
+28-03-2016 16:21:10.59126[4][4] - Elapsed time: 0.092 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59131[4][4] - Elapsed time: 0.052 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59141[4][4] - Elapsed time: 0.101 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59145[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59153[2][4] - Elapsed time: 0.080 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.59159[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.59164[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59169[4][4] - Elapsed time: 0.049 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59174[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59186[4][4] - Elapsed time: 0.112 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.5919[4][4] - Elapsed time: 0.046 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59195[2][4] - Elapsed time: 0.049 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HEAVEN' to the front of the [that] array 
+-----------------------
+28-03-2016 16:21:10.59205[4][4] - Elapsed time: 0.093 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.5921[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.5922[4][4] - Elapsed time: 0.101 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59225[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59233[2][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.59238[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.59244[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59249[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59254[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59265[4][4] - Elapsed time: 0.106 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59269[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59274[2][4] - Elapsed time: 0.049 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HEAVEN' to the front of the [that] array 
+-----------------------
+28-03-2016 16:21:10.59287[4][4] - Elapsed time: 0.123 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59292[4][4] - Elapsed time: 0.056 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59303[4][4] - Elapsed time: 0.104 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59307[4][4] - Elapsed time: 0.048 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59316[2][4] - Elapsed time: 0.083 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.59321[4][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.59327[4][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59333[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59338[4][4] - Elapsed time: 0.054 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59349[4][4] - Elapsed time: 0.108 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59354[4][4] - Elapsed time: 0.048 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59359[2][4] - Elapsed time: 0.052 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HEAVEN' to the front of the [that] array 
+-----------------------
+28-03-2016 16:21:10.59368[4][4] - Elapsed time: 0.096 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59374[4][4] - Elapsed time: 0.056 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59385[4][4] - Elapsed time: 0.111 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.594[4][4] - Elapsed time: 0.148 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59413[2][4] - Elapsed time: 0.128 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.59419[4][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.59424[4][4] - Elapsed time: 0.060 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.5943[4][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59436[4][4] - Elapsed time: 0.056 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59447[4][4] - Elapsed time: 0.117 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59452[4][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59457[2][4] - Elapsed time: 0.052 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HEAVEN' to the front of the [that] array 
+-----------------------
+28-03-2016 16:21:10.59467[4][4] - Elapsed time: 0.098 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59473[4][4] - Elapsed time: 0.059 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59484[4][4] - Elapsed time: 0.111 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59489[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59498[2][4] - Elapsed time: 0.084 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.59504[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.5951[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59515[4][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59521[4][4] - Elapsed time: 0.056 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59532[4][4] - Elapsed time: 0.109 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59537[4][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59542[2][4] - Elapsed time: 0.052 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HEAVEN' to the front of the [that] array 
+-----------------------
+28-03-2016 16:21:10.59552[4][4] - Elapsed time: 0.101 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59558[4][4] - Elapsed time: 0.058 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59569[4][4] - Elapsed time: 0.106 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59574[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59582[2][4] - Elapsed time: 0.085 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.59592[4][4] - Elapsed time: 0.101 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.596[4][4] - Elapsed time: 0.072 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59605[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59611[4][4] - Elapsed time: 0.056 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59622[4][4] - Elapsed time: 0.115 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59628[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59633[2][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HEAVEN' to the front of the [that] array 
+-----------------------
+28-03-2016 16:21:10.59643[4][4] - Elapsed time: 0.102 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59649[4][4] - Elapsed time: 0.061 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.5966[4][4] - Elapsed time: 0.108 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59665[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59674[2][4] - Elapsed time: 0.088 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.5968[4][4] - Elapsed time: 0.060 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.59687[4][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59693[4][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59698[4][4] - Elapsed time: 0.057 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.5971[4][4] - Elapsed time: 0.112 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59715[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.5972[2][4] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HEAVEN' to the front of the [that] array 
+-----------------------
+28-03-2016 16:21:10.59739[4][4] - Elapsed time: 0.187 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.5975[4][4] - Elapsed time: 0.109 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59762[4][4] - Elapsed time: 0.121 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59768[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59777[2][4] - Elapsed time: 0.093 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.59785[4][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.59792[4][4] - Elapsed time: 0.070 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59798[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.59807[4][4] - Elapsed time: 0.090 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Heaven ' 
+-----------------------
+28-03-2016 16:21:10.5982[4][4] - Elapsed time: 0.137 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59827[4][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59833[2][4] - Elapsed time: 0.058 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HEAVEN' to the front of the [that] array 
+-----------------------
+28-03-2016 16:21:10.59851[4][4] - Elapsed time: 0.181 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59858[4][4] - Elapsed time: 0.068 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59869[4][4] - Elapsed time: 0.113 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59875[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.59884[4][4] - Elapsed time: 0.098 milliseconds
+[intialise_conversation.php][load_that][670]
+Loading previous user inputs into the ~INPUT~ array. 
+-----------------------
+28-03-2016 16:21:10.59906[2][4] - Elapsed time: 0.215 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.59914[4][4] - Elapsed time: 0.083 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.59921[4][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'JH' 
+-----------------------
+28-03-2016 16:21:10.59927[4][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'JH' 
+-----------------------
+28-03-2016 16:21:10.59934[4][4] - Elapsed time: 0.064 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'JH' 
+-----------------------
+28-03-2016 16:21:10.59947[4][4] - Elapsed time: 0.136 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'JH' 
+-----------------------
+28-03-2016 16:21:10.59953[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'JH' 
+-----------------------
+28-03-2016 16:21:10.59959[2][4] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'JH' to the front of the [input] array 
+-----------------------
+28-03-2016 16:21:10.59977[2][4] - Elapsed time: 0.186 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.59985[4][4] - Elapsed time: 0.075 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.59992[4][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HELL' 
+-----------------------
+28-03-2016 16:21:10.59998[4][4] - Elapsed time: 0.060 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60003[4][4] - Elapsed time: 0.060 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60015[4][4] - Elapsed time: 0.110 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.6002[4][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60026[2][4] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELL' to the front of the [input] array 
+-----------------------
+28-03-2016 16:21:10.60036[2][4] - Elapsed time: 0.099 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.60042[4][4] - Elapsed time: 0.062 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.60049[4][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60055[4][4] - Elapsed time: 0.060 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60061[4][4] - Elapsed time: 0.061 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60072[4][4] - Elapsed time: 0.109 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60078[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60083[2][4] - Elapsed time: 0.059 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELL' to the front of the [input] array 
+-----------------------
+28-03-2016 16:21:10.60094[2][4] - Elapsed time: 0.102 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.601[4][4] - Elapsed time: 0.062 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.60106[4][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60112[4][4] - Elapsed time: 0.060 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60118[4][4] - Elapsed time: 0.061 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.6013[4][4] - Elapsed time: 0.112 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60135[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60141[2][4] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELL' to the front of the [input] array 
+-----------------------
+28-03-2016 16:21:10.60151[2][4] - Elapsed time: 0.099 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.60157[4][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.60164[4][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HELL' 
+-----------------------
+28-03-2016 16:21:10.6017[4][4] - Elapsed time: 0.060 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60176[4][4] - Elapsed time: 0.063 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60188[4][4] - Elapsed time: 0.116 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60194[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.602[2][4] - Elapsed time: 0.061 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELL' to the front of the [input] array 
+-----------------------
+28-03-2016 16:21:10.6021[2][4] - Elapsed time: 0.100 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.60216[4][4] - Elapsed time: 0.064 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.60223[4][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60229[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60236[4][4] - Elapsed time: 0.066 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60247[4][4] - Elapsed time: 0.112 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60252[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60258[2][4] - Elapsed time: 0.059 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELL' to the front of the [input] array 
+-----------------------
+28-03-2016 16:21:10.60268[2][4] - Elapsed time: 0.100 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.60275[4][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.60282[4][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60289[4][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60295[4][4] - Elapsed time: 0.064 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60306[4][4] - Elapsed time: 0.111 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60313[4][4] - Elapsed time: 0.063 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60318[2][4] - Elapsed time: 0.060 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELL' to the front of the [input] array 
+-----------------------
+28-03-2016 16:21:10.60329[2][4] - Elapsed time: 0.102 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.60335[4][4] - Elapsed time: 0.064 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.60342[4][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60349[4][4] - Elapsed time: 0.063 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60355[4][4] - Elapsed time: 0.063 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60366[4][4] - Elapsed time: 0.113 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60372[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60378[2][4] - Elapsed time: 0.061 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELL' to the front of the [input] array 
+-----------------------
+28-03-2016 16:21:10.6039[2][4] - Elapsed time: 0.122 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.60398[4][4] - Elapsed time: 0.078 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.60406[4][4] - Elapsed time: 0.079 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60412[4][4] - Elapsed time: 0.064 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HELL' 
+-----------------------
+28-03-2016 16:21:10.6042[4][4] - Elapsed time: 0.077 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60431[4][4] - Elapsed time: 0.115 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60437[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60443[2][4] - Elapsed time: 0.061 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELL' to the front of the [input] array 
+-----------------------
+28-03-2016 16:21:10.60454[2][4] - Elapsed time: 0.102 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.6046[4][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.60467[4][4] - Elapsed time: 0.070 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60474[4][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HELL' 
+-----------------------
+28-03-2016 16:21:10.6048[4][4] - Elapsed time: 0.065 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60492[4][4] - Elapsed time: 0.116 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60498[4][4] - Elapsed time: 0.063 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60505[2][4] - Elapsed time: 0.063 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELL' to the front of the [input] array 
+-----------------------
+28-03-2016 16:21:10.60688[2][4] - Elapsed time: 1.831 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+28-03-2016 16:21:10.60697[3][4] - Elapsed time: 0.093 milliseconds
+[intialise_conversation.php][load_bot_config][319]
+load bot config SQL: SELECT * FROM `pom`.`bots` WHERE bot_id = '1' 
+-----------------------
+28-03-2016 16:21:10.60742[4][4] - Elapsed time: 0.455 milliseconds
+[intialise_conversation.php][load_bot_config][323]
+Loading bot details from the database. 
+-----------------------
+28-03-2016 16:21:10.60751[0][4] - Elapsed time: 0.080 milliseconds
+[conversation_start.php][Called outside of function][167]
+Debug level = 4 
+-----------------------
+28-03-2016 16:21:10.60757[0][4] - Elapsed time: 0.063 milliseconds
+[conversation_start.php][Called outside of function][169]
+Debug level = 4 
+-----------------------
+28-03-2016 16:21:10.60763[4][4] - Elapsed time: 0.065 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][165]
+New conversation vars 
+-----------------------
+28-03-2016 16:21:10.6077[2][4] - Elapsed time: 0.069 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELL' to the front of the [user_say] array 
+-----------------------
+28-03-2016 16:21:10.60782[2][4] - Elapsed time: 0.121 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELL' to the front of the [input] array 
+-----------------------
+28-03-2016 16:21:10.60796[4][4] - Elapsed time: 0.138 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+28-03-2016 16:21:10.60803[4][4] - Elapsed time: 0.066 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60815[4][4] - Elapsed time: 0.125 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60822[4][4] - Elapsed time: 0.067 milliseconds
+[find_aiml.php][get_aiml_to_parse][808]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+28-03-2016 16:21:10.60855[4][4] - Elapsed time: 0.330 milliseconds
+[find_aiml.php][find_userdefined_aiml][767]
+Looking for user defined responses 
+-----------------------
+28-03-2016 16:21:10.60862[3][4] - Elapsed time: 0.069 milliseconds
+[find_aiml.php][find_userdefined_aiml][779]
+User defined SQL: SELECT * FROM `pom`.`aiml_userdefined` WHERE
+    `bot_id` = '1' AND
+    (`user_id` = '20' OR `user_id` = '-1') AND
+    `pattern` = 'HELL' 
+-----------------------
+28-03-2016 16:21:10.60887[2][4] - Elapsed time: 0.247 milliseconds
+[find_aiml.php][find_userdefined_aiml][795]
+User defined rows found: '0' 
+-----------------------
+28-03-2016 16:21:10.60894[4][4] - Elapsed time: 0.073 milliseconds
+[find_aiml.php][find_aiml_matches][882]
+Finding the aiml matches from the DB 
+-----------------------
+28-03-2016 16:21:10.60903[4][4] - Elapsed time: 0.087 milliseconds
+[find_aiml.php][get_last_word][22]
+Sentence: HELL. Last word:HELL 
+-----------------------
+28-03-2016 16:21:10.6091[4][4] - Elapsed time: 0.072 milliseconds
+[find_aiml.php][get_first_word][35]
+Sentence: HELL. First word:HELL 
+-----------------------
+28-03-2016 16:21:10.60935[4][4] - Elapsed time: 0.256 milliseconds
+[find_aiml.php][find_aiml_matches][896]
+Stored topic = '' 
+-----------------------
+28-03-2016 16:21:10.60943[4][4] - Elapsed time: 0.079 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+28-03-2016 16:21:10.6095[4][4] - Elapsed time: 0.069 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming thatpattern: HEAVEN 
+-----------------------
+28-03-2016 16:21:10.60958[4][4] - Elapsed time: 0.074 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => HEAVEN
+)
+ 
+-----------------------
+28-03-2016 16:21:10.60967[1][4] - Elapsed time: 0.094 milliseconds
+[find_aiml.php][Called outside of function][103]
+PHP ERROR [Notice] -Undefined variable: likePatternArr in C:\VertrigoServ\www\pom\chatbot\core\aiml\find_aiml.php on Line 103 
+-----------------------
+28-03-2016 16:21:10.61228[1][4] - Elapsed time: 2.611 milliseconds
+[find_aiml.php][Called outside of function][103]
+PHP ERROR [Warning] -implode(): Invalid arguments passed in C:\VertrigoServ\www\pom\chatbot\core\aiml\find_aiml.php on Line 103 
+-----------------------
+28-03-2016 16:21:10.61509[4][4] - Elapsed time: 2.810 milliseconds
+[find_aiml.php][make_like_pattern][106]
+returning like pattern:
+
+  `thatpattern` like 'HEAVEN % HEAVEN' OR
+  `thatpattern` like 'HEAVEN %' OR
+ OR  
+-----------------------
+28-03-2016 16:21:10.61526[4][4] - Elapsed time: 0.171 milliseconds
+[find_aiml.php][wordsCount_inSentence][119]
+Sentence: HELL numWords:1 
+-----------------------
+28-03-2016 16:21:10.61535[3][4] - Elapsed time: 0.088 milliseconds
+[find_aiml.php][find_aiml_matches][953]
+Match AIML sql: SELECT `id`, `pattern`, `thatpattern`, `topic` FROM `pom`.`aiml` WHERE
+   bot_id = '1'  AND (
+  `pattern` = '_' OR
+  `pattern` = '*' OR
+  `pattern` = 'HELL' OR
+  `pattern` = 'RANDOM PICKUP LINE'
+  )  order by `topic` desc, `id` asc, `pattern` asc; 
+-----------------------
+28-03-2016 16:21:10.63665[2][4] - Elapsed time: 21.303 milliseconds
+[find_aiml.php][find_aiml_matches][959]
+FOUND: (148) potential AIML matches 
+-----------------------
+28-03-2016 16:21:10.63771[4][4] - Elapsed time: 1.053 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][147]
+NEW FUNC Searching through 148 rows to unset bad matches 
+-----------------------
+28-03-2016 16:21:10.63778[4][4] - Elapsed time: 0.073 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][156]
+Blue 5 to Blue leader. Starting my run now! 
+-----------------------
+28-03-2016 16:21:10.65624[4][4] - Elapsed time: 18.458 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][258]
+Found 2 relevant rows 
+-----------------------
+28-03-2016 16:21:10.65644[4][4] - Elapsed time: 0.208 milliseconds
+[find_aiml.php][score_matches][295]
+Scoring the matches. 
+-----------------------
+28-03-2016 16:21:10.65719[4][4] - Elapsed time: 0.749 milliseconds
+[find_aiml.php][score_matches][538]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 985
+            [pattern] => HELL
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 985
+            [bot_id] => 1
+            [score] => 260
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: hell
+        )
+
+    [1] => Array
+        (
+            [id] => 8432
+            [pattern] => *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 8432
+            [bot_id] => 1
+            [score] => 252
+            [track_score] => current bot, no thatpattern to match, pattern star match
+        )
+
+)
+ 
+-----------------------
+28-03-2016 16:21:10.65728[2][4] - Elapsed time: 0.091 milliseconds
+[find_aiml.php][get_winning_category][647]
+And the winner is... 985! 
+-----------------------
+28-03-2016 16:21:10.65761[4][4] - Elapsed time: 0.330 milliseconds
+[find_aiml.php][get_winning_category][660]
+Returning the AIML template for id# 985. Value:
+'Heaven.' 
+-----------------------
+28-03-2016 16:21:10.65771[4][4] - Elapsed time: 0.096 milliseconds
+[find_aiml.php][get_highest_scoring_row][631]
+Best Responses: Array
+(
+    [0] => Array
+        (
+            [id] => 985
+            [pattern] => HELL
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 985
+            [bot_id] => 1
+            [score] => 260
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: hell
+        )
+
+)
+ 
+-----------------------
+28-03-2016 16:21:10.65778[2][4] - Elapsed time: 0.068 milliseconds
+[find_aiml.php][get_highest_scoring_row][632]
+Will use randomly picked best response chosen out of 1 responses with same score: 985 - HELL 
+-----------------------
+28-03-2016 16:21:10.65785[4][4] - Elapsed time: 0.070 milliseconds
+[find_aiml.php][get_aiml_to_parse][841]
+Will be parsing id:985 (HELL) 
+-----------------------
+28-03-2016 16:21:10.65795[3][4] - Elapsed time: 0.100 milliseconds
+[parse_aiml.php][parse_matched_aiml][190]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+28-03-2016 16:21:10.65803[2][4] - Elapsed time: 0.082 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+28-03-2016 16:21:10.65823[2][4] - Elapsed time: 0.199 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+28-03-2016 16:21:10.6583[2][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+28-03-2016 16:21:10.65841[4][4] - Elapsed time: 0.106 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><text>Heaven.</text></template> 
+-----------------------
+28-03-2016 16:21:10.65852[2][4] - Elapsed time: 0.113 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+28-03-2016 16:21:10.65863[4][4] - Elapsed time: 0.104 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><text>Heaven.</text></template>
+ 
+-----------------------
+28-03-2016 16:21:10.6587[4][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+28-03-2016 16:21:10.6588[2][4] - Elapsed time: 0.094 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+28-03-2016 16:21:10.65889[4][4] - Elapsed time: 0.095 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 1. element XML = <text>Heaven.</text> 
+-----------------------
+28-03-2016 16:21:10.65897[4][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+28-03-2016 16:21:10.65904[4][4] - Elapsed time: 0.070 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+28-03-2016 16:21:10.6591[2][4] - Elapsed time: 0.066 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+28-03-2016 16:21:10.65917[4][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'Heaven.' to the response array. tag name is text 
+-----------------------
+28-03-2016 16:21:10.65924[2][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.65932[4][4] - Elapsed time: 0.072 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.65939[4][4] - Elapsed time: 0.076 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Heaven.' 
+-----------------------
+28-03-2016 16:21:10.65946[4][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'Heaven.' to the response array. tag name is template. 
+-----------------------
+28-03-2016 16:21:10.65953[2][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+28-03-2016 16:21:10.65961[4][4] - Elapsed time: 0.072 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+28-03-2016 16:21:10.65968[4][4] - Elapsed time: 0.076 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Heaven.' 
+-----------------------
+28-03-2016 16:21:10.65977[4][4] - Elapsed time: 0.086 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][41]
+Completed parsing the template. The bot will say: Heaven. 
+-----------------------
+28-03-2016 16:21:10.65984[4][4] - Elapsed time: 0.070 milliseconds
+[parse_aiml.php][parse_matched_aiml][195]
+normal - Saving for next turn 
+-----------------------
+28-03-2016 16:21:10.65991[4][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml.php][save_for_nextturn][235]
+Saving that and that_raw for next turn 
+-----------------------
+28-03-2016 16:21:10.65999[2][4] - Elapsed time: 0.071 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Heaven.' to the front of the [that_raw] array 
+-----------------------
+28-03-2016 16:21:10.66015[2][4] - Elapsed time: 0.160 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Heaven.' to the front of the [that] array 
+-----------------------
+28-03-2016 16:21:10.66026[4][4] - Elapsed time: 0.117 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Heaven.' 
+-----------------------
+28-03-2016 16:21:10.66034[4][4] - Elapsed time: 0.074 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Heaven.' 
+-----------------------
+28-03-2016 16:21:10.66047[4][4] - Elapsed time: 0.132 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.66053[4][4] - Elapsed time: 0.066 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HEAVEN' 
+-----------------------
+28-03-2016 16:21:10.66064[2][4] - Elapsed time: 0.106 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Heaven.' to the front of the [parsed_template] array 
+-----------------------
+28-03-2016 16:21:10.66075[2][4] - Elapsed time: 0.112 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Heaven.' to the front of the [template] array 
+-----------------------
+28-03-2016 16:21:10.66088[2][4] - Elapsed time: 0.126 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+28-03-2016 16:21:10.66096[3][4] - Elapsed time: 0.080 milliseconds
+[intialise_conversation.php][log_conversation][394]
+Saving conservation SQL: INSERT INTO `pom`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'HELL',
+      'Heaven.',
+      '20',
+      '9cfbfv8hcbkom0hoik8t09p7m3',
+      '1',
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+28-03-2016 16:21:10.66134[4][4] - Elapsed time: 0.383 milliseconds
+[intialise_conversation.php][write_to_session][130]
+Saving to session 
+-----------------------
+28-03-2016 16:21:10.6621[3][4] - Elapsed time: 0.758 milliseconds
+[display_conversation.php][get_conversation_to_display][48]
+get_conversation SQL: SELECT * FROM `pom`.`conversation_log`
+        WHERE
+        `user_id` = '20'
+        AND `bot_id` = '1'
+        AND `convo_id` = '9cfbfv8hcbkom0hoik8t09p7m3'
+        ORDER BY id DESC  LIMIT 10  
+-----------------------
+28-03-2016 16:21:10.66271[2][4] - Elapsed time: 0.615 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '10' lines of conversation 
+-----------------------
+28-03-2016 16:21:10.6628[4][4] - Elapsed time: 0.084 milliseconds
+[display_conversation.php][get_conversation][77]
+Processing conversation as html 
+-----------------------
+28-03-2016 16:21:10.66295[4][4] - Elapsed time: 0.151 milliseconds
+[display_conversation.php][get_html][112]
+Returning HTML 
+-----------------------
+28-03-2016 16:21:10.67869[2][4] - Elapsed time: 15.746 milliseconds
+[conversation_start.php][Called outside of function][202]
+Closing Database 
+-----------------------
+28-03-2016 16:21:10.67882[2][4] - Elapsed time: 0.121 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+28-03-2016 16:21:10.67908[0][4] - Elapsed time: 0.262 milliseconds
+[conversation_start.php][Called outside of function][207]
+Conversation Ending. Elapsed time: 154.138 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [bot_properties] => Array
+        (
+            [name] => Chitti
+            [gender] => 
+            [botmaster] => 
+            [master] => Manikandan
+            [age] => 
+            [website] => 
+            [email] => 
+            [birthday] => 
+            [birthplace] => 
+            [size] => 
+            [version] => 
+            [build] => 
+            [language] => 
+            [feelings] => 
+            [etype] => 
+            [emotions] => 
+            [ethics] => 
+            [orientation] => 
+            [baseballteam] => 
+            [footballteam] => 
+            [hockeyteam] => 
+            [favoritesport] => 
+            [vocabulary] => 
+            [celebrities] => 
+            [celebrity] => 
+            [favoriteactor] => 
+            [favoriteactress] => 
+            [favoriteartist] => 
+            [favoritemusician] => 
+            [favoritesong] => 
+            [favoriteauthor] => 
+            [friend] => 
+            [nationality] => 
+            [religion] => 
+            [president] => 
+            [party] => 
+            [kingdom] => 
+            [phylum] => 
+            [class] => 
+            [order] => 
+            [family] => 
+            [genus] => 
+            [species] => 
+            [boyfriend] => 
+            [favoritebook] => 
+            [favoriteband] => 
+            [favoritecolor] => 
+            [favoritefood] => 
+            [favoritemovie] => 
+            [forfun] => 
+            [friends] => 
+            [girlfriend] => 
+            [kindmusic] => 
+            [location] => 
+            [looklike] => 
+            [question] => 
+            [sign] => 
+            [talkabout] => 
+            [wear] => 
+            [loves] => 
+        )
+
+    [conversation] => Array
+        (
+            [convo_id] => 9cfbfv8hcbkom0hoik8t09p7m3
+            [bot_name] => Chitti
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_id] => 20
+            [totallines] => 1
+            [user_name] => Seeker
+            [conversation_lines] => 10
+            [remember_up_to] => 10
+            [debugemail] => mani@tadka.com
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [time_start] => 1459182070.5249
+    [aiml] => Array
+        (
+            [user_raw] => HELL
+            [lookingfor] => HELL
+            [template_id] => 985
+            [pattern] => HELL
+            [thatpattern] => 
+            [template] => Heaven.
+            [html_template] => 
+            [topic] => 
+            [score] => 260
+            [aiml_id] => 985
+            [parsed_template] => Heaven.
+        )
+
+    [user_say] => Array
+        (
+            [1] => HELL
+            [2] => HELL
+            [3] => HELL
+            [4] => HELL
+            [5] => HELL
+            [6] => HELL
+            [7] => HELL
+            [8] => HELL
+            [9] => HELL
+            [10] => HELL
+        )
+
+    [input] => Array
+        (
+            [1] => HELL
+            [2] => HELL
+            [3] => HELL
+            [4] => HELL
+            [5] => HELL
+            [6] => HELL
+            [7] => HELL
+            [8] => HELL
+            [9] => HELL
+            [10] => HELL
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => Heaven.
+                )
+
+            [2] => Array
+                (
+                    [1] => 
+                    [2] => Heaven.
+                )
+
+            [3] => Array
+                (
+                    [1] => 
+                    [2] => Heaven.
+                )
+
+            [4] => Array
+                (
+                    [1] => 
+                    [2] => Heaven.
+                )
+
+            [5] => Array
+                (
+                    [1] => 
+                    [2] => Heaven.
+                )
+
+            [6] => Array
+                (
+                    [1] => 
+                    [2] => Heaven.
+                )
+
+            [7] => Array
+                (
+                    [1] => 
+                    [2] => Heaven.
+                )
+
+            [8] => Array
+                (
+                    [1] => 
+                    [2] => Heaven.
+                )
+
+            [9] => Array
+                (
+                    [1] => 
+                    [2] => Heaven.
+                )
+
+            [10] => Array
+                (
+                    [1] => 
+                    [2] => Heaven.
+                )
+
+            [12] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => HEAVEN
+                )
+
+            [2] => Array
+                (
+                    [1] => HEAVEN
+                )
+
+            [3] => Array
+                (
+                    [1] => HEAVEN
+                )
+
+            [4] => Array
+                (
+                    [1] => HEAVEN
+                )
+
+            [5] => Array
+                (
+                    [1] => HEAVEN
+                )
+
+            [6] => Array
+                (
+                    [1] => HEAVEN
+                )
+
+            [7] => Array
+                (
+                    [1] => HEAVEN
+                )
+
+            [8] => Array
+                (
+                    [1] => HEAVEN
+                )
+
+            [9] => Array
+                (
+                    [1] => HEAVEN
+                )
+
+            [10] => Array
+                (
+                    [1] => HEAVEN
+                )
+
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => Heaven.
+            [2] => Heaven.
+            [3] => Heaven.
+            [4] => Heaven.
+            [5] => Heaven.
+            [6] => Heaven.
+            [7] => Heaven.
+            [8] => Heaven.
+            [9] => Heaven.
+            [10] => Heaven.
+        )
+
+    [template] => Array
+        (
+            [1] => Heaven.
+            [2] => Heaven.
+            [3] => Heaven.
+            [4] => Heaven.
+            [5] => Heaven.
+            [6] => Heaven.
+            [7] => Heaven.
+            [8] => Heaven.
+            [9] => Heaven.
+            [10] => Heaven.
+        )
+
+    [star] => Array
+        (
+            [1] => JH
+        )
+
+    [send_to_user] => <div class="usersay">Seeker: HELL</div><div class="botsay">Chitti: Heaven.</div><div class="usersay">Seeker: HELL</div><div class="botsay">Chitti: Heaven.</div><div class="usersay">Seeker: HELL</div><div class="botsay">Chitti: Heaven.</div><div class="usersay">Seeker: HELL</div><div class="botsay">Chitti: Heaven.</div><div class="usersay">Seeker: HELL</div><div class="botsay">Chitti: Heaven.</div><div class="usersay">Seeker: HELL</div><div class="botsay">Chitti: Heaven.</div><div class="usersay">Seeker: HELL</div><div class="botsay">Chitti: Heaven.</div><div class="usersay">Seeker: HELL</div><div class="botsay">Chitti: Heaven.</div><div class="usersay">Seeker: HELL</div><div class="botsay">Chitti: Heaven.</div><div class="usersay">Seeker: HELL</div><div class="botsay">Chitti: Heaven.</div>
+)
+
+-----------------------
+Total execution time: 154.138 Milliseconds. Goodbye.

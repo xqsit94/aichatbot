@@ -1,0 +1,133 @@
+[22-Mar-2016 14:05:12 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 58
+[22-Mar-2016 14:05:12 GMT] PHP Stack trace:
+[22-Mar-2016 14:05:12 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[22-Mar-2016 14:05:18 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 58
+[22-Mar-2016 14:05:18 GMT] PHP Stack trace:
+[22-Mar-2016 14:05:18 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[22-Mar-2016 14:05:18 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 58
+[22-Mar-2016 14:05:18 GMT] PHP Stack trace:
+[22-Mar-2016 14:05:18 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[22-Mar-2016 14:05:22 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 58
+[22-Mar-2016 14:05:22 GMT] PHP Stack trace:
+[22-Mar-2016 14:05:22 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[22-Mar-2016 14:05:27 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 58
+[22-Mar-2016 14:05:27 GMT] PHP Stack trace:
+[22-Mar-2016 14:05:27 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[22-Mar-2016 14:22:58 GMT] PHP Warning:  require_once(C:\VertrigoServ\www\pom\admin\allowedPages.php): failed to open stream: No such file or directory in C:\VertrigoServ\www\pom\devs\index.php on line 28
+[22-Mar-2016 14:22:58 GMT] PHP Stack trace:
+[22-Mar-2016 14:22:58 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\devs\index.php:0
+[22-Mar-2016 14:22:58 GMT] PHP Fatal error:  require_once(): Failed opening required 'C:\VertrigoServ\www\pom\admin\allowedPages.php' (include_path='.;C:\VertrigoServ\Smarty') in C:\VertrigoServ\www\pom\devs\index.php on line 28
+[22-Mar-2016 14:22:58 GMT] PHP Stack trace:
+[22-Mar-2016 14:22:58 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\devs\index.php:0
+[22-Mar-2016 14:23:01 GMT] PHP Warning:  require_once(C:\VertrigoServ\www\pom\admin\allowedPages.php): failed to open stream: No such file or directory in C:\VertrigoServ\www\pom\devs\index.php on line 28
+[22-Mar-2016 14:23:01 GMT] PHP Stack trace:
+[22-Mar-2016 14:23:01 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\devs\index.php:0
+[22-Mar-2016 14:23:01 GMT] PHP Fatal error:  require_once(): Failed opening required 'C:\VertrigoServ\www\pom\admin\allowedPages.php' (include_path='.;C:\VertrigoServ\Smarty') in C:\VertrigoServ\www\pom\devs\index.php on line 28
+[22-Mar-2016 14:23:01 GMT] PHP Stack trace:
+[22-Mar-2016 14:23:01 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\devs\index.php:0
+[22-Mar-2016 14:23:02 GMT] PHP Warning:  require_once(C:\VertrigoServ\www\pom\admin\allowedPages.php): failed to open stream: No such file or directory in C:\VertrigoServ\www\pom\devs\index.php on line 28
+[22-Mar-2016 14:23:02 GMT] PHP Stack trace:
+[22-Mar-2016 14:23:02 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\devs\index.php:0
+[22-Mar-2016 14:23:02 GMT] PHP Fatal error:  require_once(): Failed opening required 'C:\VertrigoServ\www\pom\admin\allowedPages.php' (include_path='.;C:\VertrigoServ\Smarty') in C:\VertrigoServ\www\pom\devs\index.php on line 28
+[22-Mar-2016 14:23:02 GMT] PHP Stack trace:
+[22-Mar-2016 14:23:02 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\devs\index.php:0
+[22-Mar-2016 14:23:14 GMT] PHP Warning:  require_once(C:\VertrigoServ\www\pom\admin\allowedPages.php): failed to open stream: No such file or directory in C:\VertrigoServ\www\pom\devs\index.php on line 28
+[22-Mar-2016 14:23:14 GMT] PHP Stack trace:
+[22-Mar-2016 14:23:14 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\devs\index.php:0
+[22-Mar-2016 14:23:14 GMT] PHP Fatal error:  require_once(): Failed opening required 'C:\VertrigoServ\www\pom\admin\allowedPages.php' (include_path='.;C:\VertrigoServ\Smarty') in C:\VertrigoServ\www\pom\devs\index.php on line 28
+[22-Mar-2016 14:23:14 GMT] PHP Stack trace:
+[22-Mar-2016 14:23:14 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\devs\index.php:0
+[22-Mar-2016 14:24:06 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 58
+[22-Mar-2016 14:24:06 GMT] PHP Stack trace:
+[22-Mar-2016 14:24:06 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[22-Mar-2016 17:28:43 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 58
+[22-Mar-2016 17:28:43 GMT] PHP Stack trace:
+[22-Mar-2016 17:28:43 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[22-Mar-2016 17:28:49 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 58
+[22-Mar-2016 17:28:49 GMT] PHP Stack trace:
+[22-Mar-2016 17:28:49 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[22-Mar-2016 17:28:49 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 58
+[22-Mar-2016 17:28:49 GMT] PHP Stack trace:
+[22-Mar-2016 17:28:49 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[22-Mar-2016 17:28:51 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 58
+[22-Mar-2016 17:28:51 GMT] PHP Stack trace:
+[22-Mar-2016 17:28:51 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[26-Mar-2016 09:41:08 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 58
+[26-Mar-2016 09:41:08 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 58
+[26-Mar-2016 09:41:08 GMT] PHP Stack trace:
+[26-Mar-2016 09:41:08 GMT] PHP Stack trace:
+[26-Mar-2016 09:41:08 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[26-Mar-2016 09:41:08 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[26-Mar-2016 09:44:12 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 49
+[26-Mar-2016 09:44:12 GMT] PHP Stack trace:
+[26-Mar-2016 09:44:12 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[26-Mar-2016 09:46:54 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 49
+[26-Mar-2016 09:46:54 GMT] PHP Stack trace:
+[26-Mar-2016 09:46:54 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[26-Mar-2016 09:47:19 GMT] PHP Notice:  Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\admin\index.php on line 49
+[26-Mar-2016 09:47:19 GMT] PHP Stack trace:
+[26-Mar-2016 09:47:19 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[26-Mar-2016 10:44:05 GMT] PHP Notice:  Undefined variable: format in C:\VertrigoServ\www\pom\admin\demochat.php on line 38
+[26-Mar-2016 10:44:05 GMT] PHP Stack trace:
+[26-Mar-2016 10:44:05 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[26-Mar-2016 10:44:05 GMT] PHP   2. include() C:\VertrigoServ\www\pom\admin\index.php:109
+[26-Mar-2016 10:44:05 GMT] PHP   3. showChatFrame() C:\VertrigoServ\www\pom\admin\demochat.php:18
+[26-Mar-2016 10:44:07 GMT] PHP Notice:  Undefined variable: format in C:\VertrigoServ\www\pom\admin\demochat.php on line 38
+[26-Mar-2016 10:44:07 GMT] PHP Stack trace:
+[26-Mar-2016 10:44:07 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[26-Mar-2016 10:44:07 GMT] PHP   2. include() C:\VertrigoServ\www\pom\admin\index.php:109
+[26-Mar-2016 10:44:07 GMT] PHP   3. showChatFrame() C:\VertrigoServ\www\pom\admin\demochat.php:18
+[26-Mar-2016 13:53:38 GMT] PHP Notice:  Undefined variable: format in C:\VertrigoServ\www\pom\admin\demochat.php on line 38
+[26-Mar-2016 13:53:38 GMT] PHP Stack trace:
+[26-Mar-2016 13:53:38 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[26-Mar-2016 13:53:38 GMT] PHP   2. include() C:\VertrigoServ\www\pom\admin\index.php:109
+[26-Mar-2016 13:53:38 GMT] PHP   3. showChatFrame() C:\VertrigoServ\www\pom\admin\demochat.php:18
+[26-Mar-2016 13:53:44 GMT] PHP Notice:  Undefined variable: format in C:\VertrigoServ\www\pom\admin\demochat.php on line 38
+[26-Mar-2016 13:53:44 GMT] PHP Stack trace:
+[26-Mar-2016 13:53:44 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[26-Mar-2016 13:53:44 GMT] PHP   2. include() C:\VertrigoServ\www\pom\admin\index.php:109
+[26-Mar-2016 13:53:44 GMT] PHP   3. showChatFrame() C:\VertrigoServ\www\pom\admin\demochat.php:18
+[28-Mar-2016 17:55:48 GMT] PHP Notice:  Undefined variable: format in C:\VertrigoServ\www\pom\admin\demochat.php on line 38
+[28-Mar-2016 17:55:48 GMT] PHP Stack trace:
+[28-Mar-2016 17:55:48 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[28-Mar-2016 17:55:48 GMT] PHP   2. include() C:\VertrigoServ\www\pom\admin\index.php:109
+[28-Mar-2016 17:55:48 GMT] PHP   3. showChatFrame() C:\VertrigoServ\www\pom\admin\demochat.php:18
+[28-Mar-2016 17:58:33 GMT] PHP Warning:  move_uploaded_file(./uploads/Default.aiml): failed to open stream: Permission denied in C:\VertrigoServ\www\pom\admin\upload.php on line 274
+[28-Mar-2016 17:58:33 GMT] PHP Stack trace:
+[28-Mar-2016 17:58:33 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[28-Mar-2016 17:58:33 GMT] PHP   2. include() C:\VertrigoServ\www\pom\admin\index.php:109
+[28-Mar-2016 17:58:33 GMT] PHP   3. processUpload() C:\VertrigoServ\www\pom\admin\upload.php:10
+[28-Mar-2016 17:58:33 GMT] PHP   4. move_uploaded_file() C:\VertrigoServ\www\pom\admin\upload.php:274
+[28-Mar-2016 17:58:33 GMT] PHP Warning:  move_uploaded_file(): Unable to move 'C:\Users\Manikandan\AppData\Local\Temp\php2EFD.tmp' to './uploads/Default.aiml' in C:\VertrigoServ\www\pom\admin\upload.php on line 274
+[28-Mar-2016 17:58:33 GMT] PHP Stack trace:
+[28-Mar-2016 17:58:33 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[28-Mar-2016 17:58:33 GMT] PHP   2. include() C:\VertrigoServ\www\pom\admin\index.php:109
+[28-Mar-2016 17:58:33 GMT] PHP   3. processUpload() C:\VertrigoServ\www\pom\admin\upload.php:10
+[28-Mar-2016 17:58:33 GMT] PHP   4. move_uploaded_file() C:\VertrigoServ\www\pom\admin\upload.php:274
+[28-Mar-2016 17:58:46 GMT] PHP Warning:  move_uploaded_file(./uploads/Default.aiml): failed to open stream: Permission denied in C:\VertrigoServ\www\pom\admin\upload.php on line 274
+[28-Mar-2016 17:58:46 GMT] PHP Stack trace:
+[28-Mar-2016 17:58:46 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[28-Mar-2016 17:58:46 GMT] PHP   2. include() C:\VertrigoServ\www\pom\admin\index.php:109
+[28-Mar-2016 17:58:46 GMT] PHP   3. processUpload() C:\VertrigoServ\www\pom\admin\upload.php:10
+[28-Mar-2016 17:58:46 GMT] PHP   4. move_uploaded_file() C:\VertrigoServ\www\pom\admin\upload.php:274
+[28-Mar-2016 17:58:46 GMT] PHP Warning:  move_uploaded_file(): Unable to move 'C:\Users\Manikandan\AppData\Local\Temp\php631E.tmp' to './uploads/Default.aiml' in C:\VertrigoServ\www\pom\admin\upload.php on line 274
+[28-Mar-2016 17:58:46 GMT] PHP Stack trace:
+[28-Mar-2016 17:58:46 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[28-Mar-2016 17:58:46 GMT] PHP   2. include() C:\VertrigoServ\www\pom\admin\index.php:109
+[28-Mar-2016 17:58:46 GMT] PHP   3. processUpload() C:\VertrigoServ\www\pom\admin\upload.php:10
+[28-Mar-2016 17:58:46 GMT] PHP   4. move_uploaded_file() C:\VertrigoServ\www\pom\admin\upload.php:274
+[03-Apr-2016 05:50:18 GMT] PHP Notice:  Undefined variable: format in C:\VertrigoServ\www\pom\admin\demochat.php on line 38
+[03-Apr-2016 05:50:18 GMT] PHP Stack trace:
+[03-Apr-2016 05:50:18 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[03-Apr-2016 05:50:18 GMT] PHP   2. include() C:\VertrigoServ\www\pom\admin\index.php:109
+[03-Apr-2016 05:50:18 GMT] PHP   3. showChatFrame() C:\VertrigoServ\www\pom\admin\demochat.php:18
+[03-Apr-2016 05:50:27 GMT] PHP Notice:  Undefined variable: format in C:\VertrigoServ\www\pom\admin\demochat.php on line 38
+[03-Apr-2016 05:50:27 GMT] PHP Stack trace:
+[03-Apr-2016 05:50:27 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[03-Apr-2016 05:50:27 GMT] PHP   2. include() C:\VertrigoServ\www\pom\admin\index.php:109
+[03-Apr-2016 05:50:27 GMT] PHP   3. showChatFrame() C:\VertrigoServ\www\pom\admin\demochat.php:18
+[02-Jul-2016 14:54:38 GMT] PHP Notice:  Undefined variable: format in C:\VertrigoServ\www\pom\admin\demochat.php on line 38
+[02-Jul-2016 14:54:38 GMT] PHP Stack trace:
+[02-Jul-2016 14:54:38 GMT] PHP   1. {main}() C:\VertrigoServ\www\pom\admin\index.php:0
+[02-Jul-2016 14:54:38 GMT] PHP   2. include() C:\VertrigoServ\www\pom\admin\index.php:109
+[02-Jul-2016 14:54:38 GMT] PHP   3. showChatFrame() C:\VertrigoServ\www\pom\admin\demochat.php:18

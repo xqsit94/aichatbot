@@ -1,0 +1,1799 @@
+22-03-2016 14:26:28.96997[0][4] - Elapsed time: 31.133 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version VERSION
+PHP  version 5.4.39
+OS:  version  
+-----------------------
+22-03-2016 14:26:28.97846[4][4] - Elapsed time: 8.496 milliseconds
+[load_aimlfunctions.php][Called outside of function][15]
+AIML function include files loaded 
+-----------------------
+22-03-2016 14:26:28.98297[4][4] - Elapsed time: 4.509 milliseconds
+[load_convofunctions.php][Called outside of function][15]
+Convofunction include files loaded 
+-----------------------
+22-03-2016 14:26:28.9842[4][4] - Elapsed time: 1.226 milliseconds
+[load_userfunctions.php][Called outside of function][13]
+userfunctions include files loaded 
+-----------------------
+22-03-2016 14:26:28.98872[4][4] - Elapsed time: 4.523 milliseconds
+[load_addons.php][Called outside of function][19]
+Loading addons 
+-----------------------
+22-03-2016 14:26:28.98879[4][4] - Elapsed time: 0.073 milliseconds
+[conversation_start.php][Called outside of function][34]
+Loaded all Includes 
+-----------------------
+22-03-2016 14:26:28.99006[4][4] - Elapsed time: 1.266 milliseconds
+[intialise_conversation.php][intialise_convoArray][28]
+Intialising conversation 
+-----------------------
+22-03-2016 14:26:28.99013[4][4] - Elapsed time: 0.071 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank topic array 
+-----------------------
+22-03-2016 14:26:28.99019[4][4] - Elapsed time: 0.061 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that array 
+-----------------------
+22-03-2016 14:26:28.99025[4][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank star array 
+-----------------------
+22-03-2016 14:26:28.9903[4][4] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank input array 
+-----------------------
+22-03-2016 14:26:28.99035[4][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][load_blank_stack][81]
+Loading blank stack 
+-----------------------
+22-03-2016 14:26:28.9904[4][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][load_default_bot_values][105]
+Loading db bot personality properties 
+-----------------------
+22-03-2016 14:26:28.99045[3][4] - Elapsed time: 0.046 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `pom`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+22-03-2016 14:26:28.99139[2][4] - Elapsed time: 0.942 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+22-03-2016 14:26:28.99158[1][4] - Elapsed time: 0.194 milliseconds
+[conversation_start.php][Called outside of function][75]
+PHP ERROR [Notice] -Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\chatbot\conversation_start.php on Line 75 
+-----------------------
+22-03-2016 14:26:28.99977[0][4] - Elapsed time: 8.187 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 4
+session ID = rpgsk7g72512ij4296f6l80ue2 
+-----------------------
+22-03-2016 14:26:28.99992[2][4] - Elapsed time: 0.152 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+22-03-2016 14:26:28.99999[2][4] - Elapsed time: 0.070 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on Your. 
+-----------------------
+22-03-2016 14:26:28.00023[4][4] - Elapsed time: 0.236 milliseconds
+[spell_checker.php][spell_check][64]
+The word 'Your' is a common word. Returning without checking. 
+-----------------------
+22-03-2016 14:26:28.00028[2][4] - Elapsed time: 0.050 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on name?. 
+-----------------------
+22-03-2016 14:26:28.00046[4][4] - Elapsed time: 0.187 milliseconds
+[spell_checker.php][spell_check][74]
+Spelling check passed. 
+-----------------------
+22-03-2016 14:26:28.00054[4][4] - Elapsed time: 0.077 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'Your name?' 
+-----------------------
+22-03-2016 14:26:29.00069[4][4] - Elapsed time: 0.147 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'YOUR NAME' 
+-----------------------
+22-03-2016 14:26:29.00075[2][4] - Elapsed time: 0.064 milliseconds
+[conversation_start.php][Called outside of function][146]
+Details:
+User say: YOUR NAME
+Convo id: rpgsk7g72512ij4296f6l80ue2
+Bot id: 1
+Format: html 
+-----------------------
+22-03-2016 14:26:29.00083[4][4] - Elapsed time: 0.079 milliseconds
+[intialise_conversation.php][read_from_session][144]
+Reading from session 
+-----------------------
+22-03-2016 14:26:29.00094[4][4] - Elapsed time: 0.108 milliseconds
+[intialise_conversation.php][load_default_bot_values][105]
+Loading db bot personality properties 
+-----------------------
+22-03-2016 14:26:29.00102[3][4] - Elapsed time: 0.079 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `pom`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+22-03-2016 14:26:29.00193[4][4] - Elapsed time: 0.916 milliseconds
+[intialise_conversation.php][check_set_convo_id][529]
+Obtaining the convo id from form vars. Value: rpgsk7g72512ij4296f6l80ue2 
+-----------------------
+22-03-2016 14:26:29.00201[2][4] - Elapsed time: 0.071 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+22-03-2016 14:26:29.00206[3][4] - Elapsed time: 0.056 milliseconds
+[intialise_conversation.php][check_set_bot][491]
+Making sure the bot exists. SQL = SELECT * FROM `pom`.`bots` WHERE bot_id = '1' and `bot_active`='1' 
+-----------------------
+22-03-2016 14:26:29.00243[2][4] - Elapsed time: 0.369 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+22-03-2016 14:26:29.00249[2][4] - Elapsed time: 0.061 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+22-03-2016 14:26:29.00278[4][4] - Elapsed time: 0.293 milliseconds
+[intialise_conversation.php][check_set_format][616]
+Using format: html 
+-----------------------
+22-03-2016 14:26:29.00284[2][4] - Elapsed time: 0.056 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+22-03-2016 14:26:29.00289[3][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][load_that][639]
+Getting conversation log entries for the current user. SQL:
+select `input`, `response` from `pom`.`conversation_log` where `user_id` = 15 and `bot_id` = 1 order by `id` desc limit 10; 
+-----------------------
+22-03-2016 14:26:29.00332[1][4] - Elapsed time: 0.432 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => HI
+    [1] => COOL
+    [2] => COOL
+    [3] => COOL
+    [4] => COOL
+    [5] => COOL
+    [6] => HI
+)
+ 
+-----------------------
+22-03-2016 14:26:29.00338[4][4] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][load_that][654]
+Loading previous responses into the ~THAT~ array. 
+-----------------------
+22-03-2016 14:26:29.00343[1][4] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => Hello there.
+    [1] => Who is the best undefined?
+    [2] => Who is the best undefined?
+    [3] => Who is the best undefined?
+    [4] => Who is the best undefined?
+    [5] => Who is the best undefined?
+    [6] => Hello there.
+)
+ 
+-----------------------
+22-03-2016 14:26:29.00354[2][4] - Elapsed time: 0.108 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.00359[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.00365[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Hello there ' 
+-----------------------
+22-03-2016 14:26:29.00371[4][4] - Elapsed time: 0.063 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Hello there ' 
+-----------------------
+22-03-2016 14:26:29.00376[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'Hello there ' 
+-----------------------
+22-03-2016 14:26:29.00389[4][4] - Elapsed time: 0.127 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HELLO THERE' 
+-----------------------
+22-03-2016 14:26:29.00393[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELLO THERE' 
+-----------------------
+22-03-2016 14:26:29.00398[2][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELLO THERE' to the front of the [that] array 
+-----------------------
+22-03-2016 14:26:29.00408[4][4] - Elapsed time: 0.101 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HELLO THERE' 
+-----------------------
+22-03-2016 14:26:29.00413[4][4] - Elapsed time: 0.051 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'HELLO THERE' 
+-----------------------
+22-03-2016 14:26:29.00424[4][4] - Elapsed time: 0.104 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HELLO THERE' 
+-----------------------
+22-03-2016 14:26:29.00428[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELLO THERE' 
+-----------------------
+22-03-2016 14:26:29.00437[2][4] - Elapsed time: 0.086 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.00442[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.00448[4][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00452[4][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00458[4][4] - Elapsed time: 0.050 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.0047[4][4] - Elapsed time: 0.125 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00475[4][4] - Elapsed time: 0.046 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00479[2][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO IS THE BEST UNDEFINED' to the front of the [that] array 
+-----------------------
+22-03-2016 14:26:29.00489[4][4] - Elapsed time: 0.093 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00494[4][4] - Elapsed time: 0.052 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00506[4][4] - Elapsed time: 0.119 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00511[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.0052[2][4] - Elapsed time: 0.092 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.00525[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.00531[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00536[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00541[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00553[4][4] - Elapsed time: 0.120 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00558[4][4] - Elapsed time: 0.045 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00563[2][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO IS THE BEST UNDEFINED' to the front of the [that] array 
+-----------------------
+22-03-2016 14:26:29.00573[4][4] - Elapsed time: 0.105 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00579[4][4] - Elapsed time: 0.054 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.0059[4][4] - Elapsed time: 0.111 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00594[4][4] - Elapsed time: 0.046 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00603[2][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.00608[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.00613[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00619[4][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00624[4][4] - Elapsed time: 0.052 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00635[4][4] - Elapsed time: 0.116 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.0064[4][4] - Elapsed time: 0.046 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00645[2][4] - Elapsed time: 0.049 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO IS THE BEST UNDEFINED' to the front of the [that] array 
+-----------------------
+22-03-2016 14:26:29.00654[4][4] - Elapsed time: 0.093 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00659[4][4] - Elapsed time: 0.054 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00672[4][4] - Elapsed time: 0.121 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00676[4][4] - Elapsed time: 0.048 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00685[2][4] - Elapsed time: 0.090 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.00691[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.00696[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00702[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00707[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00719[4][4] - Elapsed time: 0.117 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00724[4][4] - Elapsed time: 0.048 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00729[2][4] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO IS THE BEST UNDEFINED' to the front of the [that] array 
+-----------------------
+22-03-2016 14:26:29.00738[4][4] - Elapsed time: 0.095 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00744[4][4] - Elapsed time: 0.055 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00755[4][4] - Elapsed time: 0.116 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.0076[4][4] - Elapsed time: 0.048 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00771[2][4] - Elapsed time: 0.109 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.00777[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.00783[4][4] - Elapsed time: 0.060 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00788[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00794[4][4] - Elapsed time: 0.057 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'Who is the best undefined ' 
+-----------------------
+22-03-2016 14:26:29.00806[4][4] - Elapsed time: 0.122 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00811[4][4] - Elapsed time: 0.049 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00816[2][4] - Elapsed time: 0.050 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHO IS THE BEST UNDEFINED' to the front of the [that] array 
+-----------------------
+22-03-2016 14:26:29.00826[4][4] - Elapsed time: 0.101 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00832[4][4] - Elapsed time: 0.057 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00843[4][4] - Elapsed time: 0.114 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00848[4][4] - Elapsed time: 0.049 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'WHO IS THE BEST UNDEFINED' 
+-----------------------
+22-03-2016 14:26:29.00857[2][4] - Elapsed time: 0.090 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.00863[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.0087[4][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Hello there ' 
+-----------------------
+22-03-2016 14:26:29.00876[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Hello there ' 
+-----------------------
+22-03-2016 14:26:29.00881[4][4] - Elapsed time: 0.055 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'Hello there ' 
+-----------------------
+22-03-2016 14:26:29.00893[4][4] - Elapsed time: 0.113 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HELLO THERE' 
+-----------------------
+22-03-2016 14:26:29.00898[4][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELLO THERE' 
+-----------------------
+22-03-2016 14:26:29.00903[2][4] - Elapsed time: 0.052 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HELLO THERE' to the front of the [that] array 
+-----------------------
+22-03-2016 14:26:29.00913[4][4] - Elapsed time: 0.099 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HELLO THERE' 
+-----------------------
+22-03-2016 14:26:29.00919[4][4] - Elapsed time: 0.057 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'HELLO THERE' 
+-----------------------
+22-03-2016 14:26:29.0093[4][4] - Elapsed time: 0.113 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HELLO THERE' 
+-----------------------
+22-03-2016 14:26:29.00935[4][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELLO THERE' 
+-----------------------
+22-03-2016 14:26:29.00944[4][4] - Elapsed time: 0.085 milliseconds
+[intialise_conversation.php][load_that][670]
+Loading previous user inputs into the ~INPUT~ array. 
+-----------------------
+22-03-2016 14:26:29.00955[2][4] - Elapsed time: 0.108 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.00961[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.00968[4][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HI' 
+-----------------------
+22-03-2016 14:26:29.00974[4][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HI' 
+-----------------------
+22-03-2016 14:26:29.00979[4][4] - Elapsed time: 0.057 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'HI' 
+-----------------------
+22-03-2016 14:26:29.00991[4][4] - Elapsed time: 0.113 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HI' 
+-----------------------
+22-03-2016 14:26:29.00996[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HI' 
+-----------------------
+22-03-2016 14:26:29.01001[2][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI' to the front of the [input] array 
+-----------------------
+22-03-2016 14:26:29.01011[2][4] - Elapsed time: 0.097 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.01017[4][4] - Elapsed time: 0.060 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.01023[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01028[4][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01034[4][4] - Elapsed time: 0.057 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01045[4][4] - Elapsed time: 0.106 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.0105[4][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01056[2][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'COOL' to the front of the [input] array 
+-----------------------
+22-03-2016 14:26:29.01065[2][4] - Elapsed time: 0.093 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.01071[4][4] - Elapsed time: 0.064 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.01078[4][4] - Elapsed time: 0.064 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01083[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01089[4][4] - Elapsed time: 0.058 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01102[4][4] - Elapsed time: 0.128 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01111[4][4] - Elapsed time: 0.092 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.0112[2][4] - Elapsed time: 0.094 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'COOL' to the front of the [input] array 
+-----------------------
+22-03-2016 14:26:29.01137[2][4] - Elapsed time: 0.169 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.01147[4][4] - Elapsed time: 0.100 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.01159[4][4] - Elapsed time: 0.112 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'COOL' 
+-----------------------
+22-03-2016 14:26:29.0117[4][4] - Elapsed time: 0.110 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'COOL' 
+-----------------------
+22-03-2016 14:26:29.0118[4][4] - Elapsed time: 0.106 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.012[4][4] - Elapsed time: 0.201 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.0121[4][4] - Elapsed time: 0.095 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.0122[2][4] - Elapsed time: 0.100 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'COOL' to the front of the [input] array 
+-----------------------
+22-03-2016 14:26:29.01238[2][4] - Elapsed time: 0.177 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.01249[4][4] - Elapsed time: 0.114 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.01261[4][4] - Elapsed time: 0.118 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01272[4][4] - Elapsed time: 0.111 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01283[4][4] - Elapsed time: 0.110 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01303[4][4] - Elapsed time: 0.203 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01313[4][4] - Elapsed time: 0.096 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01323[2][4] - Elapsed time: 0.104 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'COOL' to the front of the [input] array 
+-----------------------
+22-03-2016 14:26:29.01341[2][4] - Elapsed time: 0.182 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.01352[4][4] - Elapsed time: 0.110 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.01364[4][4] - Elapsed time: 0.117 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01376[4][4] - Elapsed time: 0.116 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01386[4][4] - Elapsed time: 0.109 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01407[4][4] - Elapsed time: 0.203 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01416[4][4] - Elapsed time: 0.097 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'COOL' 
+-----------------------
+22-03-2016 14:26:29.01427[2][4] - Elapsed time: 0.102 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'COOL' to the front of the [input] array 
+-----------------------
+22-03-2016 14:26:29.01445[2][4] - Elapsed time: 0.182 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.01456[4][4] - Elapsed time: 0.110 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.01468[4][4] - Elapsed time: 0.121 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'HI' 
+-----------------------
+22-03-2016 14:26:29.01479[4][4] - Elapsed time: 0.106 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HI' 
+-----------------------
+22-03-2016 14:26:29.0149[4][4] - Elapsed time: 0.110 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'HI' 
+-----------------------
+22-03-2016 14:26:29.0151[4][4] - Elapsed time: 0.208 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HI' 
+-----------------------
+22-03-2016 14:26:29.0152[4][4] - Elapsed time: 0.097 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HI' 
+-----------------------
+22-03-2016 14:26:29.0153[2][4] - Elapsed time: 0.103 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI' to the front of the [input] array 
+-----------------------
+22-03-2016 14:26:29.01717[2][4] - Elapsed time: 1.865 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+22-03-2016 14:26:29.01729[3][4] - Elapsed time: 0.122 milliseconds
+[intialise_conversation.php][load_bot_config][319]
+load bot config SQL: SELECT * FROM `pom`.`bots` WHERE bot_id = '1' 
+-----------------------
+22-03-2016 14:26:29.01784[4][4] - Elapsed time: 0.550 milliseconds
+[intialise_conversation.php][load_bot_config][323]
+Loading bot details from the database. 
+-----------------------
+22-03-2016 14:26:29.01794[0][4] - Elapsed time: 0.097 milliseconds
+[conversation_start.php][Called outside of function][167]
+Debug level = 4 
+-----------------------
+22-03-2016 14:26:29.018[0][4] - Elapsed time: 0.058 milliseconds
+[conversation_start.php][Called outside of function][169]
+Debug level = 4 
+-----------------------
+22-03-2016 14:26:29.01806[4][4] - Elapsed time: 0.063 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][165]
+New conversation vars 
+-----------------------
+22-03-2016 14:26:29.01813[2][4] - Elapsed time: 0.066 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'YOUR NAME' to the front of the [user_say] array 
+-----------------------
+22-03-2016 14:26:29.01827[2][4] - Elapsed time: 0.147 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'YOUR NAME' to the front of the [input] array 
+-----------------------
+22-03-2016 14:26:29.01838[4][4] - Elapsed time: 0.110 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+22-03-2016 14:26:29.01845[4][4] - Elapsed time: 0.064 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'YOUR NAME' 
+-----------------------
+22-03-2016 14:26:29.01857[4][4] - Elapsed time: 0.128 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'YOUR NAME' 
+-----------------------
+22-03-2016 14:26:29.01864[4][4] - Elapsed time: 0.061 milliseconds
+[find_aiml.php][get_aiml_to_parse][808]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+22-03-2016 14:26:29.01907[4][4] - Elapsed time: 0.436 milliseconds
+[find_aiml.php][find_userdefined_aiml][767]
+Looking for user defined responses 
+-----------------------
+22-03-2016 14:26:29.01919[3][4] - Elapsed time: 0.122 milliseconds
+[find_aiml.php][find_userdefined_aiml][779]
+User defined SQL: SELECT * FROM `pom`.`aiml_userdefined` WHERE
+    `bot_id` = '1' AND
+    (`user_id` = '15' OR `user_id` = '-1') AND
+    `pattern` = 'YOUR NAME' 
+-----------------------
+22-03-2016 14:26:29.01953[2][4] - Elapsed time: 0.337 milliseconds
+[find_aiml.php][find_userdefined_aiml][795]
+User defined rows found: '0' 
+-----------------------
+22-03-2016 14:26:29.01965[4][4] - Elapsed time: 0.122 milliseconds
+[find_aiml.php][find_aiml_matches][882]
+Finding the aiml matches from the DB 
+-----------------------
+22-03-2016 14:26:29.0198[4][4] - Elapsed time: 0.151 milliseconds
+[find_aiml.php][get_last_word][22]
+Sentence: YOUR NAME. Last word:NAME 
+-----------------------
+22-03-2016 14:26:29.01992[4][4] - Elapsed time: 0.121 milliseconds
+[find_aiml.php][get_first_word][35]
+Sentence: YOUR NAME. First word:YOUR 
+-----------------------
+22-03-2016 14:26:29.02027[4][4] - Elapsed time: 0.342 milliseconds
+[find_aiml.php][find_aiml_matches][896]
+Stored topic = '' 
+-----------------------
+22-03-2016 14:26:29.02034[4][4] - Elapsed time: 0.074 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+22-03-2016 14:26:29.02041[4][4] - Elapsed time: 0.066 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming thatpattern: HELLO THERE 
+-----------------------
+22-03-2016 14:26:29.02048[4][4] - Elapsed time: 0.073 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => HELLO
+    [1] => THERE
+)
+ 
+-----------------------
+22-03-2016 14:26:29.02058[4][4] - Elapsed time: 0.101 milliseconds
+[find_aiml.php][make_like_pattern][106]
+returning like pattern:
+
+  `thatpattern` like 'HELLO % THERE' OR
+  `thatpattern` like 'HELLO %' OR
+(`thatpattern` LIKE '% THERE' ) OR (`thatpattern` LIKE 'HELLO %') OR  
+-----------------------
+22-03-2016 14:26:29.02065[4][4] - Elapsed time: 0.071 milliseconds
+[find_aiml.php][wordsCount_inSentence][119]
+Sentence: YOUR NAME numWords:2 
+-----------------------
+22-03-2016 14:26:29.02072[4][4] - Elapsed time: 0.070 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+22-03-2016 14:26:29.02078[4][4] - Elapsed time: 0.062 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming pattern: YOUR NAME 
+-----------------------
+22-03-2016 14:26:29.02085[4][4] - Elapsed time: 0.068 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => YOUR
+    [1] => NAME
+)
+ 
+-----------------------
+22-03-2016 14:26:29.02095[4][4] - Elapsed time: 0.094 milliseconds
+[find_aiml.php][make_like_pattern][106]
+returning like pattern:
+
+  `pattern` like 'YOUR % NAME' OR
+  `pattern` like 'YOUR %' OR
+(`pattern` LIKE '% NAME' ) OR (`pattern` LIKE 'YOUR %') OR  
+-----------------------
+22-03-2016 14:26:29.02102[3][4] - Elapsed time: 0.072 milliseconds
+[find_aiml.php][find_aiml_matches][953]
+Match AIML sql: SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `pom`.`aiml` WHERE
+   bot_id = '1'  AND (
+  `pattern` = '_' OR
+  `pattern` = '*' OR
+  `pattern` = 'YOUR NAME' OR 
+  `pattern` like 'YOUR % NAME' OR
+  `pattern` like 'YOUR %' OR
+(`pattern` LIKE '% NAME' ) OR (`pattern` LIKE 'YOUR %') OR     
+  `pattern` = 'RANDOM PICKUP LINE'
+  ) 
+  order by `topic` desc, `id` asc, `pattern` asc; 
+-----------------------
+22-03-2016 14:26:29.06737[2][4] - Elapsed time: 46.354 milliseconds
+[find_aiml.php][find_aiml_matches][959]
+FOUND: (443) potential AIML matches 
+-----------------------
+22-03-2016 14:26:29.07168[4][4] - Elapsed time: 4.313 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][147]
+NEW FUNC Searching through 443 rows to unset bad matches 
+-----------------------
+22-03-2016 14:26:29.07182[4][4] - Elapsed time: 0.139 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][156]
+Blue 5 to Blue leader. Starting my run now! 
+-----------------------
+22-03-2016 14:26:29.12835[4][4] - Elapsed time: 56.529 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][258]
+Found 3 relevant rows 
+-----------------------
+22-03-2016 14:26:29.12885[4][4] - Elapsed time: 0.497 milliseconds
+[find_aiml.php][score_matches][295]
+Scoring the matches. 
+-----------------------
+22-03-2016 14:26:29.13005[4][4] - Elapsed time: 1.202 milliseconds
+[find_aiml.php][score_matches][538]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 28488
+            [bot_id] => 1
+            [pattern] => YOUR NAME
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 28488
+            [score] => 262
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: your, direct word match: name
+        )
+
+    [1] => Array
+        (
+            [id] => 13057
+            [bot_id] => 1
+            [pattern] => YOUR *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 13057
+            [score] => 254
+            [track_score] => current bot, no thatpattern to match, direct word match: your, star word match
+        )
+
+    [2] => Array
+        (
+            [id] => 8432
+            [bot_id] => 1
+            [pattern] => *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 8432
+            [score] => 252
+            [track_score] => current bot, no thatpattern to match, pattern star match
+        )
+
+)
+ 
+-----------------------
+22-03-2016 14:26:29.13021[2][4] - Elapsed time: 0.156 milliseconds
+[find_aiml.php][get_winning_category][647]
+And the winner is... 28488! 
+-----------------------
+22-03-2016 14:26:29.13054[4][4] - Elapsed time: 0.331 milliseconds
+[find_aiml.php][get_winning_category][660]
+Returning the AIML template for id# 28488. Value:
+'<srai>WHAT IS YOUR NAME</srai>' 
+-----------------------
+22-03-2016 14:26:29.13067[4][4] - Elapsed time: 0.134 milliseconds
+[find_aiml.php][get_highest_scoring_row][631]
+Best Responses: Array
+(
+    [0] => Array
+        (
+            [id] => 28488
+            [bot_id] => 1
+            [pattern] => YOUR NAME
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 28488
+            [score] => 262
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: your, direct word match: name
+        )
+
+)
+ 
+-----------------------
+22-03-2016 14:26:29.13078[2][4] - Elapsed time: 0.104 milliseconds
+[find_aiml.php][get_highest_scoring_row][632]
+Will use randomly picked best response chosen out of 1 responses with same score: 28488 - YOUR NAME 
+-----------------------
+22-03-2016 14:26:29.13088[4][4] - Elapsed time: 0.108 milliseconds
+[find_aiml.php][get_aiml_to_parse][841]
+Will be parsing id:28488 (YOUR NAME) 
+-----------------------
+22-03-2016 14:26:29.13099[3][4] - Elapsed time: 0.108 milliseconds
+[parse_aiml.php][parse_matched_aiml][190]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+22-03-2016 14:26:29.13109[2][4] - Elapsed time: 0.103 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+22-03-2016 14:26:29.13133[2][4] - Elapsed time: 0.239 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+22-03-2016 14:26:29.13144[2][4] - Elapsed time: 0.104 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+22-03-2016 14:26:29.1316[4][4] - Elapsed time: 0.160 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><srai><text>WHAT IS YOUR NAME</text></srai></template> 
+-----------------------
+22-03-2016 14:26:29.13175[2][4] - Elapsed time: 0.155 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 14:26:29.13191[4][4] - Elapsed time: 0.156 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><srai><text>WHAT IS YOUR NAME</text></srai></template>
+ 
+-----------------------
+22-03-2016 14:26:29.13203[4][4] - Elapsed time: 0.119 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+22-03-2016 14:26:29.13218[2][4] - Elapsed time: 0.148 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 14:26:29.13232[4][4] - Elapsed time: 0.148 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element srai at level 1. element XML = <srai><text>WHAT IS YOUR NAME</text></srai> 
+-----------------------
+22-03-2016 14:26:29.13244[4][4] - Elapsed time: 0.116 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_srai_tag does exist. Processing now. 
+-----------------------
+22-03-2016 14:26:29.13255[4][4] - Elapsed time: 0.112 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element srai to the parse_srai_tag function 
+-----------------------
+22-03-2016 14:26:29.13266[2][4] - Elapsed time: 0.105 milliseconds
+[parse_aiml_as_XML.php][parse_srai_tag][629]
+Parsing an SRAI tag. 
+-----------------------
+22-03-2016 14:26:29.13277[2][4] - Elapsed time: 0.110 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1079]
+converting the srai tag into text. 
+-----------------------
+22-03-2016 14:26:29.13289[2][4] - Elapsed time: 0.122 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 14:26:29.13303[4][4] - Elapsed time: 0.141 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 2. element XML = <text>WHAT IS YOUR NAME</text> 
+-----------------------
+22-03-2016 14:26:29.13315[4][4] - Elapsed time: 0.117 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+22-03-2016 14:26:29.13326[4][4] - Elapsed time: 0.112 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+22-03-2016 14:26:29.13336[2][4] - Elapsed time: 0.106 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+22-03-2016 14:26:29.13348[4][4] - Elapsed time: 0.110 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'WHAT IS YOUR NAME' to the response array. tag name is text 
+-----------------------
+22-03-2016 14:26:29.13359[2][4] - Elapsed time: 0.114 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.1337[4][4] - Elapsed time: 0.116 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.13382[2][4] - Elapsed time: 0.112 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.13393[4][4] - Elapsed time: 0.115 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.13408[4][4] - Elapsed time: 0.148 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'WHAT IS YOUR NAME' 
+-----------------------
+22-03-2016 14:26:29.1342[2][4] - Elapsed time: 0.124 milliseconds
+[parse_aiml.php][run_srai][358]
+Checking for entries in the srai_lookup table. 
+-----------------------
+22-03-2016 14:26:29.13431[2][4] - Elapsed time: 0.102 milliseconds
+[parse_aiml.php][run_srai][359]
+google bot_id = 1 
+-----------------------
+22-03-2016 14:26:29.13441[2][4] - Elapsed time: 0.104 milliseconds
+[parse_aiml.php][run_srai][363]
+lookup SQL = select `template_id` from `pom`.`srai_lookup` where `pattern` = 'WHAT IS YOUR NAME' and  bot_id = '1' ; 
+-----------------------
+22-03-2016 14:26:29.1511[2][4] - Elapsed time: 16.695 milliseconds
+[parse_aiml.php][run_srai][365]
+Result = Array
+(
+)
+ 
+-----------------------
+22-03-2016 14:26:29.15128[2][4] - Elapsed time: 0.180 milliseconds
+[parse_aiml.php][run_srai][395]
+No match found in lookup table. 
+-----------------------
+22-03-2016 14:26:29.15139[2][4] - Elapsed time: 0.100 milliseconds
+[parse_aiml.php][run_srai][397]
+Nothing found in the SRAI lookup table. Looking for a direct pattern match for 'WHAT IS YOUR NAME'. 
+-----------------------
+22-03-2016 14:26:29.16853[2][4] - Elapsed time: 17.149 milliseconds
+[parse_aiml.php][run_srai][401]
+Found 1 potential responses. 
+-----------------------
+22-03-2016 14:26:29.16865[2][4] - Elapsed time: 0.120 milliseconds
+[parse_aiml.php][run_srai][407]
+FOUND: (1) potential AIML matches 
+-----------------------
+22-03-2016 14:26:29.16904[4][4] - Elapsed time: 0.386 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][147]
+NEW FUNC Searching through 1 rows to unset bad matches 
+-----------------------
+22-03-2016 14:26:29.16911[4][4] - Elapsed time: 0.073 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][156]
+Blue 5 to Blue leader. Starting my run now! 
+-----------------------
+22-03-2016 14:26:29.16931[4][4] - Elapsed time: 0.199 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][258]
+Found 1 relevant rows 
+-----------------------
+22-03-2016 14:26:29.16939[4][4] - Elapsed time: 0.077 milliseconds
+[find_aiml.php][score_matches][295]
+Scoring the matches. 
+-----------------------
+22-03-2016 14:26:29.1699[4][4] - Elapsed time: 0.510 milliseconds
+[find_aiml.php][score_matches][538]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 6773
+            [pattern] => WHAT IS YOUR NAME
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 6773
+            [score] => 266
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: what, direct word match: is, direct word match: your, direct word match: name
+        )
+
+)
+ 
+-----------------------
+22-03-2016 14:26:29.17004[2][4] - Elapsed time: 0.146 milliseconds
+[find_aiml.php][get_winning_category][647]
+And the winner is... 6773! 
+-----------------------
+22-03-2016 14:26:29.17963[4][4] - Elapsed time: 9.580 milliseconds
+[find_aiml.php][get_winning_category][660]
+Returning the AIML template for id# 6773. Value:
+'My name is <bot name="name"/>.' 
+-----------------------
+22-03-2016 14:26:29.17983[4][4] - Elapsed time: 0.201 milliseconds
+[find_aiml.php][get_highest_scoring_row][631]
+Best Responses: Array
+(
+    [0] => Array
+        (
+            [id] => 6773
+            [pattern] => WHAT IS YOUR NAME
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 6773
+            [score] => 266
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: what, direct word match: is, direct word match: your, direct word match: name
+        )
+
+)
+ 
+-----------------------
+22-03-2016 14:26:29.17994[2][4] - Elapsed time: 0.110 milliseconds
+[find_aiml.php][get_highest_scoring_row][632]
+Will use randomly picked best response chosen out of 1 responses with same score: 6773 - WHAT IS YOUR NAME 
+-----------------------
+22-03-2016 14:26:29.18032[2][4] - Elapsed time: 0.385 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+22-03-2016 14:26:29.1805[4][4] - Elapsed time: 0.176 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><text>My name is </text><bot name="name"/><text>.</text></template> 
+-----------------------
+22-03-2016 14:26:29.18066[2][4] - Elapsed time: 0.163 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 14:26:29.18083[4][4] - Elapsed time: 0.166 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><text>My name is </text><bot name="name"/><text>.</text></template>
+ 
+-----------------------
+22-03-2016 14:26:29.18095[4][4] - Elapsed time: 0.127 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+22-03-2016 14:26:29.18111[2][4] - Elapsed time: 0.155 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 14:26:29.18126[4][4] - Elapsed time: 0.149 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 1. element XML = <text>My name is </text> 
+-----------------------
+22-03-2016 14:26:29.18138[4][4] - Elapsed time: 0.124 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+22-03-2016 14:26:29.1815[4][4] - Elapsed time: 0.117 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+22-03-2016 14:26:29.18161[2][4] - Elapsed time: 0.110 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+22-03-2016 14:26:29.18172[4][4] - Elapsed time: 0.115 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'My name is ' to the response array. tag name is text 
+-----------------------
+22-03-2016 14:26:29.18184[2][4] - Elapsed time: 0.119 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.18196[4][4] - Elapsed time: 0.117 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.18206[4][4] - Elapsed time: 0.100 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'My name is ' 
+-----------------------
+22-03-2016 14:26:29.18213[4][4] - Elapsed time: 0.069 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'My name is ' to the response array. tag name is template. 
+-----------------------
+22-03-2016 14:26:29.1822[2][4] - Elapsed time: 0.076 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 14:26:29.18229[4][4] - Elapsed time: 0.088 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element bot at level 1. element XML = <bot name="name"/> 
+-----------------------
+22-03-2016 14:26:29.18237[4][4] - Elapsed time: 0.075 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_bot_tag does exist. Processing now. 
+-----------------------
+22-03-2016 14:26:29.18244[4][4] - Elapsed time: 0.069 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element bot to the parse_bot_tag function 
+-----------------------
+22-03-2016 14:26:29.18253[2][4] - Elapsed time: 0.098 milliseconds
+[parse_aiml_as_XML.php][parse_bot_tag][500]
+Parsing a BOT tag. 
+-----------------------
+22-03-2016 14:26:29.18268[4][4] - Elapsed time: 0.142 milliseconds
+[parse_aiml_as_XML.php][parse_bot_tag][508]
+Returning bot property name. Value = Chitti 
+-----------------------
+22-03-2016 14:26:29.1828[4][4] - Elapsed time: 0.125 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'Chitti' to the response array. tag name is bot 
+-----------------------
+22-03-2016 14:26:29.18293[2][4] - Elapsed time: 0.130 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.18306[4][4] - Elapsed time: 0.128 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.1832[4][4] - Elapsed time: 0.141 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Chitti' 
+-----------------------
+22-03-2016 14:26:29.18332[4][4] - Elapsed time: 0.117 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'Chitti' to the response array. tag name is template. 
+-----------------------
+22-03-2016 14:26:29.18346[2][4] - Elapsed time: 0.142 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 14:26:29.18366[4][4] - Elapsed time: 0.200 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 1. element XML = <text>.</text> 
+-----------------------
+22-03-2016 14:26:29.18388[4][4] - Elapsed time: 0.219 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+22-03-2016 14:26:29.18403[4][4] - Elapsed time: 0.153 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+22-03-2016 14:26:29.18421[2][4] - Elapsed time: 0.181 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+22-03-2016 14:26:29.18434[4][4] - Elapsed time: 0.127 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding '.' to the response array. tag name is text 
+-----------------------
+22-03-2016 14:26:29.18447[2][4] - Elapsed time: 0.133 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.1846[4][4] - Elapsed time: 0.127 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.18472[4][4] - Elapsed time: 0.116 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning '.' 
+-----------------------
+22-03-2016 14:26:29.18479[4][4] - Elapsed time: 0.079 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding '.' to the response array. tag name is template. 
+-----------------------
+22-03-2016 14:26:29.18488[2][4] - Elapsed time: 0.086 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.18495[4][4] - Elapsed time: 0.072 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.18503[4][4] - Elapsed time: 0.082 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'My name is Chitti .' 
+-----------------------
+22-03-2016 14:26:29.18556[1][4] - Elapsed time: 0.526 milliseconds
+[parse_aiml.php][run_srai][477]
+Successfully inserted entry for 'WHAT IS YOUR NAME'. 
+-----------------------
+22-03-2016 14:26:29.18569[2][4] - Elapsed time: 0.127 milliseconds
+[parse_aiml.php][run_srai][486]
+Returning results from stored srai lookup. 
+-----------------------
+22-03-2016 14:26:29.18582[4][4] - Elapsed time: 0.130 milliseconds
+[parse_aiml_as_XML.php][parse_srai_tag][632]
+Finished parsing SRAI tag 
+-----------------------
+22-03-2016 14:26:29.18593[2][4] - Elapsed time: 0.115 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.18607[4][4] - Elapsed time: 0.134 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'My name is Chitti .' to the response array. tag name is srai 
+-----------------------
+22-03-2016 14:26:29.18619[2][4] - Elapsed time: 0.124 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.18631[4][4] - Elapsed time: 0.122 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.18645[4][4] - Elapsed time: 0.134 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'My name is Chitti .' 
+-----------------------
+22-03-2016 14:26:29.18656[4][4] - Elapsed time: 0.117 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'My name is Chitti .' to the response array. tag name is template. 
+-----------------------
+22-03-2016 14:26:29.18669[2][4] - Elapsed time: 0.127 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 14:26:29.18682[4][4] - Elapsed time: 0.125 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 14:26:29.18695[4][4] - Elapsed time: 0.131 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'My name is Chitti .' 
+-----------------------
+22-03-2016 14:26:29.1871[4][4] - Elapsed time: 0.156 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][41]
+Completed parsing the template. The bot will say: My name is Chitti. 
+-----------------------
+22-03-2016 14:26:29.18722[4][4] - Elapsed time: 0.117 milliseconds
+[parse_aiml.php][parse_matched_aiml][195]
+normal - Saving for next turn 
+-----------------------
+22-03-2016 14:26:29.18733[4][4] - Elapsed time: 0.114 milliseconds
+[parse_aiml.php][save_for_nextturn][235]
+Saving that and that_raw for next turn 
+-----------------------
+22-03-2016 14:26:29.18745[2][4] - Elapsed time: 0.117 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'My name is Chitti.' to the front of the [that_raw] array 
+-----------------------
+22-03-2016 14:26:29.18773[2][4] - Elapsed time: 0.281 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'My name is Chitti.' to the front of the [that] array 
+-----------------------
+22-03-2016 14:26:29.18794[4][4] - Elapsed time: 0.205 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'My name is Chitti.' 
+-----------------------
+22-03-2016 14:26:29.18806[4][4] - Elapsed time: 0.127 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'My name is Chitti.' 
+-----------------------
+22-03-2016 14:26:29.1883[4][4] - Elapsed time: 0.242 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'MY NAME IS CHITTI' 
+-----------------------
+22-03-2016 14:26:29.18842[4][4] - Elapsed time: 0.112 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'MY NAME IS CHITTI' 
+-----------------------
+22-03-2016 14:26:29.1886[2][4] - Elapsed time: 0.181 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'My name is Chitti.' to the front of the [parsed_template] array 
+-----------------------
+22-03-2016 14:26:29.1888[2][4] - Elapsed time: 0.201 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '<srai>WHAT IS YOUR NAME</srai>' to the front of the [template] array 
+-----------------------
+22-03-2016 14:26:29.18901[2][4] - Elapsed time: 0.215 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+22-03-2016 14:26:29.18915[3][4] - Elapsed time: 0.134 milliseconds
+[intialise_conversation.php][log_conversation][394]
+Saving conservation SQL: INSERT INTO `pom`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'YOUR NAME',
+      'My name is Chitti.',
+      '15',
+      'rpgsk7g72512ij4296f6l80ue2',
+      '1',
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+22-03-2016 14:26:29.18963[4][4] - Elapsed time: 0.486 milliseconds
+[intialise_conversation.php][write_to_session][130]
+Saving to session 
+-----------------------
+22-03-2016 14:26:29.19049[3][4] - Elapsed time: 0.857 milliseconds
+[display_conversation.php][get_conversation_to_display][48]
+get_conversation SQL: SELECT * FROM `pom`.`conversation_log`
+        WHERE
+        `user_id` = '15'
+        AND `bot_id` = '1'
+        AND `convo_id` = 'rpgsk7g72512ij4296f6l80ue2'
+        ORDER BY id DESC  LIMIT 10  
+-----------------------
+22-03-2016 14:26:29.19107[2][4] - Elapsed time: 0.574 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '8' lines of conversation 
+-----------------------
+22-03-2016 14:26:29.19115[4][4] - Elapsed time: 0.086 milliseconds
+[display_conversation.php][get_conversation][77]
+Processing conversation as html 
+-----------------------
+22-03-2016 14:26:29.19128[4][4] - Elapsed time: 0.133 milliseconds
+[display_conversation.php][get_html][112]
+Returning HTML 
+-----------------------
+22-03-2016 14:26:29.21101[2][4] - Elapsed time: 19.727 milliseconds
+[conversation_start.php][Called outside of function][202]
+Closing Database 
+-----------------------
+22-03-2016 14:26:29.21114[2][4] - Elapsed time: 0.126 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+22-03-2016 14:26:29.21142[0][4] - Elapsed time: 0.279 milliseconds
+[conversation_start.php][Called outside of function][207]
+Conversation Ending. Elapsed time: 272.494 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [bot_properties] => Array
+        (
+            [name] => Chitti
+            [gender] => 
+            [botmaster] => 
+            [master] => Manikandan
+            [age] => 
+            [website] => 
+            [email] => 
+            [birthday] => 
+            [birthplace] => 
+            [size] => 
+            [version] => 
+            [build] => 
+            [language] => 
+            [feelings] => 
+            [etype] => 
+            [emotions] => 
+            [ethics] => 
+            [orientation] => 
+            [baseballteam] => 
+            [footballteam] => 
+            [hockeyteam] => 
+            [favoritesport] => 
+            [vocabulary] => 
+            [celebrities] => 
+            [celebrity] => 
+            [favoriteactor] => 
+            [favoriteactress] => 
+            [favoriteartist] => 
+            [favoritemusician] => 
+            [favoritesong] => 
+            [favoriteauthor] => 
+            [friend] => 
+            [nationality] => 
+            [religion] => 
+            [president] => 
+            [party] => 
+            [kingdom] => 
+            [phylum] => 
+            [class] => 
+            [order] => 
+            [family] => 
+            [genus] => 
+            [species] => 
+            [boyfriend] => 
+            [favoritebook] => 
+            [favoriteband] => 
+            [favoritecolor] => 
+            [favoritefood] => 
+            [favoritemovie] => 
+            [forfun] => 
+            [friends] => 
+            [girlfriend] => 
+            [kindmusic] => 
+            [location] => 
+            [looklike] => 
+            [question] => 
+            [sign] => 
+            [talkabout] => 
+            [wear] => 
+            [loves] => 
+        )
+
+    [conversation] => Array
+        (
+            [convo_id] => rpgsk7g72512ij4296f6l80ue2
+            [bot_name] => Chitti
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_id] => 15
+            [totallines] => 1
+            [user_name] => Seeker
+            [conversation_lines] => 10
+            [remember_up_to] => 10
+            [debugemail] => mani@tadka.com
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [time_start] => 1458656788.9388
+    [aiml] => Array
+        (
+            [user_raw] => YOUR NAME
+            [lookingfor] => YOUR NAME
+            [template_id] => 28488
+            [pattern] => YOUR NAME
+            [thatpattern] => 
+            [template] => <srai>WHAT IS YOUR NAME</srai>
+            [html_template] => 
+            [topic] => 
+            [score] => 262
+            [aiml_id] => 28488
+            [parsed_template] => My name is Chitti.
+        )
+
+    [user_say] => Array
+        (
+            [1] => YOUR NAME
+            [2] => HI
+            [3] => COOL
+            [4] => COOL
+            [5] => COOL
+            [6] => COOL
+            [7] => COOL
+            [8] => HI
+            [9] => 
+            [10] => 
+        )
+
+    [input] => Array
+        (
+            [1] => YOUR NAME
+            [2] => HI
+            [3] => COOL
+            [4] => COOL
+            [5] => COOL
+            [6] => COOL
+            [7] => COOL
+            [8] => HI
+            [9] => HI
+            [10] => COOL
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => My name is Chitti.
+                )
+
+            [2] => Array
+                (
+                    [1] => 
+                    [2] => Hello there.
+                )
+
+            [3] => Array
+                (
+                    [1] => 
+                    [2] => Who is the best undefined?
+                )
+
+            [4] => Array
+                (
+                    [1] => 
+                    [2] => Who is the best undefined?
+                )
+
+            [5] => Array
+                (
+                    [1] => 
+                    [2] => Who is the best undefined?
+                )
+
+            [6] => Array
+                (
+                    [1] => 
+                    [2] => Who is the best undefined?
+                )
+
+            [7] => Array
+                (
+                    [1] => 
+                    [2] => Who is the best undefined?
+                )
+
+            [8] => Array
+                (
+                    [1] => 
+                    [2] => Hello there.
+                )
+
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => MY NAME IS CHITTI
+                )
+
+            [2] => Array
+                (
+                    [1] => HELLO THERE
+                )
+
+            [3] => Array
+                (
+                    [1] => WHO IS THE BEST UNDEFINED
+                )
+
+            [4] => Array
+                (
+                    [1] => WHO IS THE BEST UNDEFINED
+                )
+
+            [5] => Array
+                (
+                    [1] => WHO IS THE BEST UNDEFINED
+                )
+
+            [6] => Array
+                (
+                    [1] => WHO IS THE BEST UNDEFINED
+                )
+
+            [7] => Array
+                (
+                    [1] => WHO IS THE BEST UNDEFINED
+                )
+
+            [8] => Array
+                (
+                    [1] => HELLO THERE
+                )
+
+            [9] => Array
+                (
+                    [1] => HELLO THERE
+                )
+
+            [10] => Array
+                (
+                    [1] => WHO IS THE BEST UNDEFINED
+                )
+
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => My name is Chitti.
+            [2] => Hello there.
+            [3] => Who is the best undefined?
+            [4] => Who is the best undefined?
+            [5] => Who is the best undefined?
+            [6] => Who is the best undefined?
+            [7] => Who is the best undefined?
+            [8] => Hello there.
+            [9] => 
+            [10] => 
+        )
+
+    [template] => Array
+        (
+            [1] => <srai>WHAT IS YOUR NAME</srai>
+            [2] => Hello there.
+            [3] => Who is the best <bot name="genus"/>?
+            [4] => Who is the best <bot name="genus"/>?
+            [5] => Who is the best <bot name="genus"/>?
+            [6] => Who is the best <bot name="genus"/>?
+            [7] => Who is the best <bot name="genus"/>?
+            [8] => Hello there.
+            [9] => 
+            [10] => 
+        )
+
+    [send_to_user] => <div class="usersay">Seeker: HI</div><div class="botsay">Chitti: Hello there.</div><div class="usersay">Seeker: COOL</div><div class="botsay">Chitti: Who is the best undefined?</div><div class="usersay">Seeker: COOL</div><div class="botsay">Chitti: Who is the best undefined?</div><div class="usersay">Seeker: COOL</div><div class="botsay">Chitti: Who is the best undefined?</div><div class="usersay">Seeker: COOL</div><div class="botsay">Chitti: Who is the best undefined?</div><div class="usersay">Seeker: COOL</div><div class="botsay">Chitti: Who is the best undefined?</div><div class="usersay">Seeker: HI</div><div class="botsay">Chitti: Hello there.</div><div class="usersay">Seeker: YOUR NAME</div><div class="botsay">Chitti: My name is Chitti.</div>
+)
+
+-----------------------
+Total execution time: 272.494 Milliseconds. Goodbye.

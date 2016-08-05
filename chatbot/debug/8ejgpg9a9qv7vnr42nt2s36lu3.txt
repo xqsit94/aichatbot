@@ -1,0 +1,785 @@
+22-03-2016 17:34:18.10465[0][4] - Elapsed time: 27.390 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version VERSION
+PHP  version 5.4.39
+OS:  version  
+-----------------------
+22-03-2016 17:34:18.11141[4][4] - Elapsed time: 6.762 milliseconds
+[load_aimlfunctions.php][Called outside of function][15]
+AIML function include files loaded 
+-----------------------
+22-03-2016 17:34:18.11475[4][4] - Elapsed time: 3.344 milliseconds
+[load_convofunctions.php][Called outside of function][15]
+Convofunction include files loaded 
+-----------------------
+22-03-2016 17:34:18.11583[4][4] - Elapsed time: 1.083 milliseconds
+[load_userfunctions.php][Called outside of function][13]
+userfunctions include files loaded 
+-----------------------
+22-03-2016 17:34:18.11965[4][4] - Elapsed time: 3.816 milliseconds
+[load_addons.php][Called outside of function][19]
+Loading addons 
+-----------------------
+22-03-2016 17:34:18.11971[4][4] - Elapsed time: 0.061 milliseconds
+[conversation_start.php][Called outside of function][34]
+Loaded all Includes 
+-----------------------
+22-03-2016 17:34:18.12088[4][4] - Elapsed time: 1.171 milliseconds
+[intialise_conversation.php][intialise_convoArray][28]
+Intialising conversation 
+-----------------------
+22-03-2016 17:34:18.12095[4][4] - Elapsed time: 0.063 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank topic array 
+-----------------------
+22-03-2016 17:34:18.121[4][4] - Elapsed time: 0.058 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that array 
+-----------------------
+22-03-2016 17:34:18.12106[4][4] - Elapsed time: 0.055 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank star array 
+-----------------------
+22-03-2016 17:34:18.12111[4][4] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank input array 
+-----------------------
+22-03-2016 17:34:18.12117[4][4] - Elapsed time: 0.056 milliseconds
+[intialise_conversation.php][load_blank_stack][81]
+Loading blank stack 
+-----------------------
+22-03-2016 17:34:18.12122[4][4] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][load_default_bot_values][105]
+Loading db bot personality properties 
+-----------------------
+22-03-2016 17:34:18.12128[3][4] - Elapsed time: 0.058 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `pom`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+22-03-2016 17:34:18.12201[2][4] - Elapsed time: 0.731 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+22-03-2016 17:34:18.12211[1][4] - Elapsed time: 0.103 milliseconds
+[conversation_start.php][Called outside of function][75]
+PHP ERROR [Notice] -Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\chatbot\conversation_start.php on Line 75 
+-----------------------
+22-03-2016 17:34:18.1247[0][4] - Elapsed time: 2.589 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 4
+session ID = 8ejgpg9a9qv7vnr42nt2s36lu3 
+-----------------------
+22-03-2016 17:34:18.12479[2][4] - Elapsed time: 0.094 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+22-03-2016 17:34:18.12485[2][4] - Elapsed time: 0.055 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on hi. 
+-----------------------
+22-03-2016 17:34:18.12495[2][4] - Elapsed time: 0.099 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+22-03-2016 17:34:18.12677[4][4] - Elapsed time: 1.820 milliseconds
+[spell_checker.php][spell_check][74]
+Spelling check passed. 
+-----------------------
+22-03-2016 17:34:18.12685[4][4] - Elapsed time: 0.083 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'hi' 
+-----------------------
+22-03-2016 17:34:18.12697[4][4] - Elapsed time: 0.119 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HI' 
+-----------------------
+22-03-2016 17:34:18.12702[2][4] - Elapsed time: 0.048 milliseconds
+[conversation_start.php][Called outside of function][146]
+Details:
+User say: HI
+Convo id: 8ejgpg9a9qv7vnr42nt2s36lu3
+Bot id: 1
+Format: html 
+-----------------------
+22-03-2016 17:34:18.12706[4][4] - Elapsed time: 0.045 milliseconds
+[intialise_conversation.php][read_from_session][144]
+Reading from session 
+-----------------------
+22-03-2016 17:34:18.12712[4][4] - Elapsed time: 0.055 milliseconds
+[intialise_conversation.php][load_default_bot_values][105]
+Loading db bot personality properties 
+-----------------------
+22-03-2016 17:34:18.12716[3][4] - Elapsed time: 0.046 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `pom`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+22-03-2016 17:34:18.12775[4][4] - Elapsed time: 0.584 milliseconds
+[intialise_conversation.php][check_set_convo_id][529]
+Obtaining the convo id from form vars. Value: 8ejgpg9a9qv7vnr42nt2s36lu3 
+-----------------------
+22-03-2016 17:34:18.1278[2][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+22-03-2016 17:34:18.12786[3][4] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][check_set_bot][491]
+Making sure the bot exists. SQL = SELECT * FROM `pom`.`bots` WHERE bot_id = '1' and `bot_active`='1' 
+-----------------------
+22-03-2016 17:34:18.12816[2][4] - Elapsed time: 0.309 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+22-03-2016 17:34:18.12822[2][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+22-03-2016 17:34:18.12848[2][4] - Elapsed time: 0.265 milliseconds
+[handle_user.php][intisaliseUser][77]
+Initializing user. 
+-----------------------
+22-03-2016 17:34:18.12876[3][4] - Elapsed time: 0.274 milliseconds
+[handle_user.php][intisaliseUser][106]
+intisaliseUser #17 SQL: INSERT INTO `pom`.`users` (`id`, `user_name`, `session_id`, `bot_id`, `chatlines` ,`ip` ,`referer` ,`browser` ,`date_logged_on` ,`last_update`, `state`)
+  VALUES ( NULL , 'Seeker', '8ejgpg9a9qv7vnr42nt2s36lu3', 1, '0', '172.16.205.49', 'http://172.16.205.49/pom/', 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; IBALL; Andi4L) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537', CURRENT_TIMESTAMP , CURRENT_TIMESTAMP, '') 
+-----------------------
+22-03-2016 17:34:18.12902[4][4] - Elapsed time: 0.263 milliseconds
+[intialise_conversation.php][check_set_format][616]
+Using format: html 
+-----------------------
+22-03-2016 17:34:18.12908[2][4] - Elapsed time: 0.056 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+22-03-2016 17:34:18.12913[3][4] - Elapsed time: 0.049 milliseconds
+[intialise_conversation.php][load_that][639]
+Getting conversation log entries for the current user. SQL:
+select `input`, `response` from `pom`.`conversation_log` where `user_id` = 17 and `bot_id` = 1 order by `id` desc limit 10; 
+-----------------------
+22-03-2016 17:34:18.12942[4][4] - Elapsed time: 0.298 milliseconds
+[intialise_conversation.php][load_that][686]
+Couldn't find any previous inputs or responses. 
+-----------------------
+22-03-2016 17:34:18.131[2][4] - Elapsed time: 1.579 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+22-03-2016 17:34:18.13107[3][4] - Elapsed time: 0.068 milliseconds
+[intialise_conversation.php][load_bot_config][319]
+load bot config SQL: SELECT * FROM `pom`.`bots` WHERE bot_id = '1' 
+-----------------------
+22-03-2016 17:34:18.13146[4][4] - Elapsed time: 0.387 milliseconds
+[intialise_conversation.php][load_bot_config][323]
+Loading bot details from the database. 
+-----------------------
+22-03-2016 17:34:18.13152[0][4] - Elapsed time: 0.063 milliseconds
+[conversation_start.php][Called outside of function][167]
+Debug level = 4 
+-----------------------
+22-03-2016 17:34:18.13157[0][4] - Elapsed time: 0.047 milliseconds
+[conversation_start.php][Called outside of function][169]
+Debug level = 4 
+-----------------------
+22-03-2016 17:34:18.13162[4][4] - Elapsed time: 0.049 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][165]
+New conversation vars 
+-----------------------
+22-03-2016 17:34:18.13167[2][4] - Elapsed time: 0.055 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI' to the front of the [user_say] array 
+-----------------------
+22-03-2016 17:34:18.13175[4][4] - Elapsed time: 0.077 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank user_say array 
+-----------------------
+22-03-2016 17:34:18.13185[2][4] - Elapsed time: 0.098 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HI' to the front of the [input] array 
+-----------------------
+22-03-2016 17:34:18.13191[4][4] - Elapsed time: 0.067 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank input array 
+-----------------------
+22-03-2016 17:34:18.132[4][4] - Elapsed time: 0.088 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+22-03-2016 17:34:18.13205[4][4] - Elapsed time: 0.049 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'HI' 
+-----------------------
+22-03-2016 17:34:18.13217[4][4] - Elapsed time: 0.117 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HI' 
+-----------------------
+22-03-2016 17:34:18.13222[4][4] - Elapsed time: 0.050 milliseconds
+[find_aiml.php][get_aiml_to_parse][808]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+22-03-2016 17:34:18.1325[4][4] - Elapsed time: 0.280 milliseconds
+[find_aiml.php][find_userdefined_aiml][767]
+Looking for user defined responses 
+-----------------------
+22-03-2016 17:34:18.13255[3][4] - Elapsed time: 0.056 milliseconds
+[find_aiml.php][find_userdefined_aiml][779]
+User defined SQL: SELECT * FROM `pom`.`aiml_userdefined` WHERE
+    `bot_id` = '1' AND
+    (`user_id` = '17' OR `user_id` = '-1') AND
+    `pattern` = 'HI' 
+-----------------------
+22-03-2016 17:34:18.13279[2][4] - Elapsed time: 0.233 milliseconds
+[find_aiml.php][find_userdefined_aiml][795]
+User defined rows found: '0' 
+-----------------------
+22-03-2016 17:34:18.13284[4][4] - Elapsed time: 0.059 milliseconds
+[find_aiml.php][find_aiml_matches][882]
+Finding the aiml matches from the DB 
+-----------------------
+22-03-2016 17:34:18.13291[4][4] - Elapsed time: 0.069 milliseconds
+[find_aiml.php][get_last_word][22]
+Sentence: HI. Last word:HI 
+-----------------------
+22-03-2016 17:34:18.13297[4][4] - Elapsed time: 0.055 milliseconds
+[find_aiml.php][get_first_word][35]
+Sentence: HI. First word:HI 
+-----------------------
+22-03-2016 17:34:18.13321[4][4] - Elapsed time: 0.241 milliseconds
+[find_aiml.php][find_aiml_matches][896]
+Stored topic = '' 
+-----------------------
+22-03-2016 17:34:18.13329[4][4] - Elapsed time: 0.076 milliseconds
+[find_aiml.php][wordsCount_inSentence][119]
+Sentence: HI numWords:1 
+-----------------------
+22-03-2016 17:34:18.13334[3][4] - Elapsed time: 0.053 milliseconds
+[find_aiml.php][find_aiml_matches][953]
+Match AIML sql: SELECT `id`, `pattern`, `thatpattern`, `topic` FROM `pom`.`aiml` WHERE
+   bot_id = '1'  AND (
+  `pattern` = '_' OR
+  `pattern` = '*' OR
+  `pattern` = 'HI' OR
+  `pattern` = 'RANDOM PICKUP LINE'
+  )  order by `topic` desc, `id` asc, `pattern` asc; 
+-----------------------
+22-03-2016 17:34:18.15369[2][4] - Elapsed time: 20.346 milliseconds
+[find_aiml.php][find_aiml_matches][959]
+FOUND: (149) potential AIML matches 
+-----------------------
+22-03-2016 17:34:18.15477[4][4] - Elapsed time: 1.089 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][147]
+NEW FUNC Searching through 149 rows to unset bad matches 
+-----------------------
+22-03-2016 17:34:18.15483[4][4] - Elapsed time: 0.060 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][156]
+Blue 5 to Blue leader. Starting my run now! 
+-----------------------
+22-03-2016 17:34:18.17286[4][4] - Elapsed time: 18.026 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][258]
+Found 3 relevant rows 
+-----------------------
+22-03-2016 17:34:18.17302[4][4] - Elapsed time: 0.159 milliseconds
+[find_aiml.php][score_matches][295]
+Scoring the matches. 
+-----------------------
+22-03-2016 17:34:18.1738[4][4] - Elapsed time: 0.781 milliseconds
+[find_aiml.php][score_matches][538]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 1003
+            [pattern] => HI
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 1003
+            [bot_id] => 1
+            [score] => 260
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: hi
+        )
+
+    [1] => Array
+        (
+            [id] => 29049
+            [pattern] => HI
+            [thatpattern] => WHAT CAN I CALL YOU
+            [topic] => 
+            [aiml_id] => 29049
+            [bot_id] => 1
+            [score] => 259
+            [track_score] => current bot, direct pattern match, direct word match: hi
+        )
+
+    [2] => Array
+        (
+            [id] => 8432
+            [pattern] => *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 8432
+            [bot_id] => 1
+            [score] => 252
+            [track_score] => current bot, no thatpattern to match, pattern star match
+        )
+
+)
+ 
+-----------------------
+22-03-2016 17:34:18.17388[2][4] - Elapsed time: 0.080 milliseconds
+[find_aiml.php][get_winning_category][647]
+And the winner is... 1003! 
+-----------------------
+22-03-2016 17:34:18.17421[4][4] - Elapsed time: 0.332 milliseconds
+[find_aiml.php][get_winning_category][660]
+Returning the AIML template for id# 1003. Value:
+'Hello there.' 
+-----------------------
+22-03-2016 17:34:18.1743[4][4] - Elapsed time: 0.092 milliseconds
+[find_aiml.php][get_highest_scoring_row][631]
+Best Responses: Array
+(
+    [0] => Array
+        (
+            [id] => 1003
+            [pattern] => HI
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 1003
+            [bot_id] => 1
+            [score] => 260
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: hi
+        )
+
+)
+ 
+-----------------------
+22-03-2016 17:34:18.17436[2][4] - Elapsed time: 0.054 milliseconds
+[find_aiml.php][get_highest_scoring_row][632]
+Will use randomly picked best response chosen out of 1 responses with same score: 1003 - HI 
+-----------------------
+22-03-2016 17:34:18.17441[4][4] - Elapsed time: 0.054 milliseconds
+[find_aiml.php][get_aiml_to_parse][841]
+Will be parsing id:1003 (HI) 
+-----------------------
+22-03-2016 17:34:18.17447[3][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml.php][parse_matched_aiml][190]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+22-03-2016 17:34:18.17452[2][4] - Elapsed time: 0.049 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+22-03-2016 17:34:18.17464[2][4] - Elapsed time: 0.121 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+22-03-2016 17:34:18.17469[2][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+22-03-2016 17:34:18.17477[4][4] - Elapsed time: 0.086 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><text>Hello there.</text></template> 
+-----------------------
+22-03-2016 17:34:18.17486[2][4] - Elapsed time: 0.091 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 17:34:18.17495[4][4] - Elapsed time: 0.086 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><text>Hello there.</text></template>
+ 
+-----------------------
+22-03-2016 17:34:18.17501[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+22-03-2016 17:34:18.17509[2][4] - Elapsed time: 0.078 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 17:34:18.17516[4][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 1. element XML = <text>Hello there.</text> 
+-----------------------
+22-03-2016 17:34:18.17522[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+22-03-2016 17:34:18.17528[4][4] - Elapsed time: 0.062 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+22-03-2016 17:34:18.17533[2][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+22-03-2016 17:34:18.17539[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'Hello there.' to the response array. tag name is text 
+-----------------------
+22-03-2016 17:34:18.17544[2][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 17:34:18.1755[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 17:34:18.17556[4][4] - Elapsed time: 0.062 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Hello there.' 
+-----------------------
+22-03-2016 17:34:18.17561[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'Hello there.' to the response array. tag name is template. 
+-----------------------
+22-03-2016 17:34:18.17567[2][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 17:34:18.17572[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 17:34:18.17578[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Hello there.' 
+-----------------------
+22-03-2016 17:34:18.17585[4][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][41]
+Completed parsing the template. The bot will say: Hello there. 
+-----------------------
+22-03-2016 17:34:18.17591[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml.php][parse_matched_aiml][195]
+normal - Saving for next turn 
+-----------------------
+22-03-2016 17:34:18.17596[4][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml.php][save_for_nextturn][235]
+Saving that and that_raw for next turn 
+-----------------------
+22-03-2016 17:34:18.17601[2][4] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Hello there.' to the front of the [that_raw] array 
+-----------------------
+22-03-2016 17:34:18.17609[4][4] - Elapsed time: 0.076 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that_raw array 
+-----------------------
+22-03-2016 17:34:18.17622[2][4] - Elapsed time: 0.136 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Hello there.' to the front of the [that] array 
+-----------------------
+22-03-2016 17:34:18.17631[4][4] - Elapsed time: 0.083 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that array 
+-----------------------
+22-03-2016 17:34:18.1764[4][4] - Elapsed time: 0.095 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Hello there.' 
+-----------------------
+22-03-2016 17:34:18.17646[4][4] - Elapsed time: 0.060 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'Hello there.' 
+-----------------------
+22-03-2016 17:34:18.17659[4][4] - Elapsed time: 0.124 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'HELLO THERE' 
+-----------------------
+22-03-2016 17:34:18.17664[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HELLO THERE' 
+-----------------------
+22-03-2016 17:34:18.17672[2][4] - Elapsed time: 0.087 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Hello there.' to the front of the [parsed_template] array 
+-----------------------
+22-03-2016 17:34:18.1768[4][4] - Elapsed time: 0.075 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank parsed_template array 
+-----------------------
+22-03-2016 17:34:18.17689[2][4] - Elapsed time: 0.090 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Hello there.' to the front of the [template] array 
+-----------------------
+22-03-2016 17:34:18.17696[4][4] - Elapsed time: 0.073 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank template array 
+-----------------------
+22-03-2016 17:34:18.17706[2][4] - Elapsed time: 0.101 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+22-03-2016 17:34:18.17712[3][4] - Elapsed time: 0.062 milliseconds
+[intialise_conversation.php][log_conversation][394]
+Saving conservation SQL: INSERT INTO `pom`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'HI',
+      'Hello there.',
+      '17',
+      '8ejgpg9a9qv7vnr42nt2s36lu3',
+      '1',
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+22-03-2016 17:34:18.17745[4][4] - Elapsed time: 0.324 milliseconds
+[intialise_conversation.php][write_to_session][130]
+Saving to session 
+-----------------------
+22-03-2016 17:34:18.17779[3][4] - Elapsed time: 0.337 milliseconds
+[display_conversation.php][get_conversation_to_display][48]
+get_conversation SQL: SELECT * FROM `pom`.`conversation_log`
+        WHERE
+        `user_id` = '17'
+        AND `bot_id` = '1'
+        AND `convo_id` = '8ejgpg9a9qv7vnr42nt2s36lu3'
+        ORDER BY id DESC  LIMIT 10  
+-----------------------
+22-03-2016 17:34:18.17821[2][4] - Elapsed time: 0.420 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+22-03-2016 17:34:18.17828[4][4] - Elapsed time: 0.075 milliseconds
+[display_conversation.php][get_conversation][77]
+Processing conversation as html 
+-----------------------
+22-03-2016 17:34:18.17835[4][4] - Elapsed time: 0.072 milliseconds
+[display_conversation.php][get_html][112]
+Returning HTML 
+-----------------------
+22-03-2016 17:34:18.18658[2][4] - Elapsed time: 8.232 milliseconds
+[conversation_start.php][Called outside of function][202]
+Closing Database 
+-----------------------
+22-03-2016 17:34:18.18666[2][4] - Elapsed time: 0.074 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+22-03-2016 17:34:18.18686[0][4] - Elapsed time: 0.203 milliseconds
+[conversation_start.php][Called outside of function][207]
+Conversation Ending. Elapsed time: 109.556 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [bot_properties] => Array
+        (
+            [name] => Chitti
+            [gender] => 
+            [botmaster] => 
+            [master] => Manikandan
+            [age] => 
+            [website] => 
+            [email] => 
+            [birthday] => 
+            [birthplace] => 
+            [size] => 
+            [version] => 
+            [build] => 
+            [language] => 
+            [feelings] => 
+            [etype] => 
+            [emotions] => 
+            [ethics] => 
+            [orientation] => 
+            [baseballteam] => 
+            [footballteam] => 
+            [hockeyteam] => 
+            [favoritesport] => 
+            [vocabulary] => 
+            [celebrities] => 
+            [celebrity] => 
+            [favoriteactor] => 
+            [favoriteactress] => 
+            [favoriteartist] => 
+            [favoritemusician] => 
+            [favoritesong] => 
+            [favoriteauthor] => 
+            [friend] => 
+            [nationality] => 
+            [religion] => 
+            [president] => 
+            [party] => 
+            [kingdom] => 
+            [phylum] => 
+            [class] => 
+            [order] => 
+            [family] => 
+            [genus] => 
+            [species] => 
+            [boyfriend] => 
+            [favoritebook] => 
+            [favoriteband] => 
+            [favoritecolor] => 
+            [favoritefood] => 
+            [favoritemovie] => 
+            [forfun] => 
+            [friends] => 
+            [girlfriend] => 
+            [kindmusic] => 
+            [location] => 
+            [looklike] => 
+            [question] => 
+            [sign] => 
+            [talkabout] => 
+            [wear] => 
+            [loves] => 
+        )
+
+    [conversation] => Array
+        (
+            [convo_id] => 8ejgpg9a9qv7vnr42nt2s36lu3
+            [bot_name] => Chitti
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_id] => 17
+            [totallines] => 1
+            [user_name] => Seeker
+            [conversation_lines] => 10
+            [remember_up_to] => 10
+            [debugemail] => mani@tadka.com
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => 172.16.205.49
+            [name] => Seeker
+        )
+
+    [time_start] => 1458668058.0773
+    [aiml] => Array
+        (
+            [user_raw] => HI
+            [lookingfor] => HI
+            [template_id] => 1003
+            [pattern] => HI
+            [thatpattern] => 
+            [template] => Hello there.
+            [html_template] => 
+            [topic] => 
+            [score] => 260
+            [aiml_id] => 1003
+            [parsed_template] => Hello there.
+        )
+
+    [user_say] => Array
+        (
+            [1] => HI
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [input] => Array
+        (
+            [1] => HI
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => Hello there.
+                )
+
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => HELLO THERE
+                )
+
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => Hello there.
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [template] => Array
+        (
+            [1] => Hello there.
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [send_to_user] => <div class="usersay">Seeker: HI</div><div class="botsay">Chitti: Hello there.</div>
+)
+
+-----------------------
+Total execution time: 109.556 Milliseconds. Goodbye.

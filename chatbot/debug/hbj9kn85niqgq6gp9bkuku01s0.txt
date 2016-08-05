@@ -1,0 +1,246 @@
+03-06-2016 04:59:37.16129[0][4] - Elapsed time: 316.220 milliseconds
+[conversation_start.php][Called outside of function][16]
+Conversation Starting. Program O version VERSION
+PHP  version 5.4.39
+OS:  version  
+-----------------------
+03-06-2016 04:59:37.3314[4][4] - Elapsed time: 170.112 milliseconds
+[load_aimlfunctions.php][Called outside of function][7]
+AIML function include files loaded 
+-----------------------
+03-06-2016 04:59:37.42082[4][4] - Elapsed time: 89.421 milliseconds
+[load_convofunctions.php][Called outside of function][7]
+Convofunction include files loaded 
+-----------------------
+03-06-2016 04:59:37.44738[4][4] - Elapsed time: 26.562 milliseconds
+[load_userfunctions.php][Called outside of function][5]
+userfunctions include files loaded 
+-----------------------
+03-06-2016 04:59:37.61244[4][4] - Elapsed time: 165.055 milliseconds
+[load_addons.php][Called outside of function][19]
+Loading addons 
+-----------------------
+03-06-2016 04:59:37.61251[4][4] - Elapsed time: 0.075 milliseconds
+[conversation_start.php][Called outside of function][25]
+Loaded all Includes 
+-----------------------
+03-06-2016 04:59:37.85127[4][4] - Elapsed time: 238.759 milliseconds
+[intialise_conversation.php][intialise_convoArray][19]
+Intialising conversation 
+-----------------------
+03-06-2016 04:59:37.85135[4][4] - Elapsed time: 0.075 milliseconds
+[intialise_conversation.php][load_blank_array_element][50]
+Loading blank topic array 
+-----------------------
+03-06-2016 04:59:37.8514[4][4] - Elapsed time: 0.058 milliseconds
+[intialise_conversation.php][load_blank_array_element][50]
+Loading blank that array 
+-----------------------
+03-06-2016 04:59:37.85146[4][4] - Elapsed time: 0.052 milliseconds
+[intialise_conversation.php][load_blank_array_element][50]
+Loading blank star array 
+-----------------------
+03-06-2016 04:59:37.85151[4][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][load_blank_array_element][50]
+Loading blank input array 
+-----------------------
+03-06-2016 04:59:37.85156[4][4] - Elapsed time: 0.050 milliseconds
+[intialise_conversation.php][load_blank_stack][72]
+Loading blank stack 
+-----------------------
+03-06-2016 04:59:37.86151[4][4] - Elapsed time: 9.952 milliseconds
+[intialise_conversation.php][load_default_bot_values][96]
+Loading db bot personality properties 
+-----------------------
+03-06-2016 04:59:37.86158[3][4] - Elapsed time: 0.066 milliseconds
+[intialise_conversation.php][load_default_bot_values][100]
+load db bot personality values SQL: SELECT * FROM `pom`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+03-06-2016 04:59:38.08472[2][4] - Elapsed time: 223.139 milliseconds
+[handle_user.php][load_new_client_defaults][14]
+Loading client defaults 
+-----------------------
+03-06-2016 04:59:38.12461[1][4] - Elapsed time: 39.896 milliseconds
+[conversation_start.php][Called outside of function][66]
+PHP ERROR [Notice] -Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\chatbot\conversation_start.php on Line 66 
+-----------------------
+03-06-2016 04:59:38.13537[0][4] - Elapsed time: 10.757 milliseconds
+[conversation_start.php][Called outside of function][75]
+Debug level: 4
+session ID = hbj9kn85niqgq6gp9bkuku01s0 
+-----------------------
+03-06-2016 04:59:38.13544[2][4] - Elapsed time: 0.065 milliseconds
+[conversation_start.php][Called outside of function][190]
+Conversation intialised waiting user 
+-----------------------
+03-06-2016 04:59:38.13548[2][4] - Elapsed time: 0.045 milliseconds
+[conversation_start.php][Called outside of function][193]
+Closing Database 
+-----------------------
+03-06-2016 04:59:38.13552[2][4] - Elapsed time: 0.043 milliseconds
+[PDO_functions.php][db_close][41]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+03-06-2016 04:59:38.1357[0][4] - Elapsed time: 0.178 milliseconds
+[conversation_start.php][Called outside of function][198]
+Conversation Ending. Elapsed time: 1,290.598 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+        )
+
+    [that] => Array
+        (
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+        )
+
+    [star] => Array
+        (
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+        )
+
+    [input] => Array
+        (
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+        )
+
+    [stack] => Array
+        (
+            [top] => om
+            [second] => om
+            [third] => om
+            [fourth] => om
+            [fifth] => om
+            [sixth] => om
+            [seventh] => om
+            [last] => om
+        )
+
+    [bot_properties] => Array
+        (
+            [name] => Chitti
+            [gender] => 
+            [botmaster] => 
+            [master] => Manikandan
+            [age] => 
+            [website] => 
+            [email] => 
+            [birthday] => 
+            [birthplace] => 
+            [size] => 
+            [version] => 
+            [build] => 
+            [language] => 
+            [feelings] => 
+            [etype] => 
+            [emotions] => 
+            [ethics] => 
+            [orientation] => 
+            [baseballteam] => 
+            [footballteam] => 
+            [hockeyteam] => 
+            [favoritesport] => 
+            [vocabulary] => 
+            [celebrities] => 
+            [celebrity] => 
+            [favoriteactor] => 
+            [favoriteactress] => 
+            [favoriteartist] => 
+            [favoritemusician] => 
+            [favoritesong] => 
+            [favoriteauthor] => 
+            [friend] => 
+            [nationality] => 
+            [religion] => 
+            [president] => 
+            [party] => 
+            [kingdom] => 
+            [phylum] => 
+            [class] => 
+            [order] => 
+            [family] => 
+            [genus] => 
+            [species] => 
+            [boyfriend] => 
+            [favoritebook] => 
+            [favoriteband] => 
+            [favoritecolor] => 
+            [favoritefood] => 
+            [favoritemovie] => 
+            [forfun] => 
+            [friends] => 
+            [girlfriend] => 
+            [kindmusic] => 
+            [location] => 
+            [looklike] => 
+            [question] => 
+            [sign] => 
+            [talkabout] => 
+            [wear] => 
+            [loves] => 
+        )
+
+    [client_properties] => Array
+        (
+            [name] => Seeker
+            [id] => 
+        )
+
+    [send_to_user] => 
+)
+
+-----------------------
+Total execution time: 1,290.598 Milliseconds. Goodbye.

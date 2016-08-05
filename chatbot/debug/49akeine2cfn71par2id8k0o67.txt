@@ -1,0 +1,2423 @@
+27-03-2016 11:55:12.56738[0][4] - Elapsed time: 30.867 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version VERSION
+PHP  version 5.4.39
+OS:  version  
+-----------------------
+27-03-2016 11:55:12.57473[4][4] - Elapsed time: 7.351 milliseconds
+[load_aimlfunctions.php][Called outside of function][15]
+AIML function include files loaded 
+-----------------------
+27-03-2016 11:55:12.57905[4][4] - Elapsed time: 4.317 milliseconds
+[load_convofunctions.php][Called outside of function][15]
+Convofunction include files loaded 
+-----------------------
+27-03-2016 11:55:12.5803[4][4] - Elapsed time: 1.251 milliseconds
+[load_userfunctions.php][Called outside of function][13]
+userfunctions include files loaded 
+-----------------------
+27-03-2016 11:55:12.5846[4][4] - Elapsed time: 4.301 milliseconds
+[load_addons.php][Called outside of function][19]
+Loading addons 
+-----------------------
+27-03-2016 11:55:12.58466[4][4] - Elapsed time: 0.058 milliseconds
+[conversation_start.php][Called outside of function][34]
+Loaded all Includes 
+-----------------------
+27-03-2016 11:55:12.58582[4][4] - Elapsed time: 1.155 milliseconds
+[intialise_conversation.php][intialise_convoArray][28]
+Intialising conversation 
+-----------------------
+27-03-2016 11:55:12.58588[4][4] - Elapsed time: 0.062 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank topic array 
+-----------------------
+27-03-2016 11:55:12.58594[4][4] - Elapsed time: 0.056 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that array 
+-----------------------
+27-03-2016 11:55:12.58599[4][4] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank star array 
+-----------------------
+27-03-2016 11:55:12.58604[4][4] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank input array 
+-----------------------
+27-03-2016 11:55:12.58609[4][4] - Elapsed time: 0.055 milliseconds
+[intialise_conversation.php][load_blank_stack][81]
+Loading blank stack 
+-----------------------
+27-03-2016 11:55:12.58614[4][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][load_default_bot_values][105]
+Loading db bot personality properties 
+-----------------------
+27-03-2016 11:55:12.58619[3][4] - Elapsed time: 0.046 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `pom`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+27-03-2016 11:55:12.58695[2][4] - Elapsed time: 0.760 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+27-03-2016 11:55:12.58705[1][4] - Elapsed time: 0.101 milliseconds
+[conversation_start.php][Called outside of function][75]
+PHP ERROR [Notice] -Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\chatbot\conversation_start.php on Line 75 
+-----------------------
+27-03-2016 11:55:12.59536[0][4] - Elapsed time: 8.313 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 4
+session ID = 49akeine2cfn71par2id8k0o67 
+-----------------------
+27-03-2016 11:55:12.59546[2][4] - Elapsed time: 0.095 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+27-03-2016 11:55:12.59551[2][4] - Elapsed time: 0.055 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on then. 
+-----------------------
+27-03-2016 11:55:12.59573[4][4] - Elapsed time: 0.218 milliseconds
+[spell_checker.php][spell_check][64]
+The word 'then' is a common word. Returning without checking. 
+-----------------------
+27-03-2016 11:55:12.59578[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'then' 
+-----------------------
+27-03-2016 11:55:12.5959[4][4] - Elapsed time: 0.112 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.59594[2][4] - Elapsed time: 0.045 milliseconds
+[conversation_start.php][Called outside of function][146]
+Details:
+User say: THEN
+Convo id: 49akeine2cfn71par2id8k0o67
+Bot id: 1
+Format: html 
+-----------------------
+27-03-2016 11:55:12.59598[4][4] - Elapsed time: 0.044 milliseconds
+[intialise_conversation.php][read_from_session][144]
+Reading from session 
+-----------------------
+27-03-2016 11:55:12.59604[4][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][load_default_bot_values][105]
+Loading db bot personality properties 
+-----------------------
+27-03-2016 11:55:12.59608[3][4] - Elapsed time: 0.044 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `pom`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+27-03-2016 11:55:12.59683[4][4] - Elapsed time: 0.751 milliseconds
+[intialise_conversation.php][check_set_convo_id][529]
+Obtaining the convo id from form vars. Value: 49akeine2cfn71par2id8k0o67 
+-----------------------
+27-03-2016 11:55:12.59689[2][4] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+27-03-2016 11:55:12.59694[3][4] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][check_set_bot][491]
+Making sure the bot exists. SQL = SELECT * FROM `pom`.`bots` WHERE bot_id = '1' and `bot_active`='1' 
+-----------------------
+27-03-2016 11:55:12.59725[2][4] - Elapsed time: 0.310 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+27-03-2016 11:55:12.5973[2][4] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+27-03-2016 11:55:12.59759[4][4] - Elapsed time: 0.289 milliseconds
+[intialise_conversation.php][check_set_format][616]
+Using format: html 
+-----------------------
+27-03-2016 11:55:12.59764[2][4] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+27-03-2016 11:55:12.59769[3][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][load_that][639]
+Getting conversation log entries for the current user. SQL:
+select `input`, `response` from `pom`.`conversation_log` where `user_id` = 19 and `bot_id` = 1 order by `id` desc limit 10; 
+-----------------------
+27-03-2016 11:55:12.5981[1][4] - Elapsed time: 0.408 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => THEN
+    [1] => THEN
+    [2] => THEN
+    [3] => THEN
+    [4] => THEN
+    [5] => THEN
+    [6] => THEN
+    [7] => THEN
+    [8] => THEN
+    [9] => THEN
+)
+ 
+-----------------------
+27-03-2016 11:55:12.59815[4][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][load_that][654]
+Loading previous responses into the ~THAT~ array. 
+-----------------------
+27-03-2016 11:55:12.5982[1][4] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => Next question?
+    [1] => How can I help you?
+    [2] => OK.
+    [3] => Right on.
+    [4] => " GIVE ME A BREAK "? THEN?
+    [5] => Give me a break.
+    [6] => So?
+    [7] => Ugh.
+    [8] => Yippee!
+    [9] => It's all good.
+)
+ 
+-----------------------
+27-03-2016 11:55:12.59832[2][4] - Elapsed time: 0.123 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.59837[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.59843[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'It's all good ' 
+-----------------------
+27-03-2016 11:55:12.59848[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'It's all good ' 
+-----------------------
+27-03-2016 11:55:12.59853[4][4] - Elapsed time: 0.051 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'It's all good ' 
+-----------------------
+27-03-2016 11:55:12.59865[4][4] - Elapsed time: 0.117 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'IT S ALL GOOD' 
+-----------------------
+27-03-2016 11:55:12.59869[4][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'IT S ALL GOOD' 
+-----------------------
+27-03-2016 11:55:12.59874[2][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'IT S ALL GOOD' to the front of the [that] array 
+-----------------------
+27-03-2016 11:55:12.59884[4][4] - Elapsed time: 0.096 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'IT S ALL GOOD' 
+-----------------------
+27-03-2016 11:55:12.59889[4][4] - Elapsed time: 0.050 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'IT S ALL GOOD' 
+-----------------------
+27-03-2016 11:55:12.59899[4][4] - Elapsed time: 0.105 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'IT S ALL GOOD' 
+-----------------------
+27-03-2016 11:55:12.59903[4][4] - Elapsed time: 0.043 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'IT S ALL GOOD' 
+-----------------------
+27-03-2016 11:55:12.59912[2][4] - Elapsed time: 0.082 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.59917[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.59922[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Yippee ' 
+-----------------------
+27-03-2016 11:55:12.59927[4][4] - Elapsed time: 0.048 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Yippee ' 
+-----------------------
+27-03-2016 11:55:12.59932[4][4] - Elapsed time: 0.050 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Yippee ' 
+-----------------------
+27-03-2016 11:55:12.59942[4][4] - Elapsed time: 0.103 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'YIPPEE' 
+-----------------------
+27-03-2016 11:55:12.59947[4][4] - Elapsed time: 0.046 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'YIPPEE' 
+-----------------------
+27-03-2016 11:55:12.59951[2][4] - Elapsed time: 0.046 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'YIPPEE' to the front of the [that] array 
+-----------------------
+27-03-2016 11:55:12.59961[4][4] - Elapsed time: 0.091 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'YIPPEE' 
+-----------------------
+27-03-2016 11:55:12.59966[4][4] - Elapsed time: 0.051 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'YIPPEE' 
+-----------------------
+27-03-2016 11:55:12.59975[4][4] - Elapsed time: 0.098 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'YIPPEE' 
+-----------------------
+27-03-2016 11:55:12.5998[4][4] - Elapsed time: 0.044 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'YIPPEE' 
+-----------------------
+27-03-2016 11:55:12.59988[2][4] - Elapsed time: 0.079 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.59993[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.59998[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Ugh ' 
+-----------------------
+27-03-2016 11:55:12.60003[4][4] - Elapsed time: 0.049 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Ugh ' 
+-----------------------
+27-03-2016 11:55:12.60009[4][4] - Elapsed time: 0.052 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Ugh ' 
+-----------------------
+27-03-2016 11:55:12.60019[4][4] - Elapsed time: 0.101 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'UGH' 
+-----------------------
+27-03-2016 11:55:12.60024[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'UGH' 
+-----------------------
+27-03-2016 11:55:12.60029[2][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'UGH' to the front of the [that] array 
+-----------------------
+27-03-2016 11:55:12.60038[4][4] - Elapsed time: 0.092 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'UGH' 
+-----------------------
+27-03-2016 11:55:12.60043[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'UGH' 
+-----------------------
+27-03-2016 11:55:12.60054[4][4] - Elapsed time: 0.107 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'UGH' 
+-----------------------
+27-03-2016 11:55:12.60058[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'UGH' 
+-----------------------
+27-03-2016 11:55:12.60066[2][4] - Elapsed time: 0.080 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.60072[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.60077[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'So ' 
+-----------------------
+27-03-2016 11:55:12.60082[4][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'So ' 
+-----------------------
+27-03-2016 11:55:12.60087[4][4] - Elapsed time: 0.052 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'So ' 
+-----------------------
+27-03-2016 11:55:12.60098[4][4] - Elapsed time: 0.102 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'SO' 
+-----------------------
+27-03-2016 11:55:12.60102[4][4] - Elapsed time: 0.046 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'SO' 
+-----------------------
+27-03-2016 11:55:12.60107[2][4] - Elapsed time: 0.048 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'SO' to the front of the [that] array 
+-----------------------
+27-03-2016 11:55:12.60117[4][4] - Elapsed time: 0.094 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'SO' 
+-----------------------
+27-03-2016 11:55:12.60122[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'SO' 
+-----------------------
+27-03-2016 11:55:12.60132[4][4] - Elapsed time: 0.099 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'SO' 
+-----------------------
+27-03-2016 11:55:12.60136[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'SO' 
+-----------------------
+27-03-2016 11:55:12.60144[2][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.6015[4][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.60156[4][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Give me a break ' 
+-----------------------
+27-03-2016 11:55:12.60161[4][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Give me a break ' 
+-----------------------
+27-03-2016 11:55:12.60167[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Give me a break ' 
+-----------------------
+27-03-2016 11:55:12.60178[4][4] - Elapsed time: 0.112 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'GIVE ME A BREAK' 
+-----------------------
+27-03-2016 11:55:12.60182[4][4] - Elapsed time: 0.047 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'GIVE ME A BREAK' 
+-----------------------
+27-03-2016 11:55:12.60188[2][4] - Elapsed time: 0.050 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'GIVE ME A BREAK' to the front of the [that] array 
+-----------------------
+27-03-2016 11:55:12.60197[4][4] - Elapsed time: 0.097 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'GIVE ME A BREAK' 
+-----------------------
+27-03-2016 11:55:12.60203[4][4] - Elapsed time: 0.055 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'GIVE ME A BREAK' 
+-----------------------
+27-03-2016 11:55:12.60214[4][4] - Elapsed time: 0.109 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'GIVE ME A BREAK' 
+-----------------------
+27-03-2016 11:55:12.60219[4][4] - Elapsed time: 0.049 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'GIVE ME A BREAK' 
+-----------------------
+27-03-2016 11:55:12.60227[2][4] - Elapsed time: 0.083 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.60232[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.60238[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning '" GIVE ME A BREAK " THEN ' 
+-----------------------
+27-03-2016 11:55:12.60244[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: '" GIVE ME A BREAK " THEN ' 
+-----------------------
+27-03-2016 11:55:12.60249[4][4] - Elapsed time: 0.056 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = '" GIVE ME A BREAK " THEN ' 
+-----------------------
+27-03-2016 11:55:12.60261[4][4] - Elapsed time: 0.119 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'GIVE ME A BREAK THEN' 
+-----------------------
+27-03-2016 11:55:12.60266[4][4] - Elapsed time: 0.049 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'GIVE ME A BREAK THEN' 
+-----------------------
+27-03-2016 11:55:12.60271[2][4] - Elapsed time: 0.051 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'GIVE ME A BREAK THEN' to the front of the [that] array 
+-----------------------
+27-03-2016 11:55:12.60281[4][4] - Elapsed time: 0.097 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'GIVE ME A BREAK THEN' 
+-----------------------
+27-03-2016 11:55:12.60286[4][4] - Elapsed time: 0.057 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'GIVE ME A BREAK THEN' 
+-----------------------
+27-03-2016 11:55:12.60298[4][4] - Elapsed time: 0.113 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'GIVE ME A BREAK THEN' 
+-----------------------
+27-03-2016 11:55:12.60303[4][4] - Elapsed time: 0.049 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'GIVE ME A BREAK THEN' 
+-----------------------
+27-03-2016 11:55:12.60311[2][4] - Elapsed time: 0.083 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.60317[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.60323[4][4] - Elapsed time: 0.060 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Right on ' 
+-----------------------
+27-03-2016 11:55:12.60328[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Right on ' 
+-----------------------
+27-03-2016 11:55:12.60333[4][4] - Elapsed time: 0.055 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Right on ' 
+-----------------------
+27-03-2016 11:55:12.60344[4][4] - Elapsed time: 0.109 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'RIGHT ON' 
+-----------------------
+27-03-2016 11:55:12.60349[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'RIGHT ON' 
+-----------------------
+27-03-2016 11:55:12.60355[2][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'RIGHT ON' to the front of the [that] array 
+-----------------------
+27-03-2016 11:55:12.60365[4][4] - Elapsed time: 0.097 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'RIGHT ON' 
+-----------------------
+27-03-2016 11:55:12.60371[4][4] - Elapsed time: 0.061 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'RIGHT ON' 
+-----------------------
+27-03-2016 11:55:12.60383[4][4] - Elapsed time: 0.119 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'RIGHT ON' 
+-----------------------
+27-03-2016 11:55:12.60388[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'RIGHT ON' 
+-----------------------
+27-03-2016 11:55:12.60396[2][4] - Elapsed time: 0.084 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.60402[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.60408[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'OK ' 
+-----------------------
+27-03-2016 11:55:12.60413[4][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'OK ' 
+-----------------------
+27-03-2016 11:55:12.60419[4][4] - Elapsed time: 0.056 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'OK ' 
+-----------------------
+27-03-2016 11:55:12.6043[4][4] - Elapsed time: 0.109 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'OK' 
+-----------------------
+27-03-2016 11:55:12.60435[4][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'OK' 
+-----------------------
+27-03-2016 11:55:12.6044[2][4] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'OK' to the front of the [that] array 
+-----------------------
+27-03-2016 11:55:12.60451[4][4] - Elapsed time: 0.103 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'OK' 
+-----------------------
+27-03-2016 11:55:12.60456[4][4] - Elapsed time: 0.058 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'OK' 
+-----------------------
+27-03-2016 11:55:12.60467[4][4] - Elapsed time: 0.104 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'OK' 
+-----------------------
+27-03-2016 11:55:12.60472[4][4] - Elapsed time: 0.051 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'OK' 
+-----------------------
+27-03-2016 11:55:12.6048[2][4] - Elapsed time: 0.087 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.60486[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.60492[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'How can I help you ' 
+-----------------------
+27-03-2016 11:55:12.60498[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'How can I help you ' 
+-----------------------
+27-03-2016 11:55:12.60504[4][4] - Elapsed time: 0.057 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'How can I help you ' 
+-----------------------
+27-03-2016 11:55:12.60515[4][4] - Elapsed time: 0.118 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HOW CAN I HELP YOU' 
+-----------------------
+27-03-2016 11:55:12.60521[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HOW CAN I HELP YOU' 
+-----------------------
+27-03-2016 11:55:12.60526[2][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HOW CAN I HELP YOU' to the front of the [that] array 
+-----------------------
+27-03-2016 11:55:12.60536[4][4] - Elapsed time: 0.099 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'HOW CAN I HELP YOU' 
+-----------------------
+27-03-2016 11:55:12.60542[4][4] - Elapsed time: 0.058 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'HOW CAN I HELP YOU' 
+-----------------------
+27-03-2016 11:55:12.60554[4][4] - Elapsed time: 0.118 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'HOW CAN I HELP YOU' 
+-----------------------
+27-03-2016 11:55:12.60559[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'HOW CAN I HELP YOU' 
+-----------------------
+27-03-2016 11:55:12.60567[2][4] - Elapsed time: 0.085 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.60573[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.6058[4][4] - Elapsed time: 0.062 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Next question ' 
+-----------------------
+27-03-2016 11:55:12.60585[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Next question ' 
+-----------------------
+27-03-2016 11:55:12.60591[4][4] - Elapsed time: 0.058 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Next question ' 
+-----------------------
+27-03-2016 11:55:12.60603[4][4] - Elapsed time: 0.115 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'NEXT QUESTION' 
+-----------------------
+27-03-2016 11:55:12.60608[4][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'NEXT QUESTION' 
+-----------------------
+27-03-2016 11:55:12.60613[2][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'NEXT QUESTION' to the front of the [that] array 
+-----------------------
+27-03-2016 11:55:12.60624[4][4] - Elapsed time: 0.102 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'NEXT QUESTION' 
+-----------------------
+27-03-2016 11:55:12.6063[4][4] - Elapsed time: 0.060 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'NEXT QUESTION' 
+-----------------------
+27-03-2016 11:55:12.60641[4][4] - Elapsed time: 0.110 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'NEXT QUESTION' 
+-----------------------
+27-03-2016 11:55:12.60647[4][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'NEXT QUESTION' 
+-----------------------
+27-03-2016 11:55:12.60656[4][4] - Elapsed time: 0.088 milliseconds
+[intialise_conversation.php][load_that][670]
+Loading previous user inputs into the ~INPUT~ array. 
+-----------------------
+27-03-2016 11:55:12.60669[2][4] - Elapsed time: 0.127 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.60675[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.60681[4][4] - Elapsed time: 0.064 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60687[4][4] - Elapsed time: 0.060 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60693[4][4] - Elapsed time: 0.059 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60704[4][4] - Elapsed time: 0.107 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60709[4][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60715[2][4] - Elapsed time: 0.055 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THEN' to the front of the [input] array 
+-----------------------
+27-03-2016 11:55:12.60724[2][4] - Elapsed time: 0.099 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.60731[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.6074[4][4] - Elapsed time: 0.094 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60748[4][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60756[4][4] - Elapsed time: 0.076 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60767[4][4] - Elapsed time: 0.114 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60773[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60778[2][4] - Elapsed time: 0.058 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THEN' to the front of the [input] array 
+-----------------------
+27-03-2016 11:55:12.6079[2][4] - Elapsed time: 0.119 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.60798[4][4] - Elapsed time: 0.072 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.60806[4][4] - Elapsed time: 0.088 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60814[4][4] - Elapsed time: 0.080 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60821[4][4] - Elapsed time: 0.064 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60834[4][4] - Elapsed time: 0.135 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.6084[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60846[2][4] - Elapsed time: 0.060 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THEN' to the front of the [input] array 
+-----------------------
+27-03-2016 11:55:12.60858[2][4] - Elapsed time: 0.115 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.60864[4][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.60877[4][4] - Elapsed time: 0.129 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60886[4][4] - Elapsed time: 0.089 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60893[4][4] - Elapsed time: 0.065 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60907[4][4] - Elapsed time: 0.143 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60914[4][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60922[2][4] - Elapsed time: 0.073 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THEN' to the front of the [input] array 
+-----------------------
+27-03-2016 11:55:12.60932[2][4] - Elapsed time: 0.107 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.60939[4][4] - Elapsed time: 0.064 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.60946[4][4] - Elapsed time: 0.069 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60952[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60958[4][4] - Elapsed time: 0.061 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60969[4][4] - Elapsed time: 0.114 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60975[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.60983[2][4] - Elapsed time: 0.084 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THEN' to the front of the [input] array 
+-----------------------
+27-03-2016 11:55:12.60995[2][4] - Elapsed time: 0.111 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.61001[4][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.61009[4][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61015[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61021[4][4] - Elapsed time: 0.062 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61032[4][4] - Elapsed time: 0.111 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61038[4][4] - Elapsed time: 0.057 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61046[2][4] - Elapsed time: 0.085 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THEN' to the front of the [input] array 
+-----------------------
+27-03-2016 11:55:12.61056[2][4] - Elapsed time: 0.102 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.61063[4][4] - Elapsed time: 0.064 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.61069[4][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61076[4][4] - Elapsed time: 0.062 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61082[4][4] - Elapsed time: 0.066 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61093[4][4] - Elapsed time: 0.111 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61099[4][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61105[2][4] - Elapsed time: 0.059 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THEN' to the front of the [input] array 
+-----------------------
+27-03-2016 11:55:12.61115[2][4] - Elapsed time: 0.100 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.61122[4][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.61128[4][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61135[4][4] - Elapsed time: 0.062 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61141[4][4] - Elapsed time: 0.064 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61152[4][4] - Elapsed time: 0.112 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61158[4][4] - Elapsed time: 0.060 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61164[2][4] - Elapsed time: 0.060 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THEN' to the front of the [input] array 
+-----------------------
+27-03-2016 11:55:12.61174[2][4] - Elapsed time: 0.101 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.61181[4][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.61188[4][4] - Elapsed time: 0.070 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61194[4][4] - Elapsed time: 0.063 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61201[4][4] - Elapsed time: 0.065 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61212[4][4] - Elapsed time: 0.112 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61218[4][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61224[2][4] - Elapsed time: 0.061 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THEN' to the front of the [input] array 
+-----------------------
+27-03-2016 11:55:12.61234[2][4] - Elapsed time: 0.105 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.61241[4][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.61248[4][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61255[4][4] - Elapsed time: 0.064 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61262[4][4] - Elapsed time: 0.067 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61273[4][4] - Elapsed time: 0.114 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61279[4][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61285[2][4] - Elapsed time: 0.062 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THEN' to the front of the [input] array 
+-----------------------
+27-03-2016 11:55:12.61464[2][4] - Elapsed time: 1.790 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+27-03-2016 11:55:12.61473[3][4] - Elapsed time: 0.092 milliseconds
+[intialise_conversation.php][load_bot_config][319]
+load bot config SQL: SELECT * FROM `pom`.`bots` WHERE bot_id = '1' 
+-----------------------
+27-03-2016 11:55:12.61518[4][4] - Elapsed time: 0.447 milliseconds
+[intialise_conversation.php][load_bot_config][323]
+Loading bot details from the database. 
+-----------------------
+27-03-2016 11:55:12.61526[0][4] - Elapsed time: 0.079 milliseconds
+[conversation_start.php][Called outside of function][167]
+Debug level = 4 
+-----------------------
+27-03-2016 11:55:12.61532[0][4] - Elapsed time: 0.061 milliseconds
+[conversation_start.php][Called outside of function][169]
+Debug level = 4 
+-----------------------
+27-03-2016 11:55:12.61538[4][4] - Elapsed time: 0.064 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][165]
+New conversation vars 
+-----------------------
+27-03-2016 11:55:12.61545[2][4] - Elapsed time: 0.069 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THEN' to the front of the [user_say] array 
+-----------------------
+27-03-2016 11:55:12.61559[2][4] - Elapsed time: 0.132 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'THEN' to the front of the [input] array 
+-----------------------
+27-03-2016 11:55:12.61569[4][4] - Elapsed time: 0.108 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+27-03-2016 11:55:12.61576[4][4] - Elapsed time: 0.064 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61588[4][4] - Elapsed time: 0.124 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61595[4][4] - Elapsed time: 0.066 milliseconds
+[find_aiml.php][get_aiml_to_parse][808]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+27-03-2016 11:55:12.6163[4][4] - Elapsed time: 0.354 milliseconds
+[find_aiml.php][find_userdefined_aiml][767]
+Looking for user defined responses 
+-----------------------
+27-03-2016 11:55:12.61637[3][4] - Elapsed time: 0.067 milliseconds
+[find_aiml.php][find_userdefined_aiml][779]
+User defined SQL: SELECT * FROM `pom`.`aiml_userdefined` WHERE
+    `bot_id` = '1' AND
+    (`user_id` = '19' OR `user_id` = '-1') AND
+    `pattern` = 'THEN' 
+-----------------------
+27-03-2016 11:55:12.61664[2][4] - Elapsed time: 0.276 milliseconds
+[find_aiml.php][find_userdefined_aiml][795]
+User defined rows found: '0' 
+-----------------------
+27-03-2016 11:55:12.61672[4][4] - Elapsed time: 0.073 milliseconds
+[find_aiml.php][find_aiml_matches][882]
+Finding the aiml matches from the DB 
+-----------------------
+27-03-2016 11:55:12.6168[4][4] - Elapsed time: 0.086 milliseconds
+[find_aiml.php][get_last_word][22]
+Sentence: THEN. Last word:THEN 
+-----------------------
+27-03-2016 11:55:12.61687[4][4] - Elapsed time: 0.069 milliseconds
+[find_aiml.php][get_first_word][35]
+Sentence: THEN. First word:THEN 
+-----------------------
+27-03-2016 11:55:12.61716[4][4] - Elapsed time: 0.289 milliseconds
+[find_aiml.php][find_aiml_matches][896]
+Stored topic = '' 
+-----------------------
+27-03-2016 11:55:12.61724[4][4] - Elapsed time: 0.077 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+27-03-2016 11:55:12.6173[4][4] - Elapsed time: 0.066 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming thatpattern: NEXT QUESTION 
+-----------------------
+27-03-2016 11:55:12.61738[4][4] - Elapsed time: 0.073 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => NEXT
+    [1] => QUESTION
+)
+ 
+-----------------------
+27-03-2016 11:55:12.61748[4][4] - Elapsed time: 0.107 milliseconds
+[find_aiml.php][make_like_pattern][106]
+returning like pattern:
+
+  `thatpattern` like 'NEXT % QUESTION' OR
+  `thatpattern` like 'NEXT %' OR
+(`thatpattern` LIKE '% QUESTION' ) OR (`thatpattern` LIKE 'NEXT %') OR  
+-----------------------
+27-03-2016 11:55:12.61756[4][4] - Elapsed time: 0.075 milliseconds
+[find_aiml.php][wordsCount_inSentence][119]
+Sentence: THEN numWords:1 
+-----------------------
+27-03-2016 11:55:12.61762[3][4] - Elapsed time: 0.065 milliseconds
+[find_aiml.php][find_aiml_matches][953]
+Match AIML sql: SELECT `id`, `pattern`, `thatpattern`, `topic` FROM `pom`.`aiml` WHERE
+   bot_id = '1'  AND (
+  `pattern` = '_' OR
+  `pattern` = '*' OR
+  `pattern` = 'THEN' OR
+  `pattern` = 'RANDOM PICKUP LINE'
+  )  order by `topic` desc, `id` asc, `pattern` asc; 
+-----------------------
+27-03-2016 11:55:12.6391[2][4] - Elapsed time: 21.472 milliseconds
+[find_aiml.php][find_aiml_matches][959]
+FOUND: (148) potential AIML matches 
+-----------------------
+27-03-2016 11:55:12.64017[4][4] - Elapsed time: 1.072 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][147]
+NEW FUNC Searching through 148 rows to unset bad matches 
+-----------------------
+27-03-2016 11:55:12.64024[4][4] - Elapsed time: 0.074 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][156]
+Blue 5 to Blue leader. Starting my run now! 
+-----------------------
+27-03-2016 11:55:12.65847[4][4] - Elapsed time: 18.232 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][258]
+Found 2 relevant rows 
+-----------------------
+27-03-2016 11:55:12.65874[4][4] - Elapsed time: 0.268 milliseconds
+[find_aiml.php][score_matches][295]
+Scoring the matches. 
+-----------------------
+27-03-2016 11:55:12.65955[4][4] - Elapsed time: 0.811 milliseconds
+[find_aiml.php][score_matches][538]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 25942
+            [pattern] => THEN
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 25942
+            [bot_id] => 1
+            [score] => 260
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: then
+        )
+
+    [1] => Array
+        (
+            [id] => 8432
+            [pattern] => *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 8432
+            [bot_id] => 1
+            [score] => 252
+            [track_score] => current bot, no thatpattern to match, pattern star match
+        )
+
+)
+ 
+-----------------------
+27-03-2016 11:55:12.65968[2][4] - Elapsed time: 0.131 milliseconds
+[find_aiml.php][get_winning_category][647]
+And the winner is... 25942! 
+-----------------------
+27-03-2016 11:55:12.66014[4][4] - Elapsed time: 0.452 milliseconds
+[find_aiml.php][get_winning_category][660]
+Returning the AIML template for id# 25942. Value:
+'<srai>SO</srai>' 
+-----------------------
+27-03-2016 11:55:12.66023[4][4] - Elapsed time: 0.096 milliseconds
+[find_aiml.php][get_highest_scoring_row][631]
+Best Responses: Array
+(
+    [0] => Array
+        (
+            [id] => 25942
+            [pattern] => THEN
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 25942
+            [bot_id] => 1
+            [score] => 260
+            [track_score] => current bot, no thatpattern to match, direct pattern match, direct word match: then
+        )
+
+)
+ 
+-----------------------
+27-03-2016 11:55:12.6603[2][4] - Elapsed time: 0.066 milliseconds
+[find_aiml.php][get_highest_scoring_row][632]
+Will use randomly picked best response chosen out of 1 responses with same score: 25942 - THEN 
+-----------------------
+27-03-2016 11:55:12.66037[4][4] - Elapsed time: 0.069 milliseconds
+[find_aiml.php][get_aiml_to_parse][841]
+Will be parsing id:25942 (THEN) 
+-----------------------
+27-03-2016 11:55:12.66044[3][4] - Elapsed time: 0.070 milliseconds
+[parse_aiml.php][parse_matched_aiml][190]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+27-03-2016 11:55:12.6605[2][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+27-03-2016 11:55:12.66064[2][4] - Elapsed time: 0.134 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+27-03-2016 11:55:12.6607[2][4] - Elapsed time: 0.066 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+27-03-2016 11:55:12.66081[4][4] - Elapsed time: 0.104 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><srai><text>SO</text></srai></template> 
+-----------------------
+27-03-2016 11:55:12.66092[2][4] - Elapsed time: 0.108 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+27-03-2016 11:55:12.66102[4][4] - Elapsed time: 0.103 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><srai><text>SO</text></srai></template>
+ 
+-----------------------
+27-03-2016 11:55:12.66109[4][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+27-03-2016 11:55:12.66119[2][4] - Elapsed time: 0.092 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+27-03-2016 11:55:12.66127[4][4] - Elapsed time: 0.089 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element srai at level 1. element XML = <srai><text>SO</text></srai> 
+-----------------------
+27-03-2016 11:55:12.66135[4][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_srai_tag does exist. Processing now. 
+-----------------------
+27-03-2016 11:55:12.66142[4][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element srai to the parse_srai_tag function 
+-----------------------
+27-03-2016 11:55:12.66148[2][4] - Elapsed time: 0.066 milliseconds
+[parse_aiml_as_XML.php][parse_srai_tag][629]
+Parsing an SRAI tag. 
+-----------------------
+27-03-2016 11:55:12.66155[2][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1079]
+converting the srai tag into text. 
+-----------------------
+27-03-2016 11:55:12.66163[2][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+27-03-2016 11:55:12.66172[4][4] - Elapsed time: 0.090 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 2. element XML = <text>SO</text> 
+-----------------------
+27-03-2016 11:55:12.66179[4][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+27-03-2016 11:55:12.66186[4][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+27-03-2016 11:55:12.66193[2][4] - Elapsed time: 0.066 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+27-03-2016 11:55:12.662[4][4] - Elapsed time: 0.070 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'SO' to the response array. tag name is text 
+-----------------------
+27-03-2016 11:55:12.66207[2][4] - Elapsed time: 0.072 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.66214[4][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.66221[2][4] - Elapsed time: 0.069 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.66228[4][4] - Elapsed time: 0.070 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.66237[4][4] - Elapsed time: 0.089 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'SO' 
+-----------------------
+27-03-2016 11:55:12.66245[2][4] - Elapsed time: 0.080 milliseconds
+[parse_aiml.php][run_srai][358]
+Checking for entries in the srai_lookup table. 
+-----------------------
+27-03-2016 11:55:12.66251[2][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml.php][run_srai][359]
+google bot_id = 1 
+-----------------------
+27-03-2016 11:55:12.66258[2][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml.php][run_srai][363]
+lookup SQL = select `template_id` from `pom`.`srai_lookup` where `pattern` = 'SO' and  bot_id = '1' ; 
+-----------------------
+27-03-2016 11:55:12.66297[2][4] - Elapsed time: 0.394 milliseconds
+[parse_aiml.php][run_srai][365]
+Result = Array
+(
+    [0] => Array
+        (
+            [template_id] => 14075
+        )
+
+)
+ 
+-----------------------
+27-03-2016 11:55:12.66306[2][4] - Elapsed time: 0.090 milliseconds
+[parse_aiml.php][run_srai][369]
+Found 1 rows in lookup table: Array
+(
+    [0] => Array
+        (
+            [template_id] => 14075
+        )
+
+)
+ 
+-----------------------
+27-03-2016 11:55:12.66313[2][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml.php][run_srai][371]
+Found a matching entry in the lookup table. Using ID# 14075. 
+-----------------------
+27-03-2016 11:55:12.66344[2][4] - Elapsed time: 0.307 milliseconds
+[parse_aiml.php][run_srai][374]
+Row found in AIML for ID 14075: Array
+(
+    [template] => <srai>INTERJECTION</srai>
+)
+ 
+-----------------------
+27-03-2016 11:55:12.66352[2][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+27-03-2016 11:55:12.66362[4][4] - Elapsed time: 0.104 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><srai><text>INTERJECTION</text></srai></template> 
+-----------------------
+27-03-2016 11:55:12.66371[2][4] - Elapsed time: 0.093 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+27-03-2016 11:55:12.66381[4][4] - Elapsed time: 0.097 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><srai><text>INTERJECTION</text></srai></template>
+ 
+-----------------------
+27-03-2016 11:55:12.66389[4][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+27-03-2016 11:55:12.66398[2][4] - Elapsed time: 0.092 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+27-03-2016 11:55:12.66407[4][4] - Elapsed time: 0.094 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element srai at level 1. element XML = <srai><text>INTERJECTION</text></srai> 
+-----------------------
+27-03-2016 11:55:12.66415[4][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_srai_tag does exist. Processing now. 
+-----------------------
+27-03-2016 11:55:12.66422[4][4] - Elapsed time: 0.072 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element srai to the parse_srai_tag function 
+-----------------------
+27-03-2016 11:55:12.66429[2][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml_as_XML.php][parse_srai_tag][629]
+Parsing an SRAI tag. 
+-----------------------
+27-03-2016 11:55:12.66437[2][4] - Elapsed time: 0.076 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1079]
+converting the srai tag into text. 
+-----------------------
+27-03-2016 11:55:12.66444[2][4] - Elapsed time: 0.078 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+27-03-2016 11:55:12.66454[4][4] - Elapsed time: 0.092 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 2. element XML = <text>INTERJECTION</text> 
+-----------------------
+27-03-2016 11:55:12.66461[4][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+27-03-2016 11:55:12.66469[4][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+27-03-2016 11:55:12.66475[2][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+27-03-2016 11:55:12.66482[4][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'INTERJECTION' to the response array. tag name is text 
+-----------------------
+27-03-2016 11:55:12.6649[2][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.66497[4][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.66504[2][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.66512[4][4] - Elapsed time: 0.075 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.66521[4][4] - Elapsed time: 0.090 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'INTERJECTION' 
+-----------------------
+27-03-2016 11:55:12.66529[2][4] - Elapsed time: 0.079 milliseconds
+[parse_aiml.php][run_srai][358]
+Checking for entries in the srai_lookup table. 
+-----------------------
+27-03-2016 11:55:12.66535[2][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml.php][run_srai][359]
+google bot_id = 1 
+-----------------------
+27-03-2016 11:55:12.66542[2][4] - Elapsed time: 0.066 milliseconds
+[parse_aiml.php][run_srai][363]
+lookup SQL = select `template_id` from `pom`.`srai_lookup` where `pattern` = 'INTERJECTION' and  bot_id = '1' ; 
+-----------------------
+27-03-2016 11:55:12.66577[2][4] - Elapsed time: 0.356 milliseconds
+[parse_aiml.php][run_srai][365]
+Result = Array
+(
+    [0] => Array
+        (
+            [template_id] => 14079
+        )
+
+)
+ 
+-----------------------
+27-03-2016 11:55:12.66586[2][4] - Elapsed time: 0.088 milliseconds
+[parse_aiml.php][run_srai][369]
+Found 1 rows in lookup table: Array
+(
+    [0] => Array
+        (
+            [template_id] => 14079
+        )
+
+)
+ 
+-----------------------
+27-03-2016 11:55:12.66593[2][4] - Elapsed time: 0.070 milliseconds
+[parse_aiml.php][run_srai][371]
+Found a matching entry in the lookup table. Using ID# 14079. 
+-----------------------
+27-03-2016 11:55:12.66626[2][4] - Elapsed time: 0.324 milliseconds
+[parse_aiml.php][run_srai][374]
+Row found in AIML for ID 14079: Array
+(
+    [template] => <random>  <li>OK.</li>  <li>Ah.</li>  <li>Er.</li>  <li>So?</li>  <li>Uh.</li>  <li>Aw.</li>  <li>Oh.</li>  <li>Aha.</li>  <li>Hey.</li>  <li>Gee.</li>  <li>Hmm.</li>  <li>Mmm.</li>  <li>Yay.</li>  <li>Ugh.</li>  <li>Woe!</li>  <li>Wow!</li>  <li>And?</li>  <li>Dude!</li>  <li>Gosh!</li>  <li>Ahem.</li>  <li>Whoa.</li>  <li>Ayuh.</li>  <li>Dude!</li>  <li>Yikes!</li>  <li>Great.</li>  <li>I see.</li>  <li>Really.</li>  <li>Blimey.</li>  <li>Yippee!</li>  <li>Groovy.</li>  <li>Hurrah!</li>  <li>Awesome.</li>  <li>Come on.</li>  <li>Far out.</li>  <li>Right on.</li>  <li>Excuse me!</li>  <li>Pardon me?</li>  <li>I hear you.</li>  <li>That's cool.</li>  <li>Alright then.</li>  <li>Take it easy.</li>  <li>I understand.</li>  <li>Tell me more.</li>  <li>It's all good.</li>  <li>Next question?</li>  <li>That's alright.</li>  <li>Give me a break.</li>  <li>Are you kidding?</li>  <li>Yeah that's right.</li>  <li>That's interesting.</li>  <li>How can I help you?</li>  <li>"<that/>"? <input/>?</li>  <li>I don't judge people.</li>  <li>It goes without saying.</li> <li>I hate one word answers.</li> </random>
+)
+ 
+-----------------------
+27-03-2016 11:55:12.66634[2][4] - Elapsed time: 0.084 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+27-03-2016 11:55:12.66654[4][4] - Elapsed time: 0.198 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><random><li><text>OK.</text></li><li><text>Ah.</text></li><li><text>Er.</text></li><li><text>So?</text></li><li><text>Uh.</text></li><li><text>Aw.</text></li><li><text>Oh.</text></li><li><text>Aha.</text></li><li><text>Hey.</text></li><li><text>Gee.</text></li><li><text>Hmm.</text></li><li><text>Mmm.</text></li><li><text>Yay.</text></li><li><text>Ugh.</text></li><li><text>Woe!</text></li><li><text>Wow!</text></li><li><text>And?</text></li><li><text>Dude!</text></li><li><text>Gosh!</text></li><li><text>Ahem.</text></li><li><text>Whoa.</text></li><li><text>Ayuh.</text></li><li><text>Dude!</text></li><li><text>Yikes!</text></li><li><text>Great.</text></li><li><text>I see.</text></li><li><text>Really.</text></li><li><text>Blimey.</text></li><li><text>Yippee!</text></li><li><text>Groovy.</text></li><li><text>Hurrah!</text></li><li><text>Awesome.</text></li><li><text>Come on.</text></li><li><text>Far out.</text></li><li><text>Right on.</text></li><li><text>Excuse me!</text></li><li><text>Pardon me?</text></li><li><text>I hear you.</text></li><li><text>That's cool.</text></li><li><text>Alright then.</text></li><li><text>Take it easy.</text></li><li><text>I understand.</text></li><li><text>Tell me more.</text></li><li><text>It's all good.</text></li><li><text>Next question?</text></li><li><text>That's alright.</text></li><li><text>Give me a break.</text></li><li><text>Are you kidding?</text></li><li><text>Yeah that's right.</text></li><li><text>That's interesting.</text></li><li><text>How can I help you?</text></li><li><text>"</text><that/><text>"? </text><input/><text>?</text></li><li><text>I don't judge people.</text></li><li><text>It goes without saying.</text></li><li><text>I hate one word answers.</text></li></random></template> 
+-----------------------
+27-03-2016 11:55:12.66668[2][4] - Elapsed time: 0.140 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+27-03-2016 11:55:12.66681[4][4] - Elapsed time: 0.128 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><random><li><text>OK.</text></li><li><text>Ah.</text></li><li><text>Er.</text></li><li><text>So?</text></li><li><text>Uh.</text></li><li><text>Aw.</text></li><li><text>Oh.</text></li><li><text>Aha.</text></li><li><text>Hey.</text></li><li><text>Gee.</text></li><li><text>Hmm.</text></li><li><text>Mmm.</text></li><li><text>Yay.</text></li><li><text>Ugh.</text></li><li><text>Woe!</text></li><li><text>Wow!</text></li><li><text>And?</text></li><li><text>Dude!</text></li><li><text>Gosh!</text></li><li><text>Ahem.</text></li><li><text>Whoa.</text></li><li><text>Ayuh.</text></li><li><text>Dude!</text></li><li><text>Yikes!</text></li><li><text>Great.</text></li><li><text>I see.</text></li><li><text>Really.</text></li><li><text>Blimey.</text></li><li><text>Yippee!</text></li><li><text>Groovy.</text></li><li><text>Hurrah!</text></li><li><text>Awesome.</text></li><li><text>Come on.</text></li><li><text>Far out.</text></li><li><text>Right on.</text></li><li><text>Excuse me!</text></li><li><text>Pardon me?</text></li><li><text>I hear you.</text></li><li><text>That's cool.</text></li><li><text>Alright then.</text></li><li><text>Take it easy.</text></li><li><text>I understand.</text></li><li><text>Tell me more.</text></li><li><text>It's all good.</text></li><li><text>Next question?</text></li><li><text>That's alright.</text></li><li><text>Give me a break.</text></li><li><text>Are you kidding?</text></li><li><text>Yeah that's right.</text></li><li><text>That's interesting.</text></li><li><text>How can I help you?</text></li><li><text>"</text><that/><text>"? </text><input/><text>?</text></li><li><text>I don't judge people.</text></li><li><text>It goes without saying.</text></li><li><text>I hate one word answers.</text></li></random></template>
+ 
+-----------------------
+27-03-2016 11:55:12.66689[4][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+27-03-2016 11:55:12.66698[2][4] - Elapsed time: 0.095 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+27-03-2016 11:55:12.66711[4][4] - Elapsed time: 0.124 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element random at level 1. element XML = <random><li><text>OK.</text></li><li><text>Ah.</text></li><li><text>Er.</text></li><li><text>So?</text></li><li><text>Uh.</text></li><li><text>Aw.</text></li><li><text>Oh.</text></li><li><text>Aha.</text></li><li><text>Hey.</text></li><li><text>Gee.</text></li><li><text>Hmm.</text></li><li><text>Mmm.</text></li><li><text>Yay.</text></li><li><text>Ugh.</text></li><li><text>Woe!</text></li><li><text>Wow!</text></li><li><text>And?</text></li><li><text>Dude!</text></li><li><text>Gosh!</text></li><li><text>Ahem.</text></li><li><text>Whoa.</text></li><li><text>Ayuh.</text></li><li><text>Dude!</text></li><li><text>Yikes!</text></li><li><text>Great.</text></li><li><text>I see.</text></li><li><text>Really.</text></li><li><text>Blimey.</text></li><li><text>Yippee!</text></li><li><text>Groovy.</text></li><li><text>Hurrah!</text></li><li><text>Awesome.</text></li><li><text>Come on.</text></li><li><text>Far out.</text></li><li><text>Right on.</text></li><li><text>Excuse me!</text></li><li><text>Pardon me?</text></li><li><text>I hear you.</text></li><li><text>That's cool.</text></li><li><text>Alright then.</text></li><li><text>Take it easy.</text></li><li><text>I understand.</text></li><li><text>Tell me more.</text></li><li><text>It's all good.</text></li><li><text>Next question?</text></li><li><text>That's alright.</text></li><li><text>Give me a break.</text></li><li><text>Are you kidding?</text></li><li><text>Yeah that's right.</text></li><li><text>That's interesting.</text></li><li><text>How can I help you?</text></li><li><text>"</text><that/><text>"? </text><input/><text>?</text></li><li><text>I don't judge people.</text></li><li><text>It goes without saying.</text></li><li><text>I hate one word answers.</text></li></random> 
+-----------------------
+27-03-2016 11:55:12.66719[4][4] - Elapsed time: 0.080 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_random_tag does exist. Processing now. 
+-----------------------
+27-03-2016 11:55:12.66726[4][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element random to the parse_random_tag function 
+-----------------------
+27-03-2016 11:55:12.66733[2][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][339]
+Parsing a RANDOM tag, or doing some stargazing, or fomenting chaos, or... 
+-----------------------
+27-03-2016 11:55:12.66759[4][4] - Elapsed time: 0.254 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][341]
+Pick array:
+Array
+(
+    [0] => SimpleXMLElement Object
+        (
+            [text] => OK.
+        )
+
+    [1] => SimpleXMLElement Object
+        (
+            [text] => Ah.
+        )
+
+    [2] => SimpleXMLElement Object
+        (
+            [text] => Er.
+        )
+
+    [3] => SimpleXMLElement Object
+        (
+            [text] => So?
+        )
+
+    [4] => SimpleXMLElement Object
+        (
+            [text] => Uh.
+        )
+
+    [5] => SimpleXMLElement Object
+        (
+            [text] => Aw.
+        )
+
+    [6] => SimpleXMLElement Object
+        (
+            [text] => Oh.
+        )
+
+    [7] => SimpleXMLElement Object
+        (
+            [text] => Aha.
+        )
+
+    [8] => SimpleXMLElement Object
+        (
+            [text] => Hey.
+        )
+
+    [9] => SimpleXMLElement Object
+        (
+            [text] => Gee.
+        )
+
+    [10] => SimpleXMLElement Object
+        (
+            [text] => Hmm.
+        )
+
+    [11] => SimpleXMLElement Object
+        (
+            [text] => Mmm.
+        )
+
+    [12] => SimpleXMLElement Object
+        (
+            [text] => Yay.
+        )
+
+    [13] => SimpleXMLElement Object
+        (
+            [text] => Ugh.
+        )
+
+    [14] => SimpleXMLElement Object
+        (
+            [text] => Woe!
+        )
+
+    [15] => SimpleXMLElement Object
+        (
+            [text] => Wow!
+        )
+
+    [16] => SimpleXMLElement Object
+        (
+            [text] => And?
+        )
+
+    [17] => SimpleXMLElement Object
+        (
+            [text] => Dude!
+        )
+
+    [18] => SimpleXMLElement Object
+        (
+            [text] => Gosh!
+        )
+
+    [19] => SimpleXMLElement Object
+        (
+            [text] => Ahem.
+        )
+
+    [20] => SimpleXMLElement Object
+        (
+            [text] => Whoa.
+        )
+
+    [21] => SimpleXMLElement Object
+        (
+            [text] => Ayuh.
+        )
+
+    [22] => SimpleXMLElement Object
+        (
+            [text] => Dude!
+        )
+
+    [23] => SimpleXMLElement Object
+        (
+            [text] => Yikes!
+        )
+
+    [24] => SimpleXMLElement Object
+        (
+            [text] => Great.
+        )
+
+    [25] => SimpleXMLElement Object
+        (
+            [text] => I see.
+        )
+
+    [26] => SimpleXMLElement Object
+        (
+            [text] => Really.
+        )
+
+    [27] => SimpleXMLElement Object
+        (
+            [text] => Blimey.
+        )
+
+    [28] => SimpleXMLElement Object
+        (
+            [text] => Yippee!
+        )
+
+    [29] => SimpleXMLElement Object
+        (
+            [text] => Groovy.
+        )
+
+    [30] => SimpleXMLElement Object
+        (
+            [text] => Hurrah!
+        )
+
+    [31] => SimpleXMLElement Object
+        (
+            [text] => Awesome.
+        )
+
+    [32] => SimpleXMLElement Object
+        (
+            [text] => Come on.
+        )
+
+    [33] => SimpleXMLElement Object
+        (
+            [text] => Far out.
+        )
+
+    [34] => SimpleXMLElement Object
+        (
+            [text] => Right on.
+        )
+
+    [35] => SimpleXMLElement Object
+        (
+            [text] => Excuse me!
+        )
+
+    [36] => SimpleXMLElement Object
+        (
+            [text] => Pardon me?
+        )
+
+    [37] => SimpleXMLElement Object
+        (
+            [text] => I hear you.
+        )
+
+    [38] => SimpleXMLElement Object
+        (
+            [text] => That's cool.
+        )
+
+    [39] => SimpleXMLElement Object
+        (
+            [text] => Alright then.
+        )
+
+    [40] => SimpleXMLElement Object
+        (
+            [text] => Take it easy.
+        )
+
+    [41] => SimpleXMLElement Object
+        (
+            [text] => I understand.
+        )
+
+    [42] => SimpleXMLElement Object
+        (
+            [text] => Tell me more.
+        )
+
+    [43] => SimpleXMLElement Object
+        (
+            [text] => It's all good.
+        )
+
+    [44] => SimpleXMLElement Object
+        (
+            [text] => Next question?
+        )
+
+    [45] => SimpleXMLElement Object
+        (
+            [text] => That's alright.
+        )
+
+    [46] => SimpleXMLElement Object
+        (
+            [text] => Give me a break.
+        )
+
+    [47] => SimpleXMLElement Object
+        (
+            [text] => Are you kidding?
+        )
+
+    [48] => SimpleXMLElement Object
+        (
+            [text] => Yeah that's right.
+        )
+
+    [49] => SimpleXMLElement Object
+        (
+            [text] => That's interesting.
+        )
+
+    [50] => SimpleXMLElement Object
+        (
+            [text] => How can I help you?
+        )
+
+    [51] => SimpleXMLElement Object
+        (
+            [text] => Array
+                (
+                    [0] => "
+                    [1] => "? 
+                    [2] => ?
+                )
+
+            [that] => SimpleXMLElement Object
+                (
+                )
+
+            [input] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [52] => SimpleXMLElement Object
+        (
+            [text] => I don't judge people.
+        )
+
+    [53] => SimpleXMLElement Object
+        (
+            [text] => It goes without saying.
+        )
+
+    [54] => SimpleXMLElement Object
+        (
+            [text] => I hate one word answers.
+        )
+
+)
+ 
+-----------------------
+27-03-2016 11:55:12.66766[4][4] - Elapsed time: 0.075 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][343]
+Picking option #47 from random tag.
+ 
+-----------------------
+27-03-2016 11:55:12.66773[2][4] - Elapsed time: 0.072 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+27-03-2016 11:55:12.66783[4][4] - Elapsed time: 0.096 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element li at level 2. element XML = <li><text>Are you kidding?</text></li> 
+-----------------------
+27-03-2016 11:55:12.66791[4][4] - Elapsed time: 0.078 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_li_tag does not exist. Parsing tag as text. 
+-----------------------
+27-03-2016 11:55:12.668[2][4] - Elapsed time: 0.090 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+27-03-2016 11:55:12.66809[4][4] - Elapsed time: 0.093 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 3. element XML = <text>Are you kidding?</text> 
+-----------------------
+27-03-2016 11:55:12.66817[4][4] - Elapsed time: 0.078 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+27-03-2016 11:55:12.66824[4][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+27-03-2016 11:55:12.66831[2][4] - Elapsed time: 0.071 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+27-03-2016 11:55:12.66839[4][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'Are you kidding?' to the response array. tag name is text 
+-----------------------
+27-03-2016 11:55:12.66846[2][4] - Elapsed time: 0.075 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.66854[4][4] - Elapsed time: 0.079 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.66862[4][4] - Elapsed time: 0.080 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Are you kidding?' 
+-----------------------
+27-03-2016 11:55:12.66869[4][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'Are you kidding?' to the response array. tag name is li. 
+-----------------------
+27-03-2016 11:55:12.66877[2][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.66884[4][4] - Elapsed time: 0.075 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.66893[4][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Are you kidding?' 
+-----------------------
+27-03-2016 11:55:12.669[4][4] - Elapsed time: 0.072 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][346]
+Chose Random Response of 'Are you kidding?' for output. 
+-----------------------
+27-03-2016 11:55:12.66908[4][4] - Elapsed time: 0.079 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'Are you kidding?' to the response array. tag name is random 
+-----------------------
+27-03-2016 11:55:12.66915[2][4] - Elapsed time: 0.076 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.66923[4][4] - Elapsed time: 0.076 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.66931[4][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Are you kidding?' 
+-----------------------
+27-03-2016 11:55:12.66938[4][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'Are you kidding?' to the response array. tag name is template. 
+-----------------------
+27-03-2016 11:55:12.66947[2][4] - Elapsed time: 0.082 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.66954[4][4] - Elapsed time: 0.078 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.66962[4][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Are you kidding?' 
+-----------------------
+27-03-2016 11:55:12.6697[2][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml.php][run_srai][389]
+Returning results from stored srai lookup. 
+-----------------------
+27-03-2016 11:55:12.66978[4][4] - Elapsed time: 0.085 milliseconds
+[parse_aiml_as_XML.php][parse_srai_tag][632]
+Finished parsing SRAI tag 
+-----------------------
+27-03-2016 11:55:12.66986[2][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.66994[4][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'Are you kidding?' to the response array. tag name is srai 
+-----------------------
+27-03-2016 11:55:12.67001[2][4] - Elapsed time: 0.078 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.67009[4][4] - Elapsed time: 0.076 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.67017[4][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Are you kidding?' 
+-----------------------
+27-03-2016 11:55:12.67024[4][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'Are you kidding?' to the response array. tag name is template. 
+-----------------------
+27-03-2016 11:55:12.67032[2][4] - Elapsed time: 0.079 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.6704[4][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.67048[4][4] - Elapsed time: 0.082 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Are you kidding?' 
+-----------------------
+27-03-2016 11:55:12.67056[2][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml.php][run_srai][389]
+Returning results from stored srai lookup. 
+-----------------------
+27-03-2016 11:55:12.67063[4][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml_as_XML.php][parse_srai_tag][632]
+Finished parsing SRAI tag 
+-----------------------
+27-03-2016 11:55:12.6707[2][4] - Elapsed time: 0.073 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.67079[4][4] - Elapsed time: 0.082 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'Are you kidding?' to the response array. tag name is srai 
+-----------------------
+27-03-2016 11:55:12.67086[2][4] - Elapsed time: 0.078 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.67094[4][4] - Elapsed time: 0.078 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.67103[4][4] - Elapsed time: 0.083 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Are you kidding?' 
+-----------------------
+27-03-2016 11:55:12.6711[4][4] - Elapsed time: 0.075 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'Are you kidding?' to the response array. tag name is template. 
+-----------------------
+27-03-2016 11:55:12.67118[2][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+27-03-2016 11:55:12.67126[4][4] - Elapsed time: 0.077 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+27-03-2016 11:55:12.67134[4][4] - Elapsed time: 0.083 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'Are you kidding?' 
+-----------------------
+27-03-2016 11:55:12.67144[4][4] - Elapsed time: 0.094 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][41]
+Completed parsing the template. The bot will say: Are you kidding? 
+-----------------------
+27-03-2016 11:55:12.67151[4][4] - Elapsed time: 0.078 milliseconds
+[parse_aiml.php][parse_matched_aiml][195]
+normal - Saving for next turn 
+-----------------------
+27-03-2016 11:55:12.67159[4][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml.php][save_for_nextturn][235]
+Saving that and that_raw for next turn 
+-----------------------
+27-03-2016 11:55:12.67166[2][4] - Elapsed time: 0.076 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Are you kidding?' to the front of the [that_raw] array 
+-----------------------
+27-03-2016 11:55:12.67183[2][4] - Elapsed time: 0.166 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Are you kidding?' to the front of the [that] array 
+-----------------------
+27-03-2016 11:55:12.67195[4][4] - Elapsed time: 0.122 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'Are you kidding?' 
+-----------------------
+27-03-2016 11:55:12.67203[4][4] - Elapsed time: 0.081 milliseconds
+[misc_functions.php][normalize_text][48]
+Begin normalization - text = 'Are you kidding?' 
+-----------------------
+27-03-2016 11:55:12.67218[4][4] - Elapsed time: 0.147 milliseconds
+[misc_functions.php][normalize_text][63]
+Normalization complete. Text = 'ARE YOU KIDDING' 
+-----------------------
+27-03-2016 11:55:12.67225[4][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'ARE YOU KIDDING' 
+-----------------------
+27-03-2016 11:55:12.67237[2][4] - Elapsed time: 0.113 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Are you kidding?' to the front of the [parsed_template] array 
+-----------------------
+27-03-2016 11:55:12.67249[2][4] - Elapsed time: 0.120 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '<srai>SO</srai>' to the front of the [template] array 
+-----------------------
+27-03-2016 11:55:12.67262[2][4] - Elapsed time: 0.131 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+27-03-2016 11:55:12.6727[3][4] - Elapsed time: 0.085 milliseconds
+[intialise_conversation.php][log_conversation][394]
+Saving conservation SQL: INSERT INTO `pom`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'THEN',
+      'Are you kidding?',
+      '19',
+      '49akeine2cfn71par2id8k0o67',
+      '1',
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+27-03-2016 11:55:12.67306[4][4] - Elapsed time: 0.357 milliseconds
+[intialise_conversation.php][write_to_session][130]
+Saving to session 
+-----------------------
+27-03-2016 11:55:12.67382[3][4] - Elapsed time: 0.759 milliseconds
+[display_conversation.php][get_conversation_to_display][48]
+get_conversation SQL: SELECT * FROM `pom`.`conversation_log`
+        WHERE
+        `user_id` = '19'
+        AND `bot_id` = '1'
+        AND `convo_id` = '49akeine2cfn71par2id8k0o67'
+        ORDER BY id DESC  LIMIT 10  
+-----------------------
+27-03-2016 11:55:12.6746[2][4] - Elapsed time: 0.787 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '10' lines of conversation 
+-----------------------
+27-03-2016 11:55:12.67481[4][4] - Elapsed time: 0.207 milliseconds
+[display_conversation.php][get_conversation][77]
+Processing conversation as html 
+-----------------------
+27-03-2016 11:55:12.67508[4][4] - Elapsed time: 0.267 milliseconds
+[display_conversation.php][get_html][112]
+Returning HTML 
+-----------------------
+27-03-2016 11:55:12.69007[2][4] - Elapsed time: 14.995 milliseconds
+[conversation_start.php][Called outside of function][202]
+Closing Database 
+-----------------------
+27-03-2016 11:55:12.6902[2][4] - Elapsed time: 0.128 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+27-03-2016 11:55:12.69046[0][4] - Elapsed time: 0.257 milliseconds
+[conversation_start.php][Called outside of function][207]
+Conversation Ending. Elapsed time: 153.868 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [bot_properties] => Array
+        (
+            [name] => Chitti
+            [gender] => 
+            [botmaster] => 
+            [master] => Manikandan
+            [age] => 
+            [website] => 
+            [email] => 
+            [birthday] => 
+            [birthplace] => 
+            [size] => 
+            [version] => 
+            [build] => 
+            [language] => 
+            [feelings] => 
+            [etype] => 
+            [emotions] => 
+            [ethics] => 
+            [orientation] => 
+            [baseballteam] => 
+            [footballteam] => 
+            [hockeyteam] => 
+            [favoritesport] => 
+            [vocabulary] => 
+            [celebrities] => 
+            [celebrity] => 
+            [favoriteactor] => 
+            [favoriteactress] => 
+            [favoriteartist] => 
+            [favoritemusician] => 
+            [favoritesong] => 
+            [favoriteauthor] => 
+            [friend] => 
+            [nationality] => 
+            [religion] => 
+            [president] => 
+            [party] => 
+            [kingdom] => 
+            [phylum] => 
+            [class] => 
+            [order] => 
+            [family] => 
+            [genus] => 
+            [species] => 
+            [boyfriend] => 
+            [favoritebook] => 
+            [favoriteband] => 
+            [favoritecolor] => 
+            [favoritefood] => 
+            [favoritemovie] => 
+            [forfun] => 
+            [friends] => 
+            [girlfriend] => 
+            [kindmusic] => 
+            [location] => 
+            [looklike] => 
+            [question] => 
+            [sign] => 
+            [talkabout] => 
+            [wear] => 
+            [loves] => 
+        )
+
+    [conversation] => Array
+        (
+            [convo_id] => 49akeine2cfn71par2id8k0o67
+            [bot_name] => Chitti
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_id] => 19
+            [totallines] => 1
+            [user_name] => Seeker
+            [conversation_lines] => 10
+            [remember_up_to] => 10
+            [debugemail] => mani@tadka.com
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [time_start] => 1459079712.5365
+    [aiml] => Array
+        (
+            [user_raw] => THEN
+            [lookingfor] => THEN
+            [template_id] => 25942
+            [pattern] => THEN
+            [thatpattern] => 
+            [template] => <srai>SO</srai>
+            [html_template] => 
+            [topic] => 
+            [score] => 260
+            [aiml_id] => 25942
+            [parsed_template] => Are you kidding?
+        )
+
+    [user_say] => Array
+        (
+            [1] => THEN
+            [2] => THEN
+            [3] => THEN
+            [4] => THEN
+            [5] => THEN
+            [6] => THEN
+            [7] => THEN
+            [8] => THEN
+            [9] => THEN
+            [10] => THEN
+        )
+
+    [input] => Array
+        (
+            [1] => THEN
+            [2] => THEN
+            [3] => THEN
+            [4] => THEN
+            [5] => THEN
+            [6] => THEN
+            [7] => THEN
+            [8] => THEN
+            [9] => THEN
+            [10] => THEN
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => Are you kidding?
+                )
+
+            [2] => Array
+                (
+                    [1] => 
+                    [2] => Next question?
+                )
+
+            [3] => Array
+                (
+                    [1] => 
+                    [2] => How can I help you?
+                )
+
+            [4] => Array
+                (
+                    [1] => 
+                    [2] => OK.
+                )
+
+            [5] => Array
+                (
+                    [1] => 
+                    [2] => Right on.
+                )
+
+            [6] => Array
+                (
+                    [1] => 
+                    [2] => THEN?
+                    [3] => " GIVE ME A BREAK "?
+                )
+
+            [7] => Array
+                (
+                    [1] => 
+                    [2] => Give me a break.
+                )
+
+            [8] => Array
+                (
+                    [1] => 
+                    [2] => So?
+                )
+
+            [9] => Array
+                (
+                    [1] => 
+                    [2] => Ugh.
+                )
+
+            [10] => Array
+                (
+                    [1] => 
+                    [2] => Yippee!
+                )
+
+            [12] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => ARE YOU KIDDING
+                )
+
+            [2] => Array
+                (
+                    [1] => NEXT QUESTION
+                )
+
+            [3] => Array
+                (
+                    [1] => HOW CAN I HELP YOU
+                )
+
+            [4] => Array
+                (
+                    [1] => OK
+                )
+
+            [5] => Array
+                (
+                    [1] => RIGHT ON
+                )
+
+            [6] => Array
+                (
+                    [1] => GIVE ME A BREAK THEN
+                )
+
+            [7] => Array
+                (
+                    [1] => GIVE ME A BREAK
+                )
+
+            [8] => Array
+                (
+                    [1] => SO
+                )
+
+            [9] => Array
+                (
+                    [1] => UGH
+                )
+
+            [10] => Array
+                (
+                    [1] => YIPPEE
+                )
+
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => Are you kidding?
+            [2] => Next question?
+            [3] => How can I help you?
+            [4] => OK.
+            [5] => Right on.
+            [6] => " GIVE ME A BREAK "? THEN?
+            [7] => Give me a break.
+            [8] => So?
+            [9] => Ugh.
+            [10] => Yippee!
+        )
+
+    [template] => Array
+        (
+            [1] => <srai>SO</srai>
+            [2] => <srai>SO</srai>
+            [3] => <srai>SO</srai>
+            [4] => <srai>SO</srai>
+            [5] => <srai>SO</srai>
+            [6] => <srai>SO</srai>
+            [7] => <srai>SO</srai>
+            [8] => <srai>SO</srai>
+            [9] => <srai>SO</srai>
+            [10] => <srai>SO</srai>
+        )
+
+    [star] => Array
+        (
+            [1] => DFS
+        )
+
+    [send_to_user] => <div class="usersay">Seeker: THEN</div><div class="botsay">Chitti: Yippee!</div><div class="usersay">Seeker: THEN</div><div class="botsay">Chitti: Ugh.</div><div class="usersay">Seeker: THEN</div><div class="botsay">Chitti: So?</div><div class="usersay">Seeker: THEN</div><div class="botsay">Chitti: Give me a break.</div><div class="usersay">Seeker: THEN</div><div class="botsay">Chitti: " GIVE ME A BREAK "? THEN?</div><div class="usersay">Seeker: THEN</div><div class="botsay">Chitti: Right on.</div><div class="usersay">Seeker: THEN</div><div class="botsay">Chitti: OK.</div><div class="usersay">Seeker: THEN</div><div class="botsay">Chitti: How can I help you?</div><div class="usersay">Seeker: THEN</div><div class="botsay">Chitti: Next question?</div><div class="usersay">Seeker: THEN</div><div class="botsay">Chitti: Are you kidding?</div>
+)
+
+-----------------------
+Total execution time: 153.868 Milliseconds. Goodbye.

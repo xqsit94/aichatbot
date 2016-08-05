@@ -1,0 +1,959 @@
+22-03-2016 17:28:12.93805[0][4] - Elapsed time: 44.159 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version VERSION
+PHP  version 5.4.39
+OS:  version  
+-----------------------
+22-03-2016 17:28:12.94499[4][4] - Elapsed time: 6.944 milliseconds
+[load_aimlfunctions.php][Called outside of function][15]
+AIML function include files loaded 
+-----------------------
+22-03-2016 17:28:12.94831[4][4] - Elapsed time: 3.323 milliseconds
+[load_convofunctions.php][Called outside of function][15]
+Convofunction include files loaded 
+-----------------------
+22-03-2016 17:28:12.94944[4][4] - Elapsed time: 1.123 milliseconds
+[load_userfunctions.php][Called outside of function][13]
+userfunctions include files loaded 
+-----------------------
+22-03-2016 17:28:12.95421[4][4] - Elapsed time: 4.767 milliseconds
+[load_addons.php][Called outside of function][19]
+Loading addons 
+-----------------------
+22-03-2016 17:28:12.95428[4][4] - Elapsed time: 0.074 milliseconds
+[conversation_start.php][Called outside of function][34]
+Loaded all Includes 
+-----------------------
+22-03-2016 17:28:12.9554[4][4] - Elapsed time: 1.122 milliseconds
+[intialise_conversation.php][intialise_convoArray][28]
+Intialising conversation 
+-----------------------
+22-03-2016 17:28:12.95546[4][4] - Elapsed time: 0.063 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank topic array 
+-----------------------
+22-03-2016 17:28:12.95552[4][4] - Elapsed time: 0.058 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that array 
+-----------------------
+22-03-2016 17:28:12.95558[4][4] - Elapsed time: 0.054 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank star array 
+-----------------------
+22-03-2016 17:28:12.95563[4][4] - Elapsed time: 0.052 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank input array 
+-----------------------
+22-03-2016 17:28:12.95568[4][4] - Elapsed time: 0.055 milliseconds
+[intialise_conversation.php][load_blank_stack][81]
+Loading blank stack 
+-----------------------
+22-03-2016 17:28:12.95573[4][4] - Elapsed time: 0.050 milliseconds
+[intialise_conversation.php][load_default_bot_values][105]
+Loading db bot personality properties 
+-----------------------
+22-03-2016 17:28:12.95578[3][4] - Elapsed time: 0.045 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `pom`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+22-03-2016 17:28:12.95651[2][4] - Elapsed time: 0.734 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+22-03-2016 17:28:12.97681[1][4] - Elapsed time: 20.297 milliseconds
+[conversation_start.php][Called outside of function][75]
+PHP ERROR [Notice] -Use of undefined constant VERSION - assumed 'VERSION' in C:\VertrigoServ\www\pom\chatbot\conversation_start.php on Line 75 
+-----------------------
+22-03-2016 17:28:12.97997[0][4] - Elapsed time: 3.166 milliseconds
+[conversation_start.php][Called outside of function][84]
+Debug level: 4
+session ID = 5dj05cquqa50oc8bdbr85ngbj0 
+-----------------------
+22-03-2016 17:28:13.00172[2][4] - Elapsed time: 21.748 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+22-03-2016 17:28:13.00181[2][4] - Elapsed time: 0.082 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on wiki. 
+-----------------------
+22-03-2016 17:28:13.00192[2][4] - Elapsed time: 0.111 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+22-03-2016 17:28:13.05155[4][4] - Elapsed time: 49.630 milliseconds
+[spell_checker.php][spell_check][74]
+Spelling check passed. 
+-----------------------
+22-03-2016 17:28:13.05213[2][4] - Elapsed time: 0.588 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on sachin. 
+-----------------------
+22-03-2016 17:28:13.05232[4][4] - Elapsed time: 0.187 milliseconds
+[spell_checker.php][spell_check][74]
+Spelling check passed. 
+-----------------------
+22-03-2016 17:28:13.05242[4][4] - Elapsed time: 0.095 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'wiki sachin' 
+-----------------------
+22-03-2016 17:28:13.05513[4][4] - Elapsed time: 2.712 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WIKI SACHIN' 
+-----------------------
+22-03-2016 17:28:13.05519[2][4] - Elapsed time: 0.065 milliseconds
+[conversation_start.php][Called outside of function][146]
+Details:
+User say: WIKI SACHIN
+Convo id: 5dj05cquqa50oc8bdbr85ngbj0
+Bot id: 1
+Format: html 
+-----------------------
+22-03-2016 17:28:13.05524[4][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][read_from_session][144]
+Reading from session 
+-----------------------
+22-03-2016 17:28:13.0553[4][4] - Elapsed time: 0.060 milliseconds
+[intialise_conversation.php][load_default_bot_values][105]
+Loading db bot personality properties 
+-----------------------
+22-03-2016 17:28:13.05535[3][4] - Elapsed time: 0.047 milliseconds
+[intialise_conversation.php][load_default_bot_values][109]
+load db bot personality values SQL: SELECT * FROM `pom`.`botpersonality` WHERE `bot_id` = '1' 
+-----------------------
+22-03-2016 17:28:13.05608[4][4] - Elapsed time: 0.736 milliseconds
+[intialise_conversation.php][check_set_convo_id][529]
+Obtaining the convo id from form vars. Value: 5dj05cquqa50oc8bdbr85ngbj0 
+-----------------------
+22-03-2016 17:28:13.05615[2][4] - Elapsed time: 0.063 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+22-03-2016 17:28:13.0562[3][4] - Elapsed time: 0.056 milliseconds
+[intialise_conversation.php][check_set_bot][491]
+Making sure the bot exists. SQL = SELECT * FROM `pom`.`bots` WHERE bot_id = '1' and `bot_active`='1' 
+-----------------------
+22-03-2016 17:28:13.1046[2][4] - Elapsed time: 48.395 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+22-03-2016 17:28:13.10468[2][4] - Elapsed time: 0.082 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+22-03-2016 17:28:13.13964[2][4] - Elapsed time: 34.958 milliseconds
+[handle_user.php][intisaliseUser][77]
+Initializing user. 
+-----------------------
+22-03-2016 17:28:13.17084[3][4] - Elapsed time: 31.199 milliseconds
+[handle_user.php][intisaliseUser][106]
+intisaliseUser #16 SQL: INSERT INTO `pom`.`users` (`id`, `user_name`, `session_id`, `bot_id`, `chatlines` ,`ip` ,`referer` ,`browser` ,`date_logged_on` ,`last_update`, `state`)
+  VALUES ( NULL , 'Seeker', '5dj05cquqa50oc8bdbr85ngbj0', 1, '0', '::1', 'http://localhost/pom/index.php', 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36', CURRENT_TIMESTAMP , CURRENT_TIMESTAMP, '') 
+-----------------------
+22-03-2016 17:28:13.18274[4][4] - Elapsed time: 11.907 milliseconds
+[intialise_conversation.php][check_set_format][616]
+Using format: html 
+-----------------------
+22-03-2016 17:28:13.18282[2][4] - Elapsed time: 0.075 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+22-03-2016 17:28:13.18287[3][4] - Elapsed time: 0.053 milliseconds
+[intialise_conversation.php][load_that][639]
+Getting conversation log entries for the current user. SQL:
+select `input`, `response` from `pom`.`conversation_log` where `user_id` = 16 and `bot_id` = 1 order by `id` desc limit 10; 
+-----------------------
+22-03-2016 17:28:13.20054[4][4] - Elapsed time: 17.670 milliseconds
+[intialise_conversation.php][load_that][686]
+Couldn't find any previous inputs or responses. 
+-----------------------
+22-03-2016 17:28:13.216[2][4] - Elapsed time: 15.454 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+22-03-2016 17:28:13.21608[3][4] - Elapsed time: 0.081 milliseconds
+[intialise_conversation.php][load_bot_config][319]
+load bot config SQL: SELECT * FROM `pom`.`bots` WHERE bot_id = '1' 
+-----------------------
+22-03-2016 17:28:13.2165[4][4] - Elapsed time: 0.428 milliseconds
+[intialise_conversation.php][load_bot_config][323]
+Loading bot details from the database. 
+-----------------------
+22-03-2016 17:28:13.21657[0][4] - Elapsed time: 0.064 milliseconds
+[conversation_start.php][Called outside of function][167]
+Debug level = 4 
+-----------------------
+22-03-2016 17:28:13.21662[0][4] - Elapsed time: 0.048 milliseconds
+[conversation_start.php][Called outside of function][169]
+Debug level = 4 
+-----------------------
+22-03-2016 17:28:13.21667[4][4] - Elapsed time: 0.050 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][165]
+New conversation vars 
+-----------------------
+22-03-2016 17:28:13.21673[2][4] - Elapsed time: 0.063 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WIKI SACHIN' to the front of the [user_say] array 
+-----------------------
+22-03-2016 17:28:13.21681[4][4] - Elapsed time: 0.085 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank user_say array 
+-----------------------
+22-03-2016 17:28:13.22844[2][4] - Elapsed time: 11.625 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WIKI SACHIN' to the front of the [input] array 
+-----------------------
+22-03-2016 17:28:13.22855[4][4] - Elapsed time: 0.114 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank input array 
+-----------------------
+22-03-2016 17:28:13.22865[4][4] - Elapsed time: 0.101 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+22-03-2016 17:28:13.2287[4][4] - Elapsed time: 0.051 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'WIKI SACHIN' 
+-----------------------
+22-03-2016 17:28:13.22883[4][4] - Elapsed time: 0.126 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'WIKI SACHIN' 
+-----------------------
+22-03-2016 17:28:13.22888[4][4] - Elapsed time: 0.051 milliseconds
+[find_aiml.php][get_aiml_to_parse][808]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+22-03-2016 17:28:13.23128[4][4] - Elapsed time: 2.396 milliseconds
+[find_aiml.php][find_userdefined_aiml][767]
+Looking for user defined responses 
+-----------------------
+22-03-2016 17:28:13.23134[3][4] - Elapsed time: 0.066 milliseconds
+[find_aiml.php][find_userdefined_aiml][779]
+User defined SQL: SELECT * FROM `pom`.`aiml_userdefined` WHERE
+    `bot_id` = '1' AND
+    (`user_id` = '16' OR `user_id` = '-1') AND
+    `pattern` = 'WIKI SACHIN' 
+-----------------------
+22-03-2016 17:28:13.2514[2][4] - Elapsed time: 20.058 milliseconds
+[find_aiml.php][find_userdefined_aiml][795]
+User defined rows found: '0' 
+-----------------------
+22-03-2016 17:28:13.2515[4][4] - Elapsed time: 0.094 milliseconds
+[find_aiml.php][find_aiml_matches][882]
+Finding the aiml matches from the DB 
+-----------------------
+22-03-2016 17:28:13.25159[4][4] - Elapsed time: 0.096 milliseconds
+[find_aiml.php][get_last_word][22]
+Sentence: WIKI SACHIN. Last word:SACHIN 
+-----------------------
+22-03-2016 17:28:13.25165[4][4] - Elapsed time: 0.060 milliseconds
+[find_aiml.php][get_first_word][35]
+Sentence: WIKI SACHIN. First word:WIKI 
+-----------------------
+22-03-2016 17:28:13.25214[4][4] - Elapsed time: 0.486 milliseconds
+[find_aiml.php][find_aiml_matches][896]
+Stored topic = '' 
+-----------------------
+22-03-2016 17:28:13.25224[4][4] - Elapsed time: 0.099 milliseconds
+[find_aiml.php][wordsCount_inSentence][119]
+Sentence: WIKI SACHIN numWords:2 
+-----------------------
+22-03-2016 17:28:13.25231[4][4] - Elapsed time: 0.074 milliseconds
+[find_aiml.php][make_like_pattern][47]
+Making a like pattern to use in the sql 
+-----------------------
+22-03-2016 17:28:13.25237[4][4] - Elapsed time: 0.058 milliseconds
+[find_aiml.php][make_like_pattern][48]
+Transforming pattern: WIKI SACHIN 
+-----------------------
+22-03-2016 17:28:13.25243[4][4] - Elapsed time: 0.064 milliseconds
+[find_aiml.php][make_like_pattern][57]
+word list:
+Array
+(
+    [0] => WIKI
+    [1] => SACHIN
+)
+ 
+-----------------------
+22-03-2016 17:28:13.25254[4][4] - Elapsed time: 0.111 milliseconds
+[find_aiml.php][make_like_pattern][106]
+returning like pattern:
+
+  `pattern` like 'WIKI % SACHIN' OR
+  `pattern` like 'WIKI %' OR
+(`pattern` LIKE '% SACHIN' ) OR (`pattern` LIKE 'WIKI %') OR  
+-----------------------
+22-03-2016 17:28:13.25262[3][4] - Elapsed time: 0.074 milliseconds
+[find_aiml.php][find_aiml_matches][953]
+Match AIML sql: SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic` FROM `pom`.`aiml` WHERE
+   bot_id = '1'  AND (
+  `pattern` = '_' OR
+  `pattern` = '*' OR
+  `pattern` = 'WIKI SACHIN' OR 
+  `pattern` like 'WIKI % SACHIN' OR
+  `pattern` like 'WIKI %' OR
+(`pattern` LIKE '% SACHIN' ) OR (`pattern` LIKE 'WIKI %') OR     
+  `pattern` = 'RANDOM PICKUP LINE'
+  ) 
+  order by `topic` desc, `id` asc, `pattern` asc; 
+-----------------------
+22-03-2016 17:28:13.3377[2][4] - Elapsed time: 85.080 milliseconds
+[find_aiml.php][find_aiml_matches][959]
+FOUND: (147) potential AIML matches 
+-----------------------
+22-03-2016 17:28:13.34017[4][4] - Elapsed time: 2.473 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][147]
+NEW FUNC Searching through 147 rows to unset bad matches 
+-----------------------
+22-03-2016 17:28:13.34025[4][4] - Elapsed time: 0.076 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][156]
+Blue 5 to Blue leader. Starting my run now! 
+-----------------------
+22-03-2016 17:28:13.37303[4][4] - Elapsed time: 32.785 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][258]
+Found 1 relevant rows 
+-----------------------
+22-03-2016 17:28:13.37328[4][4] - Elapsed time: 0.252 milliseconds
+[find_aiml.php][score_matches][295]
+Scoring the matches. 
+-----------------------
+22-03-2016 17:28:13.37395[4][4] - Elapsed time: 0.670 milliseconds
+[find_aiml.php][score_matches][538]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 8432
+            [bot_id] => 1
+            [pattern] => *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 8432
+            [score] => 252
+            [track_score] => current bot, no thatpattern to match, pattern star match
+        )
+
+)
+ 
+-----------------------
+22-03-2016 17:28:13.37593[2][4] - Elapsed time: 1.974 milliseconds
+[find_aiml.php][get_winning_category][647]
+And the winner is... 8432! 
+-----------------------
+22-03-2016 17:28:13.39133[4][4] - Elapsed time: 15.400 milliseconds
+[find_aiml.php][get_winning_category][660]
+Returning the AIML template for id# 8432. Value:
+'<random>
+			<li>I'm sorry I don't understand</li>
+			<li>I beg your pardon?</li>
+			<li>Could you explain that in different words?</li>
+			<li>Huh?</li>
+			<li>You aren't making sense to me...</li>
+		</random>' 
+-----------------------
+22-03-2016 17:28:13.39143[4][4] - Elapsed time: 0.105 milliseconds
+[find_aiml.php][get_highest_scoring_row][631]
+Best Responses: Array
+(
+    [0] => Array
+        (
+            [id] => 8432
+            [bot_id] => 1
+            [pattern] => *
+            [thatpattern] => 
+            [topic] => 
+            [aiml_id] => 8432
+            [score] => 252
+            [track_score] => current bot, no thatpattern to match, pattern star match
+        )
+
+)
+ 
+-----------------------
+22-03-2016 17:28:13.39149[2][4] - Elapsed time: 0.053 milliseconds
+[find_aiml.php][get_highest_scoring_row][632]
+Will use randomly picked best response chosen out of 1 responses with same score: 8432 - * 
+-----------------------
+22-03-2016 17:28:13.39154[4][4] - Elapsed time: 0.056 milliseconds
+[find_aiml.php][get_aiml_to_parse][841]
+Will be parsing id:8432 (*) 
+-----------------------
+22-03-2016 17:28:13.3916[3][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml.php][parse_matched_aiml][190]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+22-03-2016 17:28:13.39167[2][4] - Elapsed time: 0.072 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+22-03-2016 17:28:13.39177[2][4] - Elapsed time: 0.105 milliseconds
+[parse_aiml.php][set_wildcards][269]
+We have pattern stars to process! 
+-----------------------
+22-03-2016 17:28:13.39182[2][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml.php][set_wildcards][278]
+Checking '(.*)' against 'WIKI SACHIN'. 
+-----------------------
+22-03-2016 17:28:13.39191[2][4] - Elapsed time: 0.081 milliseconds
+[parse_aiml.php][set_wildcards][281]
+Array
+(
+    [0] => Array
+        (
+            [0] => WIKI SACHIN
+            [1] => 
+        )
+
+    [1] => Array
+        (
+            [0] => WIKI SACHIN
+            [1] => 
+        )
+
+)
+ 
+-----------------------
+22-03-2016 17:28:13.39197[2][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml.php][set_wildcards][287]
+Adding WIKI SACHIN to the star stack. 
+-----------------------
+22-03-2016 17:28:13.39206[2][4] - Elapsed time: 0.092 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+22-03-2016 17:28:13.39211[2][4] - Elapsed time: 0.052 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+22-03-2016 17:28:13.39223[4][4] - Elapsed time: 0.112 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][79]
+Returning template:
+<template><random><li><text>I'm sorry I don't understand</text></li><li><text>I beg your pardon?</text></li><li><text>Could you explain that in different words?</text></li><li><text>Huh?</text></li><li><text>You aren't making sense to me...</text></li></random></template> 
+-----------------------
+22-03-2016 17:28:13.40577[2][4] - Elapsed time: 13.544 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 17:28:13.40642[4][4] - Elapsed time: 0.655 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><random><li><text>I'm sorry I don't understand</text></li><li><text>I beg your pardon?</text></li><li><text>Could you explain that in different words?</text></li><li><text>Huh?</text></li><li><text>You aren't making sense to me...</text></li></random></template>
+ 
+-----------------------
+22-03-2016 17:28:13.40651[4][4] - Elapsed time: 0.080 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+22-03-2016 17:28:13.40659[2][4] - Elapsed time: 0.086 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 17:28:13.40668[4][4] - Elapsed time: 0.093 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element random at level 1. element XML = <random><li><text>I'm sorry I don't understand</text></li><li><text>I beg your pardon?</text></li><li><text>Could you explain that in different words?</text></li><li><text>Huh?</text></li><li><text>You aren't making sense to me...</text></li></random> 
+-----------------------
+22-03-2016 17:28:13.40675[4][4] - Elapsed time: 0.062 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_random_tag does exist. Processing now. 
+-----------------------
+22-03-2016 17:28:13.4068[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element random to the parse_random_tag function 
+-----------------------
+22-03-2016 17:28:13.40686[2][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][339]
+Parsing a RANDOM tag, or doing some stargazing, or fomenting chaos, or... 
+-----------------------
+22-03-2016 17:28:13.41391[4][4] - Elapsed time: 7.055 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][341]
+Pick array:
+Array
+(
+    [0] => SimpleXMLElement Object
+        (
+            [text] => I'm sorry I don't understand
+        )
+
+    [1] => SimpleXMLElement Object
+        (
+            [text] => I beg your pardon?
+        )
+
+    [2] => SimpleXMLElement Object
+        (
+            [text] => Could you explain that in different words?
+        )
+
+    [3] => SimpleXMLElement Object
+        (
+            [text] => Huh?
+        )
+
+    [4] => SimpleXMLElement Object
+        (
+            [text] => You aren't making sense to me...
+        )
+
+)
+ 
+-----------------------
+22-03-2016 17:28:13.41398[4][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][343]
+Picking option #1 from random tag.
+ 
+-----------------------
+22-03-2016 17:28:13.41403[2][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 17:28:13.41411[4][4] - Elapsed time: 0.082 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element li at level 2. element XML = <li><text>I beg your pardon?</text></li> 
+-----------------------
+22-03-2016 17:28:13.41417[4][4] - Elapsed time: 0.060 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][169]
+function parse_li_tag does not exist. Parsing tag as text. 
+-----------------------
+22-03-2016 17:28:13.41425[2][4] - Elapsed time: 0.074 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][142]
+Recursively parsing the AIML template. 
+-----------------------
+22-03-2016 17:28:13.41432[4][4] - Elapsed time: 0.076 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][149]
+Processing element text at level 3. element XML = <text>I beg your pardon?</text> 
+-----------------------
+22-03-2016 17:28:13.41438[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][156]
+Function parse_text_tag does exist. Processing now. 
+-----------------------
+22-03-2016 17:28:13.41444[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][159]
+Passing element text to the parse_text_tag function 
+-----------------------
+22-03-2016 17:28:13.41449[2][4] - Elapsed time: 0.053 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][201]
+Parsing a TEXT tag. 
+-----------------------
+22-03-2016 17:28:13.41455[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'I beg your pardon?' to the response array. tag name is text 
+-----------------------
+22-03-2016 17:28:13.41461[2][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 17:28:13.41467[4][4] - Elapsed time: 0.062 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 17:28:13.41474[4][4] - Elapsed time: 0.067 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'I beg your pardon?' 
+-----------------------
+22-03-2016 17:28:13.41479[4][4] - Elapsed time: 0.056 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'I beg your pardon?' to the response array. tag name is li. 
+-----------------------
+22-03-2016 17:28:13.41485[2][4] - Elapsed time: 0.059 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 17:28:13.41491[4][4] - Elapsed time: 0.061 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 17:28:13.41497[4][4] - Elapsed time: 0.063 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'I beg your pardon?' 
+-----------------------
+22-03-2016 17:28:13.41503[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][346]
+Chose Random Response of 'I beg your pardon?' for output. 
+-----------------------
+22-03-2016 17:28:13.41508[4][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][162]
+Adding 'I beg your pardon?' to the response array. tag name is random 
+-----------------------
+22-03-2016 17:28:13.41514[2][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 17:28:13.4152[4][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 17:28:13.41526[4][4] - Elapsed time: 0.063 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'I beg your pardon?' 
+-----------------------
+22-03-2016 17:28:13.41532[4][4] - Elapsed time: 0.055 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][183]
+Adding 'I beg your pardon?' to the response array. tag name is template. 
+-----------------------
+22-03-2016 17:28:13.41538[2][4] - Elapsed time: 0.063 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+22-03-2016 17:28:13.41544[4][4] - Elapsed time: 0.058 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][105]
+The variable $input is of type array 
+-----------------------
+22-03-2016 17:28:13.4155[4][4] - Elapsed time: 0.065 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][128]
+Imploding complete. Returning 'I beg your pardon?' 
+-----------------------
+22-03-2016 17:28:13.41558[4][4] - Elapsed time: 0.076 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][41]
+Completed parsing the template. The bot will say: I beg your pardon? 
+-----------------------
+22-03-2016 17:28:13.41566[4][4] - Elapsed time: 0.079 milliseconds
+[parse_aiml.php][parse_matched_aiml][195]
+normal - Saving for next turn 
+-----------------------
+22-03-2016 17:28:13.41575[4][4] - Elapsed time: 0.095 milliseconds
+[parse_aiml.php][save_for_nextturn][235]
+Saving that and that_raw for next turn 
+-----------------------
+22-03-2016 17:28:13.41581[2][4] - Elapsed time: 0.060 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'I beg your pardon?' to the front of the [that_raw] array 
+-----------------------
+22-03-2016 17:28:13.4159[4][4] - Elapsed time: 0.083 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that_raw array 
+-----------------------
+22-03-2016 17:28:13.41605[2][4] - Elapsed time: 0.158 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'I beg your pardon?' to the front of the [that] array 
+-----------------------
+22-03-2016 17:28:13.41613[4][4] - Elapsed time: 0.077 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank that array 
+-----------------------
+22-03-2016 17:28:13.41623[4][4] - Elapsed time: 0.101 milliseconds
+[parse_aiml.php][clean_that][218]
+Cleaning up the ~THAT~ tag: 'I beg your pardon?' 
+-----------------------
+22-03-2016 17:28:13.4163[4][4] - Elapsed time: 0.064 milliseconds
+[misc_functions.php][normalize_text][56]
+Begin normalization - text = 'I beg your pardon?' 
+-----------------------
+22-03-2016 17:28:13.41643[4][4] - Elapsed time: 0.135 milliseconds
+[misc_functions.php][normalize_text][71]
+Normalization complete. Text = 'I BEG YOUR PARDON' 
+-----------------------
+22-03-2016 17:28:13.41649[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml.php][clean_that][223]
+Cleaning Complete. output = 'I BEG YOUR PARDON' 
+-----------------------
+22-03-2016 17:28:13.41657[2][4] - Elapsed time: 0.090 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'I beg your pardon?' to the front of the [parsed_template] array 
+-----------------------
+22-03-2016 17:28:13.41667[4][4] - Elapsed time: 0.096 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank parsed_template array 
+-----------------------
+22-03-2016 17:28:13.41677[2][4] - Elapsed time: 0.097 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '<random>
+			<li>I'm sorry I don't understand</li>
+			<li>I beg your pardon?</li>
+			<li>Could you explain that in different words?</li>
+			<li>Huh?</li>
+			<li>You aren't making sense to me...</li>
+		</random>' to the front of the [template] array 
+-----------------------
+22-03-2016 17:28:13.41686[4][4] - Elapsed time: 0.088 milliseconds
+[intialise_conversation.php][load_blank_array_element][59]
+Loading blank template array 
+-----------------------
+22-03-2016 17:28:13.42425[2][4] - Elapsed time: 7.397 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+22-03-2016 17:28:13.42435[3][4] - Elapsed time: 0.099 milliseconds
+[intialise_conversation.php][log_conversation][394]
+Saving conservation SQL: INSERT INTO `pom`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'WIKI SACHIN',
+      'I beg your pardon?',
+      '16',
+      '5dj05cquqa50oc8bdbr85ngbj0',
+      '1',
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+22-03-2016 17:28:13.42482[4][4] - Elapsed time: 0.473 milliseconds
+[intialise_conversation.php][write_to_session][130]
+Saving to session 
+-----------------------
+22-03-2016 17:28:13.42513[3][4] - Elapsed time: 0.306 milliseconds
+[display_conversation.php][get_conversation_to_display][48]
+get_conversation SQL: SELECT * FROM `pom`.`conversation_log`
+        WHERE
+        `user_id` = '16'
+        AND `bot_id` = '1'
+        AND `convo_id` = '5dj05cquqa50oc8bdbr85ngbj0'
+        ORDER BY id DESC  LIMIT 10  
+-----------------------
+22-03-2016 17:28:13.4255[2][4] - Elapsed time: 0.373 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+22-03-2016 17:28:13.42557[4][4] - Elapsed time: 0.062 milliseconds
+[display_conversation.php][get_conversation][77]
+Processing conversation as html 
+-----------------------
+22-03-2016 17:28:13.42601[4][4] - Elapsed time: 0.446 milliseconds
+[display_conversation.php][get_html][112]
+Returning HTML 
+-----------------------
+22-03-2016 17:28:13.46306[2][4] - Elapsed time: 37.044 milliseconds
+[conversation_start.php][Called outside of function][202]
+Closing Database 
+-----------------------
+22-03-2016 17:28:13.46319[2][4] - Elapsed time: 0.134 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+22-03-2016 17:28:13.46358[0][4] - Elapsed time: 0.391 milliseconds
+[conversation_start.php][Called outside of function][207]
+Conversation Ending. Elapsed time: 569.644 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [bot_properties] => Array
+        (
+            [name] => Chitti
+            [gender] => 
+            [botmaster] => 
+            [master] => Manikandan
+            [age] => 
+            [website] => 
+            [email] => 
+            [birthday] => 
+            [birthplace] => 
+            [size] => 
+            [version] => 
+            [build] => 
+            [language] => 
+            [feelings] => 
+            [etype] => 
+            [emotions] => 
+            [ethics] => 
+            [orientation] => 
+            [baseballteam] => 
+            [footballteam] => 
+            [hockeyteam] => 
+            [favoritesport] => 
+            [vocabulary] => 
+            [celebrities] => 
+            [celebrity] => 
+            [favoriteactor] => 
+            [favoriteactress] => 
+            [favoriteartist] => 
+            [favoritemusician] => 
+            [favoritesong] => 
+            [favoriteauthor] => 
+            [friend] => 
+            [nationality] => 
+            [religion] => 
+            [president] => 
+            [party] => 
+            [kingdom] => 
+            [phylum] => 
+            [class] => 
+            [order] => 
+            [family] => 
+            [genus] => 
+            [species] => 
+            [boyfriend] => 
+            [favoritebook] => 
+            [favoriteband] => 
+            [favoritecolor] => 
+            [favoritefood] => 
+            [favoritemovie] => 
+            [forfun] => 
+            [friends] => 
+            [girlfriend] => 
+            [kindmusic] => 
+            [location] => 
+            [looklike] => 
+            [question] => 
+            [sign] => 
+            [talkabout] => 
+            [wear] => 
+            [loves] => 
+        )
+
+    [conversation] => Array
+        (
+            [convo_id] => 5dj05cquqa50oc8bdbr85ngbj0
+            [bot_name] => Chitti
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_id] => 16
+            [totallines] => 1
+            [user_name] => Seeker
+            [conversation_lines] => 10
+            [remember_up_to] => 10
+            [debugemail] => mani@tadka.com
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [time_start] => 1458667692.8939
+    [aiml] => Array
+        (
+            [user_raw] => WIKI SACHIN
+            [lookingfor] => WIKI SACHIN
+            [template_id] => 8432
+            [pattern] => *
+            [thatpattern] => 
+            [template] => <random>
+			<li>I'm sorry I don't understand</li>
+			<li>I beg your pardon?</li>
+			<li>Could you explain that in different words?</li>
+			<li>Huh?</li>
+			<li>You aren't making sense to me...</li>
+		</random>
+            [html_template] => 
+            [topic] => 
+            [score] => 252
+            [aiml_id] => 8432
+            [parsed_template] => I beg your pardon?
+        )
+
+    [user_say] => Array
+        (
+            [1] => WIKI SACHIN
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [input] => Array
+        (
+            [1] => WIKI SACHIN
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [star] => Array
+        (
+            [1] => WIKI SACHIN
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => I beg your pardon?
+                )
+
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => I BEG YOUR PARDON
+                )
+
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => I beg your pardon?
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [template] => Array
+        (
+            [1] => <random> <li>I'm sorry I don't understand</li> <li>I beg your pardon?</li> <li>Could you explain that in different words?</li> <li>Huh?</li> <li>You aren't making sense to me...</li> </random>
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [send_to_user] => <div class="usersay">Seeker: WIKI SACHIN</div><div class="botsay">Chitti: I beg your pardon?</div>
+)
+
+-----------------------
+Total execution time: 569.644 Milliseconds. Goodbye.
